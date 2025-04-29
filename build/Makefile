@@ -165,29 +165,29 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/view/test1.obj: src/view/test1.cpp.obj
-.PHONY : src/view/test1.obj
+src/model/test1.obj: src/model/test1.cpp.obj
+.PHONY : src/model/test1.obj
 
 # target to build an object file
-src/view/test1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/view/test1.cpp.obj
-.PHONY : src/view/test1.cpp.obj
+src/model/test1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.obj
+.PHONY : src/model/test1.cpp.obj
 
-src/view/test1.i: src/view/test1.cpp.i
-.PHONY : src/view/test1.i
+src/model/test1.i: src/model/test1.cpp.i
+.PHONY : src/model/test1.i
 
 # target to preprocess a source file
-src/view/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/view/test1.cpp.i
-.PHONY : src/view/test1.cpp.i
+src/model/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.i
+.PHONY : src/model/test1.cpp.i
 
-src/view/test1.s: src/view/test1.cpp.s
-.PHONY : src/view/test1.s
+src/model/test1.s: src/model/test1.cpp.s
+.PHONY : src/model/test1.s
 
 # target to generate assembly for a file
-src/view/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/view/test1.cpp.s
-.PHONY : src/view/test1.cpp.s
+src/model/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.s
+.PHONY : src/model/test1.cpp.s
 
 test1_autogen/mocs_compilation.obj: test1_autogen/mocs_compilation.cpp.obj
 .PHONY : test1_autogen/mocs_compilation.obj
@@ -226,9 +226,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/view/test1.obj
-	@echo ... src/view/test1.i
-	@echo ... src/view/test1.s
+	@echo ... src/model/test1.obj
+	@echo ... src/model/test1.i
+	@echo ... src/model/test1.s
 	@echo ... test1_autogen/mocs_compilation.obj
 	@echo ... test1_autogen/mocs_compilation.i
 	@echo ... test1_autogen/mocs_compilation.s

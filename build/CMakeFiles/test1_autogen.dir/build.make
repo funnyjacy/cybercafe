@@ -66,7 +66,7 @@ include CMakeFiles/test1_autogen.dir/compiler_depend.make
 include CMakeFiles/test1_autogen.dir/progress.make
 
 CMakeFiles/test1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test1"
 	E:\cmake-3.31.7-windows-x86_64\bin\cmake.exe -E cmake_autogen E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/AutogenInfo.json Debug
 
 CMakeFiles/test1_autogen.dir/codegen:

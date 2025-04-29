@@ -101,33 +101,33 @@ CMakeFiles/test1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/main.cpp.s"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\main.cpp -o CMakeFiles\test1.dir\src\main.cpp.s
 
-CMakeFiles/test1.dir/src/view/test1.cpp.obj: CMakeFiles/test1.dir/flags.make
-CMakeFiles/test1.dir/src/view/test1.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/view/test1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/view/test1.cpp
-CMakeFiles/test1.dir/src/view/test1.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test1.dir/src/view/test1.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/view/test1.cpp.obj -MF CMakeFiles\test1.dir\src\view\test1.cpp.obj.d -o CMakeFiles\test1.dir\src\view\test1.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\view\test1.cpp
+CMakeFiles/test1.dir/src/model/test1.cpp.obj: CMakeFiles/test1.dir/flags.make
+CMakeFiles/test1.dir/src/model/test1.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
+CMakeFiles/test1.dir/src/model/test1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/model/test1.cpp
+CMakeFiles/test1.dir/src/model/test1.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test1.dir/src/model/test1.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/model/test1.cpp.obj -MF CMakeFiles\test1.dir\src\model\test1.cpp.obj.d -o CMakeFiles\test1.dir\src\model\test1.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\model\test1.cpp
 
-CMakeFiles/test1.dir/src/view/test1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/view/test1.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\view\test1.cpp > CMakeFiles\test1.dir\src\view\test1.cpp.i
+CMakeFiles/test1.dir/src/model/test1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/model/test1.cpp.i"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\model\test1.cpp > CMakeFiles\test1.dir\src\model\test1.cpp.i
 
-CMakeFiles/test1.dir/src/view/test1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/view/test1.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\view\test1.cpp -o CMakeFiles\test1.dir\src\view\test1.cpp.s
+CMakeFiles/test1.dir/src/model/test1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/model/test1.cpp.s"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\model\test1.cpp -o CMakeFiles\test1.dir\src\model\test1.cpp.s
 
 # Object files for target test1
 test1_OBJECTS = \
 "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj" \
 "CMakeFiles/test1.dir/src/main.cpp.obj" \
-"CMakeFiles/test1.dir/src/view/test1.cpp.obj"
+"CMakeFiles/test1.dir/src/model/test1.cpp.obj"
 
 # External object files for target test1
 test1_EXTERNAL_OBJECTS =
 
 test1.exe: CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj
 test1.exe: CMakeFiles/test1.dir/src/main.cpp.obj
-test1.exe: CMakeFiles/test1.dir/src/view/test1.cpp.obj
+test1.exe: CMakeFiles/test1.dir/src/model/test1.cpp.obj
 test1.exe: CMakeFiles/test1.dir/build.make
 test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Widgets.a
 test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Gui.a

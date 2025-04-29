@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/main.cpp.obj"
   "CMakeFiles/test1.dir/src/main.cpp.obj.d"
-  "CMakeFiles/test1.dir/src/view/test1.cpp.obj"
-  "CMakeFiles/test1.dir/src/view/test1.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/model/test1.cpp.obj"
+  "CMakeFiles/test1.dir/src/model/test1.cpp.obj.d"
   "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj.d"
   "CMakeFiles/test1_autogen.dir/AutogenUsed.txt"

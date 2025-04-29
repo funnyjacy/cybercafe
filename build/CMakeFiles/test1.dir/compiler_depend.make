@@ -296,7 +296,7 @@ CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cp
   E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wchar.h \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wctype.h
 
-CMakeFiles/test1.dir/src/view/test1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/view/test1.cpp \
+CMakeFiles/test1.dir/src/model/test1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/model/test1.cpp \
   test1_autogen/include/ui_test1.h \
   E:/A_codes/VS_code/cmake_test/include/view/test1.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
@@ -1478,6 +1478,6 @@ E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wchar.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wctype.h:
 
-E:/A_codes/VS_code/cmake_test/src/view/test1.cpp:
+E:/A_codes/VS_code/cmake_test/src/model/test1.cpp:
 
 test1_autogen/mocs_compilation.cpp:

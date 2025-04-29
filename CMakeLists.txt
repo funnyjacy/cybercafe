@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5) # CMake install : https://cmake.org/download
 project(test1 LANGUAGES CXX)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_PREFIX_PATH "E:/Qt/Qt5.14.2/5.14.2/mingw73_64") # Qt Kit Dir
-set(CMAKE_AUTOUIC ON)
+#set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
@@ -10,12 +10,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt5 COMPONENTS Widgets REQUIRED) # Qt COMPONENTS
 aux_source_directory(./src srcs)
 aux_source_directory(./src/view views)
+aux_source_directory(./src/model models)
 file(GLOB includes "include/view/*.h")
+
+# 添加 UI 文件
+set(UI_FILES src/view/*.ui)
+
+# 自动处理 UI 文件
+qt5_wrap_ui(UI_HEADERS ${UI_FILES})
 
 add_executable(${PROJECT_NAME}
     ${includes}
     ${srcs}
     ${views}
+    ${models}
+    ${UI_HEADERS}
     #res.qrc
 )
 # Specify MSVC UTF-8 encoding   
