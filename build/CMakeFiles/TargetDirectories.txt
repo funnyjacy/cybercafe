@@ -1,0 +1,4 @@
+E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1.dir
+E:/A_codes/VS_code/cmake_test/build/CMakeFiles/edit_cache.dir
+E:/A_codes/VS_code/cmake_test/build/CMakeFiles/rebuild_cache.dir
+E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir
