@@ -80,6 +80,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/menu.h",
+			"Mu",
+			"5SWGUAP3UC/moc_menu.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/view/test1.h",
 			"Mu",
 			"75UR3EJMK3/moc_test1.cpp",
@@ -128,7 +134,11 @@
 	],
 	"MOC_PREDEFS_FILE" : "E:/A_codes/VS_code/cmake_test/build/test1_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [ "E:/A_codes/VS_code/cmake_test/build/ui_*.h" ],
+	"MOC_SKIP" : 
+	[
+		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_test1.h"
+	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
 	"PARSE_CACHE_FILE" : "E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/ParseCache.txt",
@@ -139,6 +149,7 @@
 	"SETTINGS_FILE" : "E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/model/test1.cpp", "Mu", null ]
 	],

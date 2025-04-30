@@ -11,19 +11,26 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED) # Qt COMPONENTS
 aux_source_directory(./src srcs)
 aux_source_directory(./src/view views)
 aux_source_directory(./src/model models)
+aux_source_directory(./src/control controls)
 file(GLOB includes "include/view/*.h")
+file(GLOB includes2 "include/control/*.h")
 
-# 添加 UI 文件
-set(UI_FILES src/view/*.ui)
+# 获取 src/view 目录下所有 .ui 文件的列表
+file(GLOB UI_FILES src/view/*.ui)
+
+# 处理 UI 文件
+qt5_wrap_ui(UI_HEADERS ${UI_FILES})
 
 # 自动处理 UI 文件
 qt5_wrap_ui(UI_HEADERS ${UI_FILES})
 
 add_executable(${PROJECT_NAME}
     ${includes}
+    ${includes2}
     ${srcs}
     ${views}
     ${models}
+    ${controls}
     ${UI_HEADERS}
     #res.qrc
 )

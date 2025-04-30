@@ -141,6 +141,30 @@ test1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1_autogen.dir\build.make CMakeFiles/test1_autogen.dir/build
 .PHONY : test1_autogen/fast
 
+src/control/menu.obj: src/control/menu.cpp.obj
+.PHONY : src/control/menu.obj
+
+# target to build an object file
+src/control/menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/menu.cpp.obj
+.PHONY : src/control/menu.cpp.obj
+
+src/control/menu.i: src/control/menu.cpp.i
+.PHONY : src/control/menu.i
+
+# target to preprocess a source file
+src/control/menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/menu.cpp.i
+.PHONY : src/control/menu.cpp.i
+
+src/control/menu.s: src/control/menu.cpp.s
+.PHONY : src/control/menu.s
+
+# target to generate assembly for a file
+src/control/menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/menu.cpp.s
+.PHONY : src/control/menu.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -223,6 +247,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test1_autogen
 	@echo ... test1
+	@echo ... src/control/menu.obj
+	@echo ... src/control/menu.i
+	@echo ... src/control/menu.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
