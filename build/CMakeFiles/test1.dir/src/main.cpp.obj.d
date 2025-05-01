@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:\A_codes\VS_code\cmake_test\src\main.cpp \
  E:/A_codes/VS_code/cmake_test/include/view/test1.h \
- E:/A_codes/VS_code/cmake_test/build/test1_autogen/include/ui_test1.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_test1.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -296,4 +296,23 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ E:/A_codes/VS_code/cmake_test/include/control/menu.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication

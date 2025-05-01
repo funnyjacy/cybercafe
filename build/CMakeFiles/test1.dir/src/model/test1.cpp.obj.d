@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/model/test1.cpp.obj: \
  E:\A_codes\VS_code\cmake_test\src\model\test1.cpp \
  E:/A_codes/VS_code/cmake_test/include/view/test1.h \
- E:/A_codes/VS_code/cmake_test/build/test1_autogen/include/ui_test1.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_test1.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \

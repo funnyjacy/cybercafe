@@ -248,11 +248,21 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlocale.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qshareddata.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qrect.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpaintdevice.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qrect.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpalette.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qcolor.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qrgb.h \
@@ -282,17 +292,19 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qfont.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qfontmetrics.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qfontinfo.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qkeysequence.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow

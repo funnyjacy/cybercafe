@@ -94,16 +94,25 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs_win.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
-  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
-  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
-  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
-  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
-  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
@@ -297,7 +306,9 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src
   E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cpp \
-  test1_autogen/include/ui_test1.h \
+  ui_menu.h \
+  ui_test1.h \
+  E:/A_codes/VS_code/cmake_test/include/control/menu.h \
   E:/A_codes/VS_code/cmake_test/include/view/test1.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
@@ -389,16 +400,30 @@ CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cp
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs_win.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
@@ -592,7 +617,7 @@ CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cp
   E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wctype.h
 
 CMakeFiles/test1.dir/src/model/test1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/model/test1.cpp \
-  test1_autogen/include/ui_test1.h \
+  ui_test1.h \
   E:/A_codes/VS_code/cmake_test/include/view/test1.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
@@ -981,16 +1006,30 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qwindowdefs_win.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
@@ -1206,9 +1245,9 @@ E:/A_codes/VS_code/cmake_test/include/control/menu.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringlist.h:
 
-E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h:
-
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h:
+
+E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant:
 
@@ -1225,6 +1264,8 @@ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic_cxx11.h:
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregexp.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/string_conversions.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h:
 
@@ -1284,6 +1325,8 @@ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qshareddata.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qflags.h:
 
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlabel.h:
+
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qbrush.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qgenericatomic.h:
@@ -1328,6 +1371,8 @@ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmargins.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/locale.h:
 
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qframe.h:
+
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qnamespace.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmetatype.h:
@@ -1351,8 +1396,6 @@ E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bi
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qscopedpointer.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsharedpointer_impl.h:
-
-test1_autogen/include/ui_test1.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cwctype:
 
@@ -1442,6 +1485,8 @@ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qrgba64.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtgui-config.h:
 
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h:
+
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtguiglobal.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_bvector.h:
@@ -1450,23 +1495,43 @@ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtransform.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication:
 
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLabel:
+
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow:
 
-E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar:
+E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget:
-
-E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h:
-
-E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qapplication.h:
 
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h:
+
+E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/errno.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h:
+
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h:
 
-E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h:
+E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/process.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h:
 
 E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qsizepolicy.h:
 
@@ -1537,8 +1602,6 @@ E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bi
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/hash_bytes.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/invoke.h:
-
-E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/locale_classes.tcc:
 
@@ -1738,12 +1801,6 @@ E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/assert.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/crtdefs.h:
 
-E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/errno.h:
-
-E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
-
-E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/process.h:
-
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/pthread.h:
 
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/pthread_compat.h:
@@ -1783,6 +1840,14 @@ E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wchar.h:
 E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/wctype.h:
 
 E:/A_codes/VS_code/cmake_test/include/view/test1.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h:
+
+E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h:
 
 E:/A_codes/VS_code/cmake_test/src/model/test1.cpp:
 

@@ -6,15 +6,437 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>304</width>
+    <height>388</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>menu</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>24</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>网吧计费管理系统</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>20</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>0</number>
+       </property>
+       <item row="2" column="0">
+        <widget class="QWidget" name="widget_7" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="text">
+             <string>上机</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_10">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QWidget" name="widget_8" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="text">
+             <string>下机</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_12">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QWidget" name="widget_4" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="text">
+             <string>充值</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_6">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QWidget" name="widget_3" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>6</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>10</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>添加卡</string>
+            </property>
+            <property name="autoRepeatDelay">
+             <number>900</number>
+            </property>
+            <property name="default">
+             <bool>false</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>60</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QWidget" name="widget_5" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_13">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="text">
+             <string>退费</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_14">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QWidget" name="widget_6" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_7">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="text">
+             <string>查询卡</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QWidget" name="widget_10" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <property name="topMargin">
+           <number>4</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_17">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="text">
+             <string>注销卡</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_18">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QWidget" name="widget_9" native="true">
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>9</number>
+          </property>
+          <item>
+           <spacer name="horizontalSpacer_15">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="text">
+             <string>查询统计</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_16">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
