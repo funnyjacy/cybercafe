@@ -9,11 +9,13 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt5 COMPONENTS Widgets REQUIRED) # Qt COMPONENTS
 aux_source_directory(./src srcs)
+list(APPEND srcs "src/global.cpp")
 aux_source_directory(./src/view views)
 aux_source_directory(./src/model models)
 aux_source_directory(./src/control controls)
-#file(GLOB includes "include/view/*.h")
+file(GLOB includes "include/*.h")
 file(GLOB includes2 "include/control/*.h")
+file(GLOB includes3 "include/model/*.h")
 
 # 获取 src/view 目录下所有 .ui 文件的列表
 file(GLOB UI_FILES src/view/*.ui)
@@ -27,6 +29,7 @@ qt5_wrap_ui(UI_HEADERS ${UI_FILES})
 add_executable(${PROJECT_NAME}
     ${includes}
     ${includes2}
+    ${includes3}
     ${srcs}
     ${views}
     ${models}

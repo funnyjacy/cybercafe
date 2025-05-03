@@ -90,6 +90,24 @@
 			"Mu",
 			"5SWGUAP3UC/moc_menu.cpp",
 			null
+		],
+		[
+			"E:/A_codes/VS_code/cmake_test/include/global.h",
+			"Mu",
+			"6YEA5652QU/moc_global.cpp",
+			null
+		],
+		[
+			"E:/A_codes/VS_code/cmake_test/include/model/Card.h",
+			"Mu",
+			"Q6AU6LSD6J/moc_Card.cpp",
+			null
+		],
+		[
+			"E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h",
+			"Mu",
+			"Q6AU6LSD6J/moc_LinkedList.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -151,7 +169,9 @@
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ]
+		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

@@ -7,7 +7,7 @@ menu::menu(QWidget* parent)
     ui->setupUi(this);
 
     // 连接 Qadd 按钮的 clicked 信号到槽函数
-    connect(ui->Qadd, &QPushButton::clicked, this, &menu::on_Qadd_clicked);
+    // 函数名已经自动连接connect(ui->Qadd, &QPushButton::clicked, this, &menu::on_Qadd_clicked);
 }
 
 menu::~menu()

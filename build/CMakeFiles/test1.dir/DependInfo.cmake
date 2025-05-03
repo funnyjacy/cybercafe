@@ -10,7 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/A_codes/VS_code/cmake_test/src/control/add.cpp" "CMakeFiles/test1.dir/src/control/add.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp" "CMakeFiles/test1.dir/src/control/menu.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/global.cpp" "CMakeFiles/test1.dir/src/global.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/global.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/main.cpp" "CMakeFiles/test1.dir/src/main.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/main.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp" "CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/build/test1_autogen/mocs_compilation.cpp" "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj.d"
   )
 

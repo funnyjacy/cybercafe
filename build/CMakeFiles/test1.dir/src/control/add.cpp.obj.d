@@ -297,6 +297,9 @@ CMakeFiles/test1.dir/src/control/add.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
@@ -311,4 +314,11 @@ CMakeFiles/test1.dir/src/control/add.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMessageBox \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
+ E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
+ E:/A_codes/VS_code/cmake_test/include/global.h \
+ E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cmake_test/include/model/Card.h

@@ -11,6 +11,9 @@ public:
     menu(QWidget* parent = nullptr);
     ~menu();
 
+// public:
+//     add *addWindow = nullptr; // 保存 add 窗口指针
+
 private slots:
     void on_Qadd_clicked(); // 槽函数声明
 
