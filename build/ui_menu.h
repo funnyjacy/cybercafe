@@ -53,7 +53,7 @@ public:
     QWidget *widget_3;
     QHBoxLayout *horizontalLayout_2;
     QSpacerItem *horizontalSpacer_4;
-    QPushButton *pushButton;
+    QPushButton *Qadd;
     QSpacerItem *horizontalSpacer_3;
     QWidget *widget_5;
     QHBoxLayout *horizontalLayout_4;
@@ -190,12 +190,12 @@ public:
 
         horizontalLayout_2->addItem(horizontalSpacer_4);
 
-        pushButton = new QPushButton(widget_3);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setAutoRepeatDelay(900);
-        pushButton->setFlat(false);
+        Qadd = new QPushButton(widget_3);
+        Qadd->setObjectName(QString::fromUtf8("Qadd"));
+        Qadd->setAutoRepeatDelay(900);
+        Qadd->setFlat(false);
 
-        horizontalLayout_2->addWidget(pushButton);
+        horizontalLayout_2->addWidget(Qadd);
 
         horizontalSpacer_3 = new QSpacerItem(60, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -298,7 +298,7 @@ public:
 
         retranslateUi(menu);
 
-        pushButton->setDefault(false);
+        Qadd->setDefault(false);
 
 
         QMetaObject::connectSlotsByName(menu);
@@ -311,7 +311,7 @@ public:
         pushButton_4->setText(QCoreApplication::translate("menu", "\344\270\212\346\234\272", nullptr));
         pushButton_5->setText(QCoreApplication::translate("menu", "\344\270\213\346\234\272", nullptr));
         pushButton_2->setText(QCoreApplication::translate("menu", "\345\205\205\345\200\274", nullptr));
-        pushButton->setText(QCoreApplication::translate("menu", "\346\267\273\345\212\240\345\215\241", nullptr));
+        Qadd->setText(QCoreApplication::translate("menu", "\346\267\273\345\212\240\345\215\241", nullptr));
         pushButton_6->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));
         pushButton_3->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\345\215\241", nullptr));
         pushButton_8->setText(QCoreApplication::translate("menu", "\346\263\250\351\224\200\345\215\241", nullptr));

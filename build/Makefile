@@ -141,6 +141,30 @@ test1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1_autogen.dir\build.make CMakeFiles/test1_autogen.dir/build
 .PHONY : test1_autogen/fast
 
+src/control/add.obj: src/control/add.cpp.obj
+.PHONY : src/control/add.obj
+
+# target to build an object file
+src/control/add.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/add.cpp.obj
+.PHONY : src/control/add.cpp.obj
+
+src/control/add.i: src/control/add.cpp.i
+.PHONY : src/control/add.i
+
+# target to preprocess a source file
+src/control/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/add.cpp.i
+.PHONY : src/control/add.cpp.i
+
+src/control/add.s: src/control/add.cpp.s
+.PHONY : src/control/add.s
+
+# target to generate assembly for a file
+src/control/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/add.cpp.s
+.PHONY : src/control/add.cpp.s
+
 src/control/menu.obj: src/control/menu.cpp.obj
 .PHONY : src/control/menu.obj
 
@@ -189,30 +213,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/model/test1.obj: src/model/test1.cpp.obj
-.PHONY : src/model/test1.obj
-
-# target to build an object file
-src/model/test1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.obj
-.PHONY : src/model/test1.cpp.obj
-
-src/model/test1.i: src/model/test1.cpp.i
-.PHONY : src/model/test1.i
-
-# target to preprocess a source file
-src/model/test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.i
-.PHONY : src/model/test1.cpp.i
-
-src/model/test1.s: src/model/test1.cpp.s
-.PHONY : src/model/test1.s
-
-# target to generate assembly for a file
-src/model/test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/model/test1.cpp.s
-.PHONY : src/model/test1.cpp.s
-
 test1_autogen/mocs_compilation.obj: test1_autogen/mocs_compilation.cpp.obj
 .PHONY : test1_autogen/mocs_compilation.obj
 
@@ -247,15 +247,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test1_autogen
 	@echo ... test1
+	@echo ... src/control/add.obj
+	@echo ... src/control/add.i
+	@echo ... src/control/add.s
 	@echo ... src/control/menu.obj
 	@echo ... src/control/menu.i
 	@echo ... src/control/menu.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/model/test1.obj
-	@echo ... src/model/test1.i
-	@echo ... src/model/test1.s
 	@echo ... test1_autogen/mocs_compilation.obj
 	@echo ... test1_autogen/mocs_compilation.i
 	@echo ... test1_autogen/mocs_compilation.s

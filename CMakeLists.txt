@@ -12,7 +12,7 @@ aux_source_directory(./src srcs)
 aux_source_directory(./src/view views)
 aux_source_directory(./src/model models)
 aux_source_directory(./src/control controls)
-file(GLOB includes "include/view/*.h")
+#file(GLOB includes "include/view/*.h")
 file(GLOB includes2 "include/control/*.h")
 
 # 获取 src/view 目录下所有 .ui 文件的列表

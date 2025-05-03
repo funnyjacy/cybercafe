@@ -2,12 +2,17 @@
 #include "ui_menu.h"
 #include <QMainWindow>
 
+#include "add.h"     // add 类的头文件
+
 class menu : public QMainWindow {
     Q_OBJECT
     
 public:
     menu(QWidget* parent = nullptr);
     ~menu();
+
+private slots:
+    void on_Qadd_clicked(); // 槽函数声明
 
 private:
     Ui_menu* ui;

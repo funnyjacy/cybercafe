@@ -1,4 +1,4 @@
-#include "include/view/test1.h"
+//#include "include/view/test1.h"
 #include "include/control/menu.h"
 #include <QApplication>
 #pragma comment(lib, "user32.lib")

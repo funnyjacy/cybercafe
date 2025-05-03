@@ -307,4 +307,15 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
+ E:/A_codes/VS_code/cmake_test/include/control/add.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_add.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextdocument.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qurl.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h

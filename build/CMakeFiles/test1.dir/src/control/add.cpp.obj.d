@@ -1,7 +1,7 @@
-CMakeFiles/test1.dir/src/main.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\main.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/menu.h \
- E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
+CMakeFiles/test1.dir/src/control/add.cpp.obj: \
+ E:\A_codes\VS_code\cmake_test\src\control\add.cpp \
+ E:/A_codes/VS_code/cmake_test/include/control/add.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -297,19 +297,8 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
- E:/A_codes/VS_code/cmake_test/include/control/add.h \
- E:/A_codes/VS_code/cmake_test/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
@@ -319,4 +308,7 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow

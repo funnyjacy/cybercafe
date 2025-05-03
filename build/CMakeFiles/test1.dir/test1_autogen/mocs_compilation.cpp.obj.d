@@ -1,6 +1,6 @@
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_menu.cpp \
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_add.cpp \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -127,8 +127,8 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
- E:/A_codes/VS_code/cmake_test/include/control/menu.h \
- E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
+ E:/A_codes/VS_code/cmake_test/include/control/add.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -298,22 +298,26 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmainwindow.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qicon.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QSpacerItem \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayoutitem.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextdocument.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qurl.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QVBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\75UR3EJMK3/moc_test1.cpp \
- E:/A_codes/VS_code/cmake_test/include/view/test1.h \
- E:/A_codes/VS_code/cmake_test/build/ui_test1.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_menu.cpp \
+ E:/A_codes/VS_code/cmake_test/include/control/menu.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QPushButton \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qpushbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractbutton.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h
