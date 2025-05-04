@@ -13,6 +13,12 @@
 },
 {
   "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\json.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\json.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/json.cpp",
+  "output": "CMakeFiles/test1.dir/src/json.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
   "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\main.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\main.cpp",
   "file": "E:/A_codes/VS_code/cmake_test/src/main.cpp",
   "output": "CMakeFiles/test1.dir/src/main.cpp.obj"

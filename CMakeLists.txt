@@ -10,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(Qt5 COMPONENTS Widgets REQUIRED) # Qt COMPONENTS
 aux_source_directory(./src srcs)
 list(APPEND srcs "src/global.cpp")
+list(APPEND srcs "src/json.cpp")
 aux_source_directory(./src/view views)
 aux_source_directory(./src/model models)
 aux_source_directory(./src/control controls)

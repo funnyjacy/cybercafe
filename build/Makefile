@@ -237,6 +237,30 @@ src/global.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/global.cpp.s
 .PHONY : src/global.cpp.s
 
+src/json.obj: src/json.cpp.obj
+.PHONY : src/json.obj
+
+# target to build an object file
+src/json.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/json.cpp.obj
+.PHONY : src/json.cpp.obj
+
+src/json.i: src/json.cpp.i
+.PHONY : src/json.i
+
+# target to preprocess a source file
+src/json.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/json.cpp.i
+.PHONY : src/json.cpp.i
+
+src/json.s: src/json.cpp.s
+.PHONY : src/json.s
+
+# target to generate assembly for a file
+src/json.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/json.cpp.s
+.PHONY : src/json.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -331,6 +355,9 @@ help:
 	@echo ... src/global.obj
 	@echo ... src/global.i
 	@echo ... src/global.s
+	@echo ... src/json.obj
+	@echo ... src/json.i
+	@echo ... src/json.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

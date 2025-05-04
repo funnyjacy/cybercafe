@@ -325,4 +325,21 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
  E:/A_codes/VS_code/cmake_test/include/global.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h
+ E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cmake_test/include/json.h \
+ E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QFile \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfile.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qfiledevice.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QJsonDocument \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsondocument.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsonvalue.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QJsonArray \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsonarray.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QJsonObject \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsonobject.h

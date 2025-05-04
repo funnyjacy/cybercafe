@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/query.cpp.obj.d"
   "CMakeFiles/test1.dir/src/global.cpp.obj"
   "CMakeFiles/test1.dir/src/global.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/json.cpp.obj"
+  "CMakeFiles/test1.dir/src/json.cpp.obj.d"
   "CMakeFiles/test1.dir/src/main.cpp.obj"
   "CMakeFiles/test1.dir/src/main.cpp.obj.d"
   "CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
