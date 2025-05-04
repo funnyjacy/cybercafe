@@ -11,6 +11,7 @@ public:
 
 public slots:
     void on_OK_clicked(); // 槽函数声明
+    void on_NO_clicked();
 
 private:
     Ui_add* ui;

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>304</width>
-    <height>388</height>
+    <height>594</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -99,6 +99,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_4">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>上机</string>
             </property>
@@ -141,6 +152,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_5">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>下机</string>
             </property>
@@ -189,6 +211,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_2">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>充值</string>
             </property>
@@ -231,6 +264,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="Qadd">
+            <property name="minimumSize">
+             <size>
+              <width>40</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>添加卡</string>
             </property>
@@ -282,6 +326,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_6">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>退费</string>
             </property>
@@ -323,7 +378,18 @@
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_3">
+           <widget class="QPushButton" name="Qquery">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>查询卡</string>
             </property>
@@ -366,6 +432,18 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Segoe MDL2 Assets</family>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>注销卡</string>
             </property>
@@ -411,6 +489,17 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton_7">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>15</pointsize>
+             </font>
+            </property>
             <property name="text">
              <string>查询统计</string>
             </property>

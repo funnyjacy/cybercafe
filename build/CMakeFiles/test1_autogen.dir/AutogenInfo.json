@@ -92,6 +92,12 @@
 			null
 		],
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/query.h",
+			"Mu",
+			"5SWGUAP3UC/moc_query.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/global.h",
 			"Mu",
 			"6YEA5652QU/moc_global.cpp",
@@ -155,7 +161,8 @@
 	"MOC_SKIP" : 
 	[
 		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h"
+		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_query.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
@@ -169,6 +176,7 @@
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/query.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp", "Mu", null ]

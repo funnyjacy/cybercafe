@@ -17,8 +17,9 @@ public:
     // 获取节点数量
     int getSize();
     // 添加节点
-    int add(string name, string id, string balance);
+    int add(string name, string id, string balance, string password);
     // 查询节点
+    int query(string name, string id, card &res);
 };
 
 #endif // !LINKEDLIST_H

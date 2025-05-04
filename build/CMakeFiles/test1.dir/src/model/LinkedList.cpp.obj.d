@@ -128,12 +128,10 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/ostream.tcc \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
- E:/A_codes/VS_code/cmake_test/include/control/add.h \
- E:/A_codes/VS_code/cmake_test/build/ui_add.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstring.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qchar.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qglobal.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cstddef \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/utility \
@@ -156,6 +154,7 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qsysinfo.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlogging.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qflags.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qbasicatomic.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic_cxx11.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qgenericatomic.h \
@@ -176,15 +175,15 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stream_iterator.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlist.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qiterator.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhashfunctions.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstring.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qchar.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringliteral.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringalgorithms.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringview.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qshareddata.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhash.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qiterator.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlist.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhashfunctions.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qpair.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/numeric \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_numeric.h \
@@ -211,6 +210,11 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringlist.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregexp.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringmatcher.h \
+ E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cmake_test/include/control/add.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_add.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmetatype.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvarlengtharray.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontainerfwd.h \
@@ -221,7 +225,6 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_map.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_multimap.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmap.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qhash.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qobject.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qscopedpointer.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qobject_impl.h \
@@ -251,7 +254,6 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qinputmethod.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qlocale.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qshareddata.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \

@@ -3,7 +3,13 @@
 #include "./model/LinkedList.h"
 
 #define EMPTY -1
+#define REPEAT 0
 #define SUCCESS 1
+#define NOT_FOUND 2
+#define LONG 3
+
+#define ON 4  // 上机状态
+#define OFF 5  // 下机状态
 
 extern LinkedList *Qlist;
 

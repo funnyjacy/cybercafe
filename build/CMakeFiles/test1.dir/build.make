@@ -76,6 +76,10 @@ ui_menu.h: E:/A_codes/VS_code/cmake_test/src/view/menu.ui
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_menu.h"
 	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_menu.h E:/A_codes/VS_code/cmake_test/src/view/menu.ui
 
+ui_query.h: E:/A_codes/VS_code/cmake_test/src/view/query.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_query.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_query.h E:/A_codes/VS_code/cmake_test/src/view/query.ui
+
 CMakeFiles/test1.dir/codegen:
 .PHONY : CMakeFiles/test1.dir/codegen
 
@@ -83,7 +87,7 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.di
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_compilation.cpp
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj -c E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp
 
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.i: cmake_force
@@ -98,7 +102,7 @@ CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/src/global.cpp.obj: E:/A_codes/VS_code/cmake_test/src/global.cpp
 CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test1.dir/src/global.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test1.dir/src/global.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/global.cpp.obj -MF CMakeFiles\test1.dir\src\global.cpp.obj.d -o CMakeFiles\test1.dir\src\global.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\global.cpp
 
 CMakeFiles/test1.dir/src/global.cpp.i: cmake_force
@@ -113,7 +117,7 @@ CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cpp
 CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test1.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test1.dir/src/main.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/main.cpp.obj -MF CMakeFiles\test1.dir\src\main.cpp.obj.d -o CMakeFiles\test1.dir\src\main.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\main.cpp
 
 CMakeFiles/test1.dir/src/main.cpp.i: cmake_force
@@ -128,7 +132,7 @@ CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/flags.ma
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj -MF CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj.d -o CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\model\LinkedList.cpp
 
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.i: cmake_force
@@ -143,7 +147,7 @@ CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/src/control/add.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/add.cpp
 CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test1.dir/src/control/add.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test1.dir/src/control/add.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/add.cpp.obj -MF CMakeFiles\test1.dir\src\control\add.cpp.obj.d -o CMakeFiles\test1.dir\src\control\add.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\add.cpp
 
 CMakeFiles/test1.dir/src/control/add.cpp.i: cmake_force
@@ -158,7 +162,7 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/menu.cpp
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test1.dir/src/control/menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test1.dir/src/control/menu.cpp.obj"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/menu.cpp.obj -MF CMakeFiles\test1.dir\src\control\menu.cpp.obj.d -o CMakeFiles\test1.dir\src\control\menu.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\menu.cpp
 
 CMakeFiles/test1.dir/src/control/menu.cpp.i: cmake_force
@@ -169,6 +173,21 @@ CMakeFiles/test1.dir/src/control/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/menu.cpp.s"
 	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\menu.cpp -o CMakeFiles\test1.dir\src\control\menu.cpp.s
 
+CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/flags.make
+CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
+CMakeFiles/test1.dir/src/control/query.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/query.cpp
+CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test1.dir/src/control/query.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/query.cpp.obj -MF CMakeFiles\test1.dir\src\control\query.cpp.obj.d -o CMakeFiles\test1.dir\src\control\query.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\query.cpp
+
+CMakeFiles/test1.dir/src/control/query.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/query.cpp.i"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\query.cpp > CMakeFiles\test1.dir\src\control\query.cpp.i
+
+CMakeFiles/test1.dir/src/control/query.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/query.cpp.s"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\query.cpp -o CMakeFiles\test1.dir\src\control\query.cpp.s
+
 # Object files for target test1
 test1_OBJECTS = \
 "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj" \
@@ -176,7 +195,8 @@ test1_OBJECTS = \
 "CMakeFiles/test1.dir/src/main.cpp.obj" \
 "CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj" \
 "CMakeFiles/test1.dir/src/control/add.cpp.obj" \
-"CMakeFiles/test1.dir/src/control/menu.cpp.obj"
+"CMakeFiles/test1.dir/src/control/menu.cpp.obj" \
+"CMakeFiles/test1.dir/src/control/query.cpp.obj"
 
 # External object files for target test1
 test1_EXTERNAL_OBJECTS =
@@ -187,6 +207,7 @@ test1.exe: CMakeFiles/test1.dir/src/main.cpp.obj
 test1.exe: CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj
 test1.exe: CMakeFiles/test1.dir/src/control/add.cpp.obj
 test1.exe: CMakeFiles/test1.dir/src/control/menu.cpp.obj
+test1.exe: CMakeFiles/test1.dir/src/control/query.cpp.obj
 test1.exe: CMakeFiles/test1.dir/build.make
 test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Widgets.a
 test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Gui.a
@@ -194,7 +215,7 @@ test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Core.a
 test1.exe: CMakeFiles/test1.dir/linkLibs.rsp
 test1.exe: CMakeFiles/test1.dir/objects1.rsp
 test1.exe: CMakeFiles/test1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable test1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -207,6 +228,7 @@ CMakeFiles/test1.dir/clean:
 
 CMakeFiles/test1.dir/depend: ui_add.h
 CMakeFiles/test1.dir/depend: ui_menu.h
+CMakeFiles/test1.dir/depend: ui_query.h
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build\CMakeFiles\test1.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test1.dir/depend
 

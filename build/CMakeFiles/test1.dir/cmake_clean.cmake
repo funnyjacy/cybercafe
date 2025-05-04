@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/control/query.cpp.obj"
+  "CMakeFiles/test1.dir/src/control/query.cpp.obj.d"
   "CMakeFiles/test1.dir/src/global.cpp.obj"
   "CMakeFiles/test1.dir/src/global.cpp.obj.d"
   "CMakeFiles/test1.dir/src/main.cpp.obj"
@@ -20,6 +22,7 @@ file(REMOVE_RECURSE
   "test1.pdb"
   "ui_add.h"
   "ui_menu.h"
+  "ui_query.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -318,4 +318,27 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextoption.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
+ E:/A_codes/VS_code/cmake_test/include/control/query.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_query.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHeaderView \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qheaderview.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractitemview.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qabstractitemmodel.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qitemselectionmodel.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstyleoption.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractspinbox.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qvalidator.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregularexpression.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qslider.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractslider.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstyle.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtabbar.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qrubberband.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QScrollArea \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTableWidget \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtablewidget.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtableview.h

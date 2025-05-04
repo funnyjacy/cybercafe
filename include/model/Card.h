@@ -2,15 +2,21 @@
 #define CARD_H
 #include <string>
 #include <iostream>
+#include <QDateTime>
 using namespace std;
 
-typedef struct Card{
+typedef struct Card
+{
     string name;
     string id;
+    string password;
     double balance;
     struct Card *next;
-    // card(string name, string id, double balance)
-    // : name(name), id(id), balance(balance), next(NULL){};
+
+    QDateTime time_last;
+    int Status; // 状态
+
+    Card() : next(NULL){}
 } card;
 
 #endif // !CARD_H
