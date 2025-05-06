@@ -125,7 +125,9 @@ public:
         Balance = new QTextEdit(widget_4);
         Balance->setObjectName(QString::fromUtf8("Balance"));
         Balance->setMaximumSize(QSize(16777215, 40));
-        Balance->setFont(font1);
+        QFont font2;
+        font2.setPointSize(20);
+        Balance->setFont(font2);
 
         horizontalLayout_4->addWidget(Balance);
 
@@ -154,7 +156,7 @@ public:
         Name = new QTextEdit(widget_2);
         Name->setObjectName(QString::fromUtf8("Name"));
         Name->setMaximumSize(QSize(16777215, 40));
-        Name->setFont(font1);
+        Name->setFont(font2);
 
         horizontalLayout_2->addWidget(Name);
 
@@ -183,7 +185,7 @@ public:
         ID = new QTextEdit(widget_3);
         ID->setObjectName(QString::fromUtf8("ID"));
         ID->setMaximumSize(QSize(16777215, 40));
-        ID->setFont(font1);
+        ID->setFont(font2);
 
         horizontalLayout_3->addWidget(ID);
 
@@ -212,7 +214,7 @@ public:
         Password = new QTextEdit(widget_7);
         Password->setObjectName(QString::fromUtf8("Password"));
         Password->setMaximumSize(QSize(16777215, 40));
-        Password->setFont(font1);
+        Password->setFont(font2);
 
         horizontalLayout_6->addWidget(Password);
 

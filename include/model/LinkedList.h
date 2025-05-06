@@ -23,7 +23,7 @@ public:
     // 添加节点
     int add(string name, string id, string balance, string password);
     // 查询节点
-    int query(string name, string id, card &res);
+    int query(string id, vector<card> &res);
 };
 
 #endif // !LINKEDLIST_H

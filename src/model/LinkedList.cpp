@@ -22,55 +22,8 @@ LinkedList::LinkedList()
 
 LinkedList::~LinkedList()
 {
-    // Step 1: Write the current linked list to the JSON file (overwriting it)
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\data.json");
-    QJsonArray jsonArray;
-
-    // Iterate through the linked list and populate the JSON array
-    card *current = head;
-    while (current != nullptr)
-    {
-
-        QJsonObject obj;
-        obj.insert("name", QString::fromStdString(current->name));
-        obj.insert("ID", QString::fromStdString(current->id));
-        obj.insert("余额", current->balance);
-        obj.insert("状态", current->Status);
-        obj.insert("密码", QString::fromStdString(current->password));
-        QString dt = current->time_last.toString("yyyy-MM-dd hh:mm:ss");
-        obj.insert("上次使用时间", dt);
-
-        jsonArray.append(obj);
-        current = current->next;
-    }
-
-    // Write the JSON array to the file
-    QJsonDocument doc(jsonArray);
-    QByteArray json = doc.toJson(QJsonDocument::Indented);
-
-    if (!file.open(QIODevice::WriteOnly))
-    {
-        qDebug() << "Error: Failed to open file for writing in destructor.";
-    }
-    else
-    {
-        file.write(json);
-        file.close();
-    }
-
-    // Step 2: Clean up the linked list
-    current = head;
-    while (current != nullptr)
-    {
-        card *temp = current;
-        current = current->next;
-        delete temp;
-    }
-
-    // Step 3: Reset head, tail, and size
-    head = nullptr;
-    tail = nullptr;
-    size = 0;
+    save_all_fson(head, tail);
+    save_all_txt(head, tail);
 }
 void LinkedList::init(string name, string id, string balance, string password, string time_last)
 {
@@ -111,7 +64,7 @@ int LinkedList::add(string name, string id, string balance, string password)
     }
 
     int num = stoi(balance);
-    if (name.size() > 5 || id.size() > 7 || num < 0 || password.size() > 7)
+    if (name.size() > 10 || id.size() > 7 || num < 0 || password.size() > 7)
     {
         return LONG;
     }
@@ -128,6 +81,8 @@ int LinkedList::add(string name, string id, string balance, string password)
         newCard->Status = OFF;
         newCard->next = NULL;
         write_json(newCard);
+        write_txt(newCard);
+        write_dat(newCard);
 
         tail->next = newCard;
         tail = newCard;
@@ -138,9 +93,14 @@ int LinkedList::add(string name, string id, string balance, string password)
 }
 
 // 查询节点
-int LinkedList::query(string name, string id, card &res)
+int LinkedList::query(string id, vector<card> &res)
 {
-    if (name == "" && id == "") // 两个都为空
+    if (id.size() > 7)
+    {
+        return LONG;
+    }
+
+    if (id == "")
     {
         return EMPTY;
     }
@@ -149,35 +109,25 @@ int LinkedList::query(string name, string id, card &res)
         card *first = Qlist->head;
         while (first != NULL)
         {
-            if (first->id == id)
+            int idx = first->id.find(id);
+            if (idx != string::npos)
             {
-                res.id = first->id;
-                res.name = first->name;
-                res.balance = first->balance;
-                res.Status = first->Status;
-                res.time_last = first->time_last;
-                return SUCCESS;
+                card res1;
+                res1.id = first->id;
+                res1.name = first->name;
+                res1.balance = first->balance;
+                res1.Status = first->Status;
+                res1.time_last = first->time_last;
+                res.push_back(res1);
             }
             first = first->next;
         }
-        return NOT_FOUND;
     }
-    if (name != "")
+    if (res.size() == 0)
     {
-        card *first = Qlist->head;
-        while (first != NULL)
-        {
-            if (first->name == name)
-            {
-                res.id = first->id;
-                res.name = first->name;
-                res.balance = first->balance;
-                return SUCCESS;
-            }
-            first = first->next;
-        }
         return NOT_FOUND;
     }
+    return SUCCESS;
 }
 
 int LinkedList::getSize()

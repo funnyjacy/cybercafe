@@ -9,7 +9,7 @@
 void write_json(card *new_card)
 {
     // Step 1: Read existing JSON file (if it exists)
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\data.json");
+    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
     QJsonArray jsonArray;
 
     if (file.exists() && file.open(QIODevice::ReadOnly))
@@ -38,7 +38,15 @@ void write_json(card *new_card)
     obj.insert("name", QString::fromStdString(new_card->name));
     obj.insert("ID", QString::fromStdString(new_card->id));
     obj.insert("余额", new_card->balance);
-    obj.insert("状态", new_card->Status);
+    if (new_card->Status == ON)
+    {
+        obj.insert("状态", "上机");
+    }
+    else
+    {
+        obj.insert("状态", "下机");
+    }
+
     obj.insert("密码", QString::fromStdString(new_card->password));
     QString dt = new_card->time_last.toString("yyyy-MM-dd hh:mm:ss");
     obj.insert("上次使用时间", dt);
@@ -59,9 +67,34 @@ void write_json(card *new_card)
     file.close();
 }
 
+void write_txt(card *new_card)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "a");
+
+    if (file == NULL)
+    {
+        printf("Error: Failed to open file for writing.\n");
+        return;
+    }
+
+    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
+    const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+
+    // Format: name##id##balance##status##password
+    fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
+            new_card->name.c_str(),
+            new_card->id.c_str(),
+            new_card->balance,
+            status,
+            new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+            new_card->password.c_str());
+
+    fclose(file);
+}
+
 void read_json()
 {
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\data.json");
+    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
     if (!file.open(QIODevice::ReadOnly))
     {
         qDebug() << "Error: Failed to open file for writing.";
@@ -103,4 +136,295 @@ void read_json()
     }
 
     qDebug() << "Successfully loaded" << Qlist->getSize() << "cards from JSON.";
+}
+
+void read_txt()
+{
+    // Step 1: Open the text file
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "r");
+    if (file == NULL)
+    {
+        qDebug() << "Error: Failed to open file for reading.";
+        return;
+    }
+
+    // Step 2: Read the file line by line
+    char line[256]; // Assuming lines are reasonably short
+    while (fgets(line, sizeof(line), file) != NULL)
+    {
+        // Remove trailing newline if present
+        line[strcspn(line, "\n")] = '\0';
+
+        // Step 3: Parse the line using ## as delimiter
+        char *name = strtok(line, "##");
+        char *id = strtok(NULL, "##");
+        char *balance_str = strtok(NULL, "##");
+        char *status = strtok(NULL, "##");
+        char *time_last = strtok(NULL, "##");
+        char *password = strtok(NULL, "##");
+
+        // Ensure all fields are read correctly
+        if (name == NULL || id == NULL || balance_str == NULL || status == NULL || time_last == NULL || password == NULL)
+        {
+            qDebug() << "Error: Invalid line format in text file.";
+            continue;
+        }
+
+        // Step 4: Prepare time_last (empty since text file doesn't store time)
+        // char time_last[1] = "";
+
+        // Step 5: Add to the global linked list
+        Qlist->init(name, id, balance_str, password, time_last);
+    }
+
+    // Step 6: Close the file
+    fclose(file);
+
+    qDebug() << "Successfully loaded" << Qlist->getSize() << "cards from data.txt.";
+}
+
+void save_all_fson(card *head, card *tail)
+{
+    // Step 1: Write the current linked list to the JSON file (overwriting it)
+    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\data.json");
+    QJsonArray jsonArray;
+
+    // Iterate through the linked list and populate the JSON array
+    card *current = head;
+    while (current != nullptr)
+    {
+
+        QJsonObject obj;
+        obj.insert("name", QString::fromStdString(current->name));
+        obj.insert("ID", QString::fromStdString(current->id));
+        obj.insert("余额", current->balance);
+        obj.insert("状态", current->Status);
+        obj.insert("密码", QString::fromStdString(current->password));
+        QString dt = current->time_last.toString("yyyy-MM-dd hh:mm:ss");
+        obj.insert("上次使用时间", dt);
+
+        jsonArray.append(obj);
+        current = current->next;
+    }
+
+    // Write the JSON array to the file
+    QJsonDocument doc(jsonArray);
+    QByteArray json = doc.toJson(QJsonDocument::Indented);
+
+    if (!file.open(QIODevice::WriteOnly))
+    {
+        qDebug() << "Error: Failed to open file for writing in destructor.";
+    }
+    else
+    {
+        file.write(json);
+        file.close();
+    }
+
+    // Step 2: Clean up the linked list
+    current = head;
+    while (current != nullptr)
+    {
+        card *temp = current;
+        current = current->next;
+        delete temp;
+    }
+
+    // Step 3: Reset head, tail, and size
+    // head = nullptr;
+    // tail = nullptr;
+    // size = 0;
+}
+
+void save_all_txt(card *head, card *tail)
+{
+    // Step 1: Open the data.txt file in write mode to clear it
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "w");
+    if (file == NULL)
+    {
+        qDebug() << "Error: Failed to open file for writing.";
+    }
+    else
+    {
+        // Step 2: Traverse the linked list and write each card to the file
+        card *current = head;
+        while (current != NULL)
+        {
+            card *new_card = current;
+            // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
+            const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+
+            // Write in format: name##id##balance##status##password
+            fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
+                    new_card->name.c_str(),
+                    new_card->id.c_str(),
+                    new_card->balance,
+                    status,
+                    new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+                    new_card->password.c_str());
+
+            current = current->next;
+        }
+        fclose(file);
+    }
+
+    // Step 3: Free the linked list nodes
+    // Node *current = head;
+    // while (current != NULL)
+    // {
+    //     Node *temp = current;
+    //     current = current->next;
+    //     delete temp->data; // Free the card struct
+    //     delete temp;       // Free the node
+    // }
+    // head = NULL;
+    // size = 0;
+
+    qDebug() << "LinkedList destructor: data.txt updated and memory freed.";
+}
+
+void write_dat(card *new_card)
+{
+    // Step 1: Open the binary file in append mode
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.dat", "ab");
+    if (file == NULL)
+    {
+        qDebug() << "Error: Failed to open data.dat for writing.";
+        return;
+    }
+
+    // Step 2: Prepare fixed-size buffers for string fields
+    char name_buf[MAX_NAME_LEN] = {0};
+    char id_buf[MAX_ID_LEN] = {0};
+    char password_buf[MAX_PASSWORD_LEN] = {0};
+    char time_buf[MAX_TIME_LEN] = {0};
+
+    // Copy strings, ensuring they fit within the buffer (truncate if necessary)
+    strncpy(name_buf, new_card->name.c_str(), MAX_NAME_LEN - 1);
+    strncpy(id_buf, new_card->id.c_str(), MAX_ID_LEN - 1);
+    strncpy(password_buf, new_card->password.c_str(), MAX_PASSWORD_LEN - 1);
+
+    // Convert QDateTime to string
+    QString time_str = new_card->time_last.toString("yyyy-MM-dd hh:mm:ss");
+    strncpy(time_buf, time_str.toStdString().c_str(), MAX_TIME_LEN - 1);
+
+    // Step 3: Write the card data as a binary record
+    // Write fixed-size fields: name, id, balance, Status, time_last, password
+    fwrite(name_buf, sizeof(char), MAX_NAME_LEN, file);
+    fwrite(id_buf, sizeof(char), MAX_ID_LEN, file);
+    fwrite(&new_card->balance, sizeof(double), 1, file);
+    fwrite(&new_card->Status, sizeof(int), 1, file);
+    fwrite(time_buf, sizeof(char), MAX_TIME_LEN, file);
+    fwrite(password_buf, sizeof(char), MAX_PASSWORD_LEN, file);
+
+    // Step 4: Check for write errors
+    if (ferror(file))
+    {
+        qDebug() << "Error: Failed to write to data.dat.";
+        fclose(file);
+        return;
+    }
+
+    // Step 5: Close the file
+    fclose(file);
+    qDebug() << "Successfully wrote card to data.dat.";
+}
+
+void read_dat()
+{
+    // Step 1: Open the binary file in read mode
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.dat", "rb");
+    if (file == NULL)
+    {
+        qDebug() << "Error: Failed to open data.dat for reading.";
+        return;
+    }
+
+    // Step 2: Read the file record by record
+    while (1)
+    {
+        // Buffers for reading fixed-size fields
+        char name_buf[MAX_NAME_LEN] = {0};
+        char id_buf[MAX_ID_LEN] = {0};
+        double balance;
+        int status;
+        char time_buf[MAX_TIME_LEN] = {0};
+        char password_buf[MAX_PASSWORD_LEN] = {0};
+
+        // Step 3: Read each field of the record individually
+        size_t items_read;
+
+        // Read name
+        items_read = fread(name_buf, sizeof(char), MAX_NAME_LEN, file);
+        if (items_read != MAX_NAME_LEN)
+        {
+            if (feof(file))
+                break; // End of file reached
+            qDebug() << "Error: Failed to read name field (read" << items_read << "of" << MAX_NAME_LEN << "bytes).";
+            break;
+        }
+
+        // Read id
+        items_read = fread(id_buf, sizeof(char), MAX_ID_LEN, file);
+        if (items_read != MAX_ID_LEN)
+        {
+            qDebug() << "Error: Failed to read id field (read" << items_read << "of" << MAX_ID_LEN << "bytes).";
+            break;
+        }
+
+        // Read balance
+        items_read = fread(&balance, sizeof(double), 1, file);
+        if (items_read != 1)
+        {
+            qDebug() << "Error: Failed to read balance field (read" << items_read << "of 1 double).";
+            break;
+        }
+
+        // Read status
+        items_read = fread(&status, sizeof(int), 1, file);
+        if (items_read != 1)
+        {
+            qDebug() << "Error: Failed to read status field (read" << items_read << "of 1 int).";
+            break;
+        }
+
+        // Read time_last
+        items_read = fread(time_buf, sizeof(char), MAX_TIME_LEN, file);
+        if (items_read != MAX_TIME_LEN)
+        {
+            qDebug() << "Error: Failed to read time_last field (read" << items_read << "of" << MAX_TIME_LEN << "bytes).";
+            break;
+        }
+
+        // Read password
+        items_read = fread(password_buf, sizeof(char), MAX_PASSWORD_LEN, file);
+        if (items_read != MAX_PASSWORD_LEN)
+        {
+            qDebug() << "Error: Failed to read password field (read" << items_read << "of" << MAX_PASSWORD_LEN << "bytes).";
+            break;
+        }
+
+        // Step 4: Prepare data for Qlist->init
+        std::string name = name_buf;
+        std::string id = id_buf;
+        std::string password = password_buf;
+        std::string time_last = time_buf;
+        // Convert balance to string (matching read_json/read_txt)
+        char balance_str[32];
+        snprintf(balance_str, sizeof(balance_str), "%.2f", balance);
+
+        // Step 5: Add to the global linked list
+        Qlist->init(name, id, balance_str, password, time_last);
+    }
+
+    // Step 6: Check for file errors
+    if (ferror(file))
+    {
+        qDebug() << "Error: File error occurred while reading data.dat.";
+    }
+
+    // Step 7: Close the file
+    fclose(file);
+
+    qDebug() << "Successfully loaded" << Qlist->getSize() << "cards from data.dat.";
 }

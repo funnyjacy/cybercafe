@@ -40,12 +40,6 @@ public:
     QLabel *label;
     QSpacerItem *horizontalSpacer_2;
     QGridLayout *gridLayout;
-    QWidget *widget_3;
-    QHBoxLayout *horizontalLayout_3;
-    QSpacerItem *horizontalSpacer_7;
-    QLabel *label_3;
-    QTextEdit *Name;
-    QSpacerItem *horizontalSpacer_8;
     QWidget *widget_5;
     QHBoxLayout *horizontalLayout_5;
     QSpacerItem *horizontalSpacer_3;
@@ -53,12 +47,12 @@ public:
     QPushButton *NO;
     QSpacerItem *horizontalSpacer_4;
     QLabel *label_4;
-    QWidget *widget_2;
-    QHBoxLayout *horizontalLayout_2;
-    QSpacerItem *horizontalSpacer_6;
-    QLabel *label_2;
+    QWidget *widget_3;
+    QHBoxLayout *horizontalLayout_3;
+    QSpacerItem *horizontalSpacer_7;
+    QLabel *label_3;
     QTextEdit *ID;
-    QSpacerItem *horizontalSpacer_5;
+    QSpacerItem *horizontalSpacer_8;
     QTableWidget *table;
 
     void setupUi(QMainWindow *query)
@@ -76,7 +70,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 388, 381));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 401, 334));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         widget = new QWidget(scrollAreaWidgetContents);
@@ -107,6 +101,43 @@ public:
 
         gridLayout = new QGridLayout();
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
+        widget_5 = new QWidget(scrollAreaWidgetContents);
+        widget_5->setObjectName(QString::fromUtf8("widget_5"));
+        horizontalLayout_5 = new QHBoxLayout(widget_5);
+        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_5->addItem(horizontalSpacer_3);
+
+        QUERY = new QPushButton(widget_5);
+        QUERY->setObjectName(QString::fromUtf8("QUERY"));
+        QFont font2;
+        font2.setPointSize(15);
+        QUERY->setFont(font2);
+
+        horizontalLayout_5->addWidget(QUERY);
+
+        NO = new QPushButton(widget_5);
+        NO->setObjectName(QString::fromUtf8("NO"));
+        NO->setFont(font2);
+
+        horizontalLayout_5->addWidget(NO);
+
+        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_5->addItem(horizontalSpacer_4);
+
+
+        gridLayout->addWidget(widget_5, 1, 0, 1, 1);
+
+        label_4 = new QLabel(scrollAreaWidgetContents);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        QFont font3;
+        font3.setPointSize(11);
+        label_4->setFont(font3);
+
+        gridLayout->addWidget(label_4, 2, 0, 1, 1);
+
         widget_3 = new QWidget(scrollAreaWidgetContents);
         widget_3->setObjectName(QString::fromUtf8("widget_3"));
         horizontalLayout_3 = new QHBoxLayout(widget_3);
@@ -118,96 +149,30 @@ public:
         label_3 = new QLabel(widget_3);
         label_3->setObjectName(QString::fromUtf8("label_3"));
         label_3->setMaximumSize(QSize(100, 16777215));
-        QFont font2;
-        font2.setPointSize(20);
-        label_3->setFont(font2);
+        QFont font4;
+        font4.setPointSize(20);
+        label_3->setFont(font4);
         label_3->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
 
         horizontalLayout_3->addWidget(label_3);
 
-        Name = new QTextEdit(widget_3);
-        Name->setObjectName(QString::fromUtf8("Name"));
-        Name->setMaximumSize(QSize(250, 60));
-        Name->setFont(font2);
-        Name->viewport()->setProperty("cursor", QVariant(QCursor(Qt::IBeamCursor)));
-        Name->setLayoutDirection(Qt::LeftToRight);
+        ID = new QTextEdit(widget_3);
+        ID->setObjectName(QString::fromUtf8("ID"));
+        ID->setMaximumSize(QSize(250, 60));
+        QFont font5;
+        font5.setPointSize(28);
+        ID->setFont(font5);
+        ID->viewport()->setProperty("cursor", QVariant(QCursor(Qt::IBeamCursor)));
+        ID->setLayoutDirection(Qt::LeftToRight);
 
-        horizontalLayout_3->addWidget(Name);
+        horizontalLayout_3->addWidget(ID);
 
         horizontalSpacer_8 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
         horizontalLayout_3->addItem(horizontalSpacer_8);
 
 
-        gridLayout->addWidget(widget_3, 1, 0, 1, 1);
-
-        widget_5 = new QWidget(scrollAreaWidgetContents);
-        widget_5->setObjectName(QString::fromUtf8("widget_5"));
-        horizontalLayout_5 = new QHBoxLayout(widget_5);
-        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_5->addItem(horizontalSpacer_3);
-
-        QUERY = new QPushButton(widget_5);
-        QUERY->setObjectName(QString::fromUtf8("QUERY"));
-        QFont font3;
-        font3.setPointSize(15);
-        QUERY->setFont(font3);
-
-        horizontalLayout_5->addWidget(QUERY);
-
-        NO = new QPushButton(widget_5);
-        NO->setObjectName(QString::fromUtf8("NO"));
-        NO->setFont(font3);
-
-        horizontalLayout_5->addWidget(NO);
-
-        horizontalSpacer_4 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_5->addItem(horizontalSpacer_4);
-
-
-        gridLayout->addWidget(widget_5, 2, 0, 1, 1);
-
-        label_4 = new QLabel(scrollAreaWidgetContents);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        QFont font4;
-        font4.setPointSize(11);
-        label_4->setFont(font4);
-
-        gridLayout->addWidget(label_4, 3, 0, 1, 1);
-
-        widget_2 = new QWidget(scrollAreaWidgetContents);
-        widget_2->setObjectName(QString::fromUtf8("widget_2"));
-        horizontalLayout_2 = new QHBoxLayout(widget_2);
-        horizontalLayout_2->setSpacing(6);
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_2->addItem(horizontalSpacer_6);
-
-        label_2 = new QLabel(widget_2);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        label_2->setMaximumSize(QSize(100, 16777215));
-        label_2->setFont(font2);
-        label_2->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
-
-        horizontalLayout_2->addWidget(label_2);
-
-        ID = new QTextEdit(widget_2);
-        ID->setObjectName(QString::fromUtf8("ID"));
-        ID->setMaximumSize(QSize(250, 60));
-        ID->setFont(font2);
-
-        horizontalLayout_2->addWidget(ID);
-
-        horizontalSpacer_5 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
-
-        horizontalLayout_2->addItem(horizontalSpacer_5);
-
-
-        gridLayout->addWidget(widget_2, 0, 0, 1, 1);
+        gridLayout->addWidget(widget_3, 0, 0, 1, 1);
 
 
         verticalLayout->addLayout(gridLayout);
@@ -232,11 +197,10 @@ public:
     {
         query->setWindowTitle(QCoreApplication::translate("query", "query", nullptr));
         label->setText(QCoreApplication::translate("query", "\346\237\245\350\257\242\345\215\241", nullptr));
-        label_3->setText(QCoreApplication::translate("query", "\345\247\223\345\220\215", nullptr));
         QUERY->setText(QCoreApplication::translate("query", "\346\237\245\350\257\242", nullptr));
         NO->setText(QCoreApplication::translate("query", "\345\217\226\346\266\210", nullptr));
         label_4->setText(QCoreApplication::translate("query", "\345\244\207\346\263\250\357\274\232\345\217\252\351\234\200\350\246\201\350\276\223\345\205\245\344\270\200\344\270\252\345\215\263\345\217\257", nullptr));
-        label_2->setText(QCoreApplication::translate("query", "\345\215\241\345\217\267", nullptr));
+        label_3->setText(QCoreApplication::translate("query", "\345\215\241\345\217\267", nullptr));
     } // retranslateUi
 
 };
