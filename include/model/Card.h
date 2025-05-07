@@ -16,7 +16,7 @@ typedef struct Card
     QDateTime time_last;
     int Status; // 状态
 
-    Card() : next(NULL){}
+    Card() : next(NULL) {}
 } card;
 
 #endif // !CARD_H

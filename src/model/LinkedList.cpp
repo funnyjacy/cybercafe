@@ -22,10 +22,10 @@ LinkedList::LinkedList()
 
 LinkedList::~LinkedList()
 {
-    save_all_fson(head, tail);
+    save_all_json(head, tail);
     save_all_txt(head, tail);
 }
-void LinkedList::init(string name, string id, string balance, string password, string time_last)
+void LinkedList::init(string name, string id, string balance, string password, string time_last, string status)
 {
 
     card *newCard = new card;
@@ -38,7 +38,14 @@ void LinkedList::init(string name, string id, string balance, string password, s
     QString qDateTimeStr = QString::fromStdString(time_last);
     QDateTime dateTime = QDateTime::fromString(qDateTimeStr, "yyyy-MM-dd hh:mm:ss");
     newCard->time_last = dateTime;
-    newCard->Status = OFF;
+    if (status == "上机")
+    {
+        newCard->Status = ON;
+    }
+    else if (status == "下机")
+    {
+        newCard->Status = OFF;
+    }
     newCard->next = NULL;
     // write_json(newCard);
 
@@ -119,6 +126,102 @@ int LinkedList::query(string id, vector<card> &res)
                 res1.Status = first->Status;
                 res1.time_last = first->time_last;
                 res.push_back(res1);
+            }
+            first = first->next;
+        }
+    }
+    if (res.size() == 0)
+    {
+        return NOT_FOUND;
+    }
+    return SUCCESS;
+}
+
+int LinkedList::query_on(string id, string pwd, vector<card> &res)
+{
+    if (id.size() > 7)
+    {
+        return LONG;
+    }
+
+    if (id == "")
+    {
+        return EMPTY;
+    }
+    if (id != "")
+    {
+        card *first = Qlist->head;
+        while (first != NULL)
+        {
+            int idx = first->id.find(id);
+            if (idx != string::npos && first->Status == OFF)
+            {
+                if (pwd != first->password)
+                {
+                    return NO_PWD;
+                }
+
+                card res1;
+                res1.id = first->id;
+                res1.name = first->name;
+                res1.balance = first->balance;
+                first->Status = ON;
+                res1.Status = first->Status;
+                first->time_last = QDateTime::currentDateTime();
+                res1.time_last = QDateTime::currentDateTime();
+                res.push_back(res1);
+            }
+            else if (idx != string::npos && first->Status == ON) // 已经是上机状态
+            {
+                return AL_ON;
+            }
+            first = first->next;
+        }
+    }
+    if (res.size() == 0)
+    {
+        return NOT_FOUND;
+    }
+    return SUCCESS;
+}
+
+int LinkedList::query_off(string id, string pwd, vector<card> &res)
+{
+    if (id.size() > 7)
+    {
+        return LONG;
+    }
+
+    if (id == "")
+    {
+        return EMPTY;
+    }
+    if (id != "")
+    {
+        card *first = Qlist->head;
+        while (first != NULL)
+        {
+            int idx = first->id.find(id);
+            if (idx != string::npos && first->Status == ON)
+            {
+                if (pwd != first->password)
+                {
+                    return NO_PWD;
+                }
+
+                card res1;
+                res1.id = first->id;
+                res1.name = first->name;
+                res1.balance = first->balance;
+                first->Status = OFF;
+                res1.Status = first->Status;
+                first->time_last = QDateTime::currentDateTime();
+                res1.time_last = QDateTime::currentDateTime();
+                res.push_back(res1);
+            }
+            else if (idx != string::npos && first->Status == OFF) // 已经是下机状态
+            {
+                return AL_ON;
             }
             first = first->next;
         }

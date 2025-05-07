@@ -92,6 +92,12 @@
 			null
 		],
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/on.h",
+			"Mu",
+			"5SWGUAP3UC/moc_on.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/control/query.h",
 			"Mu",
 			"5SWGUAP3UC/moc_query.cpp",
@@ -168,6 +174,7 @@
 	[
 		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_on.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_query.h"
 	],
 	"MULTI_CONFIG" : false,
@@ -182,6 +189,7 @@
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/on.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/query.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/json.cpp", "Mu", null ],

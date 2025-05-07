@@ -27,3 +27,11 @@ void menu::on_Qquery_clicked()
     query *queryWindow = new query(this); // 以 menu 作为父窗口
     queryWindow->show();                  // 显示 add 窗口
 }
+
+void menu::on_Qon_clicked()
+{
+    // 创建 上机 窗口实例
+    on *onWindow = new on(this); // 以 menu 作为父窗口
+    onWindow->show();            // 显示 上机 窗口
+}
+

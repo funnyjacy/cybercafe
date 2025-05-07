@@ -21,9 +21,6 @@ file(GLOB includes3 "include/model/*.h")
 # 获取 src/view 目录下所有 .ui 文件的列表
 file(GLOB UI_FILES src/view/*.ui)
 
-# 处理 UI 文件
-qt5_wrap_ui(UI_HEADERS ${UI_FILES})
-
 # 自动处理 UI 文件
 qt5_wrap_ui(UI_HEADERS ${UI_FILES})
 

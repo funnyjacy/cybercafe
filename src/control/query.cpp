@@ -20,6 +20,7 @@ query::query(QWidget *parent)
             << "余额"
             << "上次使用时间";
     ui->table->setHorizontalHeaderLabels(headers);
+    ui->table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch); // 表头自适应宽度
 }
 
 query::~query()

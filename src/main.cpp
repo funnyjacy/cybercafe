@@ -8,13 +8,16 @@
 
 int main(int argc, char *argv[])
 {
-    // read_json();
-    read_txt();
-    // read_dat();
+    read_json();
+    // read_txt();
     extern LinkedList *Qlist;
     QApplication a(argc, argv);
     menu w;
     w.show();
     w.setWindowTitle("菜单");
-    return a.exec();
+    int result = a.exec();
+    delete Qlist; // 触发析构函数，调用 save_all_json
+    Qlist = nullptr;
+    return result;
+    // (Qlist->head, Qlist->tail);
 }

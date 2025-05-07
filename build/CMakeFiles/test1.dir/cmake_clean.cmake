@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/control/on.cpp.obj"
+  "CMakeFiles/test1.dir/src/control/on.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/query.cpp.obj"
   "CMakeFiles/test1.dir/src/control/query.cpp.obj.d"
   "CMakeFiles/test1.dir/src/global.cpp.obj"
@@ -24,6 +26,7 @@ file(REMOVE_RECURSE
   "test1.pdb"
   "ui_add.h"
   "ui_menu.h"
+  "ui_on.h"
   "ui_query.h"
 )
 

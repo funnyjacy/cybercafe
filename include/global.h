@@ -8,8 +8,12 @@
 #define NOT_FOUND 2
 #define LONG 3
 
-#define ON 4  // 上机状态
-#define OFF 5 // 下机状态
+#define ON 4     // 上机状态
+#define OFF 5    // 下机状态
+#define NO_PWD 6 // 密码不正确
+
+#define AL_ON 7  // 已经在上机状态
+#define AL_OFF 8 // 已经在下机状态
 
 extern LinkedList *Qlist;
 

@@ -341,4 +341,8 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTableWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtablewidget.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtableview.h
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtableview.h \
+ E:/A_codes/VS_code/cmake_test/include/control/on.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_on.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h

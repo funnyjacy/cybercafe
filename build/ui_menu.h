@@ -38,12 +38,12 @@ public:
     QWidget *widget_7;
     QHBoxLayout *horizontalLayout_7;
     QSpacerItem *horizontalSpacer_9;
-    QPushButton *pushButton_4;
+    QPushButton *Qon;
     QSpacerItem *horizontalSpacer_10;
     QWidget *widget_8;
     QHBoxLayout *horizontalLayout_8;
     QSpacerItem *horizontalSpacer_11;
-    QPushButton *pushButton_5;
+    QPushButton *Qoff;
     QSpacerItem *horizontalSpacer_12;
     QWidget *widget_4;
     QHBoxLayout *horizontalLayout_3;
@@ -126,14 +126,14 @@ public:
 
         horizontalLayout_7->addItem(horizontalSpacer_9);
 
-        pushButton_4 = new QPushButton(widget_7);
-        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setMinimumSize(QSize(0, 50));
+        Qon = new QPushButton(widget_7);
+        Qon->setObjectName(QString::fromUtf8("Qon"));
+        Qon->setMinimumSize(QSize(0, 50));
         QFont font1;
         font1.setPointSize(15);
-        pushButton_4->setFont(font1);
+        Qon->setFont(font1);
 
-        horizontalLayout_7->addWidget(pushButton_4);
+        horizontalLayout_7->addWidget(Qon);
 
         horizontalSpacer_10 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -151,13 +151,13 @@ public:
 
         horizontalLayout_8->addItem(horizontalSpacer_11);
 
-        pushButton_5 = new QPushButton(widget_8);
-        pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setMinimumSize(QSize(0, 50));
-        pushButton_5->setFont(font1);
-        pushButton_5->setIconSize(QSize(50, 50));
+        Qoff = new QPushButton(widget_8);
+        Qoff->setObjectName(QString::fromUtf8("Qoff"));
+        Qoff->setMinimumSize(QSize(0, 50));
+        Qoff->setFont(font1);
+        Qoff->setIconSize(QSize(50, 50));
 
-        horizontalLayout_8->addWidget(pushButton_5);
+        horizontalLayout_8->addWidget(Qoff);
 
         horizontalSpacer_12 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -329,8 +329,8 @@ public:
     {
         menu->setWindowTitle(QCoreApplication::translate("menu", "menu", nullptr));
         label->setText(QCoreApplication::translate("menu", "\347\275\221\345\220\247\350\256\241\350\264\271\347\256\241\347\220\206\347\263\273\347\273\237", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("menu", "\344\270\212\346\234\272", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("menu", "\344\270\213\346\234\272", nullptr));
+        Qon->setText(QCoreApplication::translate("menu", "\344\270\212\346\234\272", nullptr));
+        Qoff->setText(QCoreApplication::translate("menu", "\344\270\213\346\234\272", nullptr));
         pushButton_2->setText(QCoreApplication::translate("menu", "\345\205\205\345\200\274", nullptr));
         Qadd->setText(QCoreApplication::translate("menu", "\346\267\273\345\212\240\345\215\241", nullptr));
         pushButton_6->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));

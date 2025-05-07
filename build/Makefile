@@ -189,6 +189,30 @@ src/control/menu.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/menu.cpp.s
 .PHONY : src/control/menu.cpp.s
 
+src/control/on.obj: src/control/on.cpp.obj
+.PHONY : src/control/on.obj
+
+# target to build an object file
+src/control/on.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/on.cpp.obj
+.PHONY : src/control/on.cpp.obj
+
+src/control/on.i: src/control/on.cpp.i
+.PHONY : src/control/on.i
+
+# target to preprocess a source file
+src/control/on.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/on.cpp.i
+.PHONY : src/control/on.cpp.i
+
+src/control/on.s: src/control/on.cpp.s
+.PHONY : src/control/on.s
+
+# target to generate assembly for a file
+src/control/on.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/on.cpp.s
+.PHONY : src/control/on.cpp.s
+
 src/control/query.obj: src/control/query.cpp.obj
 .PHONY : src/control/query.obj
 
@@ -349,6 +373,9 @@ help:
 	@echo ... src/control/menu.obj
 	@echo ... src/control/menu.i
 	@echo ... src/control/menu.s
+	@echo ... src/control/on.obj
+	@echo ... src/control/on.i
+	@echo ... src/control/on.s
 	@echo ... src/control/query.obj
 	@echo ... src/control/query.i
 	@echo ... src/control/query.s
