@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>289</width>
+    <width>486</width>
     <height>339</height>
    </rect>
   </property>
@@ -92,7 +92,7 @@
            <widget class="QLabel" name="label_4">
             <property name="font">
              <font>
-              <pointsize>15</pointsize>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="text">
@@ -102,6 +102,12 @@
           </item>
           <item>
            <widget class="QTextEdit" name="Balance">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -157,7 +163,7 @@
            <widget class="QLabel" name="label_2">
             <property name="font">
              <font>
-              <pointsize>15</pointsize>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="text">
@@ -175,7 +181,7 @@
             </property>
             <property name="font">
              <font>
-              <pointsize>20</pointsize>
+              <pointsize>15</pointsize>
              </font>
             </property>
            </widget>
@@ -222,7 +228,7 @@
            <widget class="QLabel" name="label_3">
             <property name="font">
              <font>
-              <pointsize>15</pointsize>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="text">
@@ -232,6 +238,12 @@
           </item>
           <item>
            <widget class="QTextEdit" name="ID">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>
@@ -287,7 +299,7 @@
            <widget class="QLabel" name="label_5">
             <property name="font">
              <font>
-              <pointsize>15</pointsize>
+              <pointsize>20</pointsize>
              </font>
             </property>
             <property name="text">
@@ -297,6 +309,12 @@
           </item>
           <item>
            <widget class="QTextEdit" name="Password">
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>0</height>
+             </size>
+            </property>
             <property name="maximumSize">
              <size>
               <width>16777215</width>

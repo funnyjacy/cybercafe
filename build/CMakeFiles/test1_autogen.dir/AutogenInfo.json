@@ -92,6 +92,12 @@
 			null
 		],
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/off.h",
+			"Mu",
+			"5SWGUAP3UC/moc_off.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/control/on.h",
 			"Mu",
 			"5SWGUAP3UC/moc_on.cpp",
@@ -174,6 +180,7 @@
 	[
 		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_off.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_on.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_query.h"
 	],
@@ -189,6 +196,7 @@
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/off.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/on.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/query.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],

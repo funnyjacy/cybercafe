@@ -10,14 +10,15 @@ on::on(QWidget *parent)
     ui->setupUi(this);
     setFixedSize(950, 500);
 
-    ui->table->setColumnCount(5);
+    ui->table->setColumnCount(6);
     // ui->table->setRowCount(2);
     QStringList headers;
     headers << "姓名"
             << "卡号"
             << "余额"
             << "上机时间"
-            << "状态";
+            << "状态"
+            << "结账状态";
     ui->table->setHorizontalHeaderLabels(headers);
     ui->table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch); // 表头自适应宽度
 }
@@ -70,6 +71,16 @@ void on::on_OK_clicked()
             ui->table->item(i, 3)->setTextAlignment(Qt::AlignCenter);
             ui->table->setItem(i, 4, new QTableWidgetItem("上机中"));
             ui->table->item(i, 4)->setTextAlignment(Qt::AlignCenter);
+            if (res[i].Pay == PAY_ED)
+            {
+                ui->table->setItem(i, 5, new QTableWidgetItem("已结账"));
+                ui->table->item(i, 5)->setTextAlignment(Qt::AlignCenter);
+            }
+            else
+            {
+                ui->table->setItem(i, 5, new QTableWidgetItem("未结账"));
+                ui->table->item(i, 5)->setTextAlignment(Qt::AlignCenter);
+            }
         }
     }
     delete ui;

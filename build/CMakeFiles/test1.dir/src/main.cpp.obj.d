@@ -353,6 +353,8 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/build/ui_on.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
+ E:/A_codes/VS_code/cmake_test/include/control/off.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_off.h \
  E:/A_codes/VS_code/cmake_test/include/json.h \
  E:/A_codes/VS_code/cmake_test/include/model/Card.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication

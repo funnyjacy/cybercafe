@@ -23,9 +23,9 @@ LinkedList::LinkedList()
 LinkedList::~LinkedList()
 {
     save_all_json(head, tail);
-    save_all_txt(head, tail);
+    // save_all_txt(head, tail);
 }
-void LinkedList::init(string name, string id, string balance, string password, string time_last, string status)
+void LinkedList::init(string name, string id, string balance, string password, string time_last, string status, string del, string pay)
 {
 
     card *newCard = new card;
@@ -47,6 +47,22 @@ void LinkedList::init(string name, string id, string balance, string password, s
         newCard->Status = OFF;
     }
     newCard->next = NULL;
+    if (del == "生效中")
+    {
+        newCard->Del = USE;
+    }
+    else
+    {
+        newCard->Del = USE_NO;
+    }
+    if (pay == "已结账")
+    {
+        newCard->Pay = PAY_ED;
+    }
+    else if (pay == "未结账")
+    {
+        newCard->Pay = PAY_NO;
+    }
     // write_json(newCard);
 
     tail->next = newCard;
@@ -87,9 +103,12 @@ int LinkedList::add(string name, string id, string balance, string password)
         newCard->time_last = QDateTime::currentDateTime();
         newCard->Status = OFF;
         newCard->next = NULL;
+        // 新增初始化的卡使用状态
+        newCard->Del = USE;
+        newCard->Pay = PAY_ED;
         write_json(newCard);
-        write_txt(newCard);
-        write_dat(newCard);
+        // write_txt(newCard);
+        // write_dat(newCard);
 
         tail->next = newCard;
         tail = newCard;
@@ -116,8 +135,9 @@ int LinkedList::query(string id, vector<card> &res)
         card *first = Qlist->head;
         while (first != NULL)
         {
-            int idx = first->id.find(id);
-            if (idx != string::npos)
+            // int idx = first->id.find(id);
+            // if (idx != string::npos)
+            if (id == first->id)
             {
                 card res1;
                 res1.id = first->id;
@@ -125,6 +145,8 @@ int LinkedList::query(string id, vector<card> &res)
                 res1.balance = first->balance;
                 res1.Status = first->Status;
                 res1.time_last = first->time_last;
+                res1.Del = first->Del;
+                res1.Pay = first->Pay;
                 res.push_back(res1);
             }
             first = first->next;
@@ -202,7 +224,7 @@ int LinkedList::query_off(string id, string pwd, vector<card> &res)
         while (first != NULL)
         {
             int idx = first->id.find(id);
-            if (idx != string::npos && first->Status == ON)
+            if (id == first->id && first->Status == ON)
             {
                 if (pwd != first->password)
                 {
@@ -221,7 +243,7 @@ int LinkedList::query_off(string id, string pwd, vector<card> &res)
             }
             else if (idx != string::npos && first->Status == OFF) // 已经是下机状态
             {
-                return AL_ON;
+                return AL_OFF;
             }
             first = first->next;
         }

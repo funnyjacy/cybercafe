@@ -8,6 +8,7 @@ add::add(QWidget *parent)
     : QMainWindow(parent), ui(new Ui_add)
 {
     ui->setupUi(this);
+    setFixedSize(950, 500);
 }
 
 add::~add()

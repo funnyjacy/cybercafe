@@ -348,5 +348,8 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/build/ui_on.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
+ E:/A_codes/VS_code/cmake_test/include/control/off.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_off.h \
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_off.cpp \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_on.cpp \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_query.cpp

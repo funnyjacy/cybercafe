@@ -17,7 +17,7 @@ public:
     // 最后把链表的东西写进去
     ~LinkedList();
     // 加载本地数据
-    void init(string name, string id, string balance, string password, string time_last, string status);
+    void init(string name, string id, string balance, string password, string time_last, string status, string del, string pay);
     // 获取节点数量
     int getSize();
     // 添加节点

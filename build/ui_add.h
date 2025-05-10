@@ -71,7 +71,7 @@ public:
     {
         if (add->objectName().isEmpty())
             add->setObjectName(QString::fromUtf8("add"));
-        add->resize(289, 339);
+        add->resize(486, 339);
         centralwidget = new QWidget(add);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -117,17 +117,16 @@ public:
         label_4 = new QLabel(widget_4);
         label_4->setObjectName(QString::fromUtf8("label_4"));
         QFont font1;
-        font1.setPointSize(15);
+        font1.setPointSize(20);
         label_4->setFont(font1);
 
         horizontalLayout_4->addWidget(label_4);
 
         Balance = new QTextEdit(widget_4);
         Balance->setObjectName(QString::fromUtf8("Balance"));
+        Balance->setMinimumSize(QSize(200, 0));
         Balance->setMaximumSize(QSize(16777215, 40));
-        QFont font2;
-        font2.setPointSize(20);
-        Balance->setFont(font2);
+        Balance->setFont(font1);
 
         horizontalLayout_4->addWidget(Balance);
 
@@ -156,6 +155,8 @@ public:
         Name = new QTextEdit(widget_2);
         Name->setObjectName(QString::fromUtf8("Name"));
         Name->setMaximumSize(QSize(16777215, 40));
+        QFont font2;
+        font2.setPointSize(15);
         Name->setFont(font2);
 
         horizontalLayout_2->addWidget(Name);
@@ -184,8 +185,9 @@ public:
 
         ID = new QTextEdit(widget_3);
         ID->setObjectName(QString::fromUtf8("ID"));
+        ID->setMinimumSize(QSize(200, 0));
         ID->setMaximumSize(QSize(16777215, 40));
-        ID->setFont(font2);
+        ID->setFont(font1);
 
         horizontalLayout_3->addWidget(ID);
 
@@ -213,8 +215,9 @@ public:
 
         Password = new QTextEdit(widget_7);
         Password->setObjectName(QString::fromUtf8("Password"));
+        Password->setMinimumSize(QSize(200, 0));
         Password->setMaximumSize(QSize(16777215, 40));
-        Password->setFont(font2);
+        Password->setFont(font1);
 
         horizontalLayout_6->addWidget(Password);
 

@@ -10,7 +10,7 @@ query::query(QWidget *parent)
 {
     ui->setupUi(this);
     setFixedSize(950, 500);
-    ui->table->setColumnCount(5);
+    ui->table->setColumnCount(6);
     // ui->table->setRowCount(2);
 
     QStringList headers;
@@ -18,7 +18,8 @@ query::query(QWidget *parent)
             << "卡号"
             << "状态"
             << "余额"
-            << "上次使用时间";
+            << "上次使用时间"
+            << "结账状态";
     ui->table->setHorizontalHeaderLabels(headers);
     ui->table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch); // 表头自适应宽度
 }
@@ -67,11 +68,25 @@ void query::on_QUERY_clicked()
                 break;
             }
             ui->table->setItem(i, 0, new QTableWidgetItem(QString::fromStdString(res[i].name)));
+            ui->table->item(i, 0)->setTextAlignment(Qt::AlignCenter);
             ui->table->setItem(i, 1, new QTableWidgetItem(QString::fromStdString(res[i].id)));
+            ui->table->item(i, 1)->setTextAlignment(Qt::AlignCenter);
             ui->table->setItem(i, 2, new QTableWidgetItem(QString::fromStdString(status)));
+            ui->table->item(i, 2)->setTextAlignment(Qt::AlignCenter);
             ui->table->setItem(i, 3, new QTableWidgetItem(QString::number(res[i].balance, 'f', 2)));
+            ui->table->item(i, 3)->setTextAlignment(Qt::AlignCenter);
             QString dt = res[i].time_last.toString("yyyy-MM-dd hh:mm:ss");
             ui->table->setItem(i, 4, new QTableWidgetItem(dt));
+            if (res[i].Pay == PAY_ED)
+            {
+                ui->table->setItem(i, 5, new QTableWidgetItem("已结账"));
+                ui->table->item(i, 5)->setTextAlignment(Qt::AlignCenter);
+            }
+            else
+            {
+                ui->table->setItem(i, 5, new QTableWidgetItem("未结账"));
+                ui->table->item(i, 5)->setTextAlignment(Qt::AlignCenter);
+            }
         }
 
         // ui->table->setItem(0, 3, new QTableWidgetItem(RES.time_in));

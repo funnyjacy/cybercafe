@@ -15,6 +15,8 @@ typedef struct Card
 
     QDateTime time_last;
     int Status; // 状态
+    int Del; // 是否注销
+    int Pay; // 是否支付
 
     Card() : next(NULL) {}
 } card;

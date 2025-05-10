@@ -11,4 +11,5 @@ void read_dat();
 
 void save_all_json(card *head, card *tail);
 void save_all_txt(card *head, card *tail);
+void write_billings(card *new_card); // 记账信息
 #endif // !JSON_H

@@ -15,6 +15,12 @@
 #define AL_ON 7  // 已经在上机状态
 #define AL_OFF 8 // 已经在下机状态
 
+#define USE 9     // 还在使用
+#define USE_NO 10 // 已注销
+
+#define PAY_ED 11 // 已支付
+#define PAY_NO 12 // 未支付
+
 extern LinkedList *Qlist;
 
 // Define fixed sizes for string fields to ensure consistent binary record size

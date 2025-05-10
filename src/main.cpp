@@ -8,9 +8,9 @@
 
 int main(int argc, char *argv[])
 {
-    read_json();
     // read_txt();
     extern LinkedList *Qlist;
+    read_json();
     QApplication a(argc, argv);
     menu w;
     w.show();

@@ -5,6 +5,7 @@
 #include "add.h" // add 类的头文件
 #include "query.h"
 #include "on.h"
+#include "off.h"
 
 class menu : public QMainWindow
 {

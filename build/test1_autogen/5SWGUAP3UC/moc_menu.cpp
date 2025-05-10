@@ -82,7 +82,7 @@ void menu::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void *
         case 0: _t->on_Qadd_clicked(); break;
         case 1: _t->on_Qquery_clicked(); break;
         case 2: _t->on_Qon_clicked(); break;
-        //case 3: _t->on_Qoff_clicked(); break;
+        case 3: _t->on_Qoff_clicked(); break;
         default: ;
         }
     }

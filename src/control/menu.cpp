@@ -35,3 +35,9 @@ void menu::on_Qon_clicked()
     onWindow->show();            // 显示 上机 窗口
 }
 
+void menu::on_Qoff_clicked()
+{
+    // 创建 上机 窗口实例
+    off *offWindow = new off(this); // 以 menu 作为父窗口
+    offWindow->show();              // 显示 上机 窗口
+}
