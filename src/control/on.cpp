@@ -56,6 +56,7 @@ void on::on_OK_clicked()
 
     if (RES == SUCCESS)
     {
+        write_billings(res[0]);
         ui->table->setRowCount(res.size());
         for (int i = 0; i < res.size(); i++)
         {
@@ -84,6 +85,28 @@ void on::on_OK_clicked()
         }
     }
     delete ui;
+}
+
+void on::write_billings(card newCard)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
+    if (file == NULL)
+    {
+        printf("Error: Failed to open file for writing.\n");
+        return;
+    }
+
+    // Format: name##id##balance##status##time_last##password
+    fprintf(file, "%s##%s##%.2f##%s##%s##%.2f##%d\n",
+            newCard.name.c_str(),
+            newCard.id.c_str(),
+            newCard.balance,
+            newCard.time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+            "0000-00-00 00:00:00",
+            0.00,
+            0);
+
+    fclose(file);
 }
 void on::on_NO_clicked()
 {

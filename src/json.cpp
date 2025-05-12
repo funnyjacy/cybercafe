@@ -6,30 +6,30 @@
 #include <QFile>
 #include <QDebug>
 
-void write_billings(card *new_card)
-{
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
+// void write_billings(card *new_card)
+// {
+//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
 
-    if (file == NULL)
-    {
-        printf("Error: Failed to open file for writing.\n");
-        return;
-    }
+//     if (file == NULL)
+//     {
+//         printf("Error: Failed to open file for writing.\n");
+//         return;
+//     }
 
-    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
-    const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+//     // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
+//     const char *status = (new_card->Status == 1) ? "ON" : "OFF";
 
-    // Format: name##id##balance##status##password
-    fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
-            new_card->name.c_str(),
-            new_card->id.c_str(),
-            new_card->balance,
-            status,
-            new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
-            new_card->password.c_str());
+//     // Format: name##id##balance##status##password
+//     fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
+//             new_card->name.c_str(),
+//             new_card->id.c_str(),
+//             new_card->balance,
+//             status,
+//             new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+//             new_card->password.c_str());
 
-    fclose(file);
-}
+//     fclose(file);
+// }
 
 void write_json(card *new_card)
 {

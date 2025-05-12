@@ -346,5 +346,9 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/build/ui_on.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
+ E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
  E:/A_codes/VS_code/cmake_test/include/control/off.h \
  E:/A_codes/VS_code/cmake_test/build/ui_off.h

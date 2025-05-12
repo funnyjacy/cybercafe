@@ -332,6 +332,8 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src
   E:/A_codes/VS_code/cmake_test/include/control/off.h \
   E:/A_codes/VS_code/cmake_test/include/control/on.h \
   E:/A_codes/VS_code/cmake_test/include/control/query.h \
+  E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qabstractitemmodel.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
@@ -349,6 +351,7 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreevent.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatastream.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qeventloop.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qflags.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qgenericatomic.h \
@@ -586,6 +589,7 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/initializer_list \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ios \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iosfwd \
+  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/limits \
@@ -2861,6 +2865,8 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_
   E:/A_codes/VS_code/cmake_test/include/control/off.h \
   E:/A_codes/VS_code/cmake_test/include/control/on.h \
   E:/A_codes/VS_code/cmake_test/include/control/query.h \
+  E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qabstractitemmodel.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qalgorithms.h \
@@ -2878,6 +2884,7 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreapplication.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcoreevent.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatastream.h \
+  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qeventloop.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qflags.h \
   E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qgenericatomic.h \
@@ -3115,6 +3122,7 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/initializer_list \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ios \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iosfwd \
+  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator \
   E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/limits \
