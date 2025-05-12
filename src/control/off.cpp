@@ -112,9 +112,11 @@ int off::process_billing(card &currentCard)
             record.pop_back();
 
         // Split the record by '##'
+        // fields存放信息组
         vector<string> fields;
         size_t pos = 0;
         string token;
+        // [0]姓名##[1]卡号##[2]余额##[3]上机时间##[4]下机时间##[5]消费金额##[6]结账状态
         while ((pos = record.find("##")) != string::npos)
         {
             token = record.substr(0, pos);
@@ -123,14 +125,14 @@ int off::process_billing(card &currentCard)
         }
         fields.push_back(record); // Last field
 
-        if (fields.size() != 4)
+        if (fields.size() != 7)
         {
             otherRecords.push_back(string(line)); // Keep malformed records
             continue;
         }
 
         // Check if this is the card we're looking for
-        if (fields[1] == currentCard.id)
+        if (fields[1] == currentCard.id && fields[6] == "0")
         {
             found = true;
             // Parse the time_last
@@ -153,6 +155,8 @@ int off::process_billing(card &currentCard)
 
             // Calculate cost: 0.01 yuan per second
             double cost = seconds * 0.01;
+            // 更新消费金额
+            fields[5] = to_string(cost);
 
             // Check if balance is sufficient
             double balance = stod(fields[2]);
@@ -162,14 +166,22 @@ int off::process_billing(card &currentCard)
                 fclose(file);
                 return BUGOU;
             }
+            else
+            {
+                // 更新余额和消费状态
+                fields[2] = to_string(balance - cost);
+                fields[6] = "1";
+                QDateTime offTime = QDateTime::currentDateTime();
+                fields[4] = offTime.toString("yyyy-MM-dd hh:mm:ss").toStdString();
+            }
 
-            // Update card balance
+            // 更新卡片余额
             currentCard.balance = balance - cost;
             currentCard.time_last = currentTime;
-            currentCard.Status = 0;   // OFF
+            currentCard.Status = OFF; // OFF
             currentCard.Pay = PAY_ED; // Mark as paid
 
-            // Update the card in Qlist
+            // 在链表更新卡片余额
             card *current = Qlist->head;
             while (current != NULL)
             {
@@ -190,6 +202,14 @@ int off::process_billing(card &currentCard)
                                   .arg(cost, 0, 'f', 2)
                                   .arg(currentCard.balance, 0, 'f', 2);
             QMessageBox::information(this, "结账成功", message);
+            // 重新组合 fields 为字符串
+            string updatedRecord = fields[0];
+            for (size_t i = 1; i < fields.size(); ++i)
+            {
+                updatedRecord += "##" + fields[i];
+            }
+            updatedRecord += "\n";
+            otherRecords.push_back(updatedRecord);
         }
         else
         {

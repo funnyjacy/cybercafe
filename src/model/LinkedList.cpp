@@ -176,7 +176,7 @@ int LinkedList::query_on(string id, string pwd, vector<card> &res)
         while (first != NULL)
         {
             int idx = first->id.find(id);
-            if (idx != string::npos && first->Status == OFF)
+            if (id == first->id && first->Status == OFF)
             {
                 if (pwd != first->password)
                 {
@@ -193,7 +193,7 @@ int LinkedList::query_on(string id, string pwd, vector<card> &res)
                 res1.time_last = QDateTime::currentDateTime();
                 res.push_back(res1);
             }
-            else if (idx != string::npos && first->Status == ON) // 已经是上机状态
+            else if (id == first->id && first->Status == ON) // 已经是上机状态
             {
                 return AL_ON;
             }
