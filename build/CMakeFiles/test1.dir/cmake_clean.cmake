@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/add.cpp.obj"
   "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/control/charge.cpp.obj"
+  "CMakeFiles/test1.dir/src/control/charge.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/off.cpp.obj"
@@ -27,6 +29,7 @@ file(REMOVE_RECURSE
   "test1.exe.manifest"
   "test1.pdb"
   "ui_add.h"
+  "ui_charge.h"
   "ui_menu.h"
   "ui_off.h"
   "ui_on.h"

@@ -41,3 +41,9 @@ void menu::on_Qoff_clicked()
     off *offWindow = new off(this); // 以 menu 作为父窗口
     offWindow->show();              // 显示 上机 窗口
 }
+void menu::on_Qcharge_clicked()
+{
+    // 创建 上机 窗口实例
+    charge *chargeWindow = new charge(this); // 以 menu 作为父窗口
+    chargeWindow->show();                    // 显示 上机 窗口
+}

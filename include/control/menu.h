@@ -6,6 +6,7 @@
 #include "query.h"
 #include "on.h"
 #include "off.h"
+#include "charge.h"
 
 class menu : public QMainWindow
 {
@@ -23,6 +24,7 @@ private slots:
     void on_Qquery_clicked();
     void on_Qon_clicked();
     void on_Qoff_clicked();
+    void on_Qcharge_clicked();
 
 private:
     Ui_menu *ui;

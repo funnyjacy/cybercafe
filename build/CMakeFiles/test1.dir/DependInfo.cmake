@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/A_codes/VS_code/cmake_test/src/control/add.cpp" "CMakeFiles/test1.dir/src/control/add.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp" "CMakeFiles/test1.dir/src/control/charge.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/charge.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp" "CMakeFiles/test1.dir/src/control/menu.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/off.cpp" "CMakeFiles/test1.dir/src/control/off.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/off.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/on.cpp" "CMakeFiles/test1.dir/src/control/on.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/on.cpp.obj.d"

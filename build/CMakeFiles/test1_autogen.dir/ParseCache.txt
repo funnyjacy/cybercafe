@@ -8,6 +8,8 @@ E:/A_codes/VS_code/cmake_test/include/control/add.h
 E:/A_codes/VS_code/cmake_test/src/control/add.cpp
 E:/A_codes/VS_code/cmake_test/src/main.cpp
 E:/A_codes/VS_code/cmake_test/src/model/test1.cpp
+E:/A_codes/VS_code/cmake_test/include/control/charge.h
+ mmc:Q_OBJECT
 E:/A_codes/VS_code/cmake_test/src/control/menu.cpp
 E:/A_codes/VS_code/cmake_test/src/view/test1.cpp
 E:/A_codes/VS_code/cmake_test/include/control/menu.h
@@ -27,3 +29,4 @@ E:/A_codes/VS_code/cmake_test/include/control/on.h
  mmc:Q_OBJECT
 E:/A_codes/VS_code/cmake_test/src/control/on.cpp
 E:/A_codes/VS_code/cmake_test/src/control/off.cpp
+E:/A_codes/VS_code/cmake_test/src/control/charge.cpp

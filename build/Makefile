@@ -165,6 +165,30 @@ src/control/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/add.cpp.s
 .PHONY : src/control/add.cpp.s
 
+src/control/charge.obj: src/control/charge.cpp.obj
+.PHONY : src/control/charge.obj
+
+# target to build an object file
+src/control/charge.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/charge.cpp.obj
+.PHONY : src/control/charge.cpp.obj
+
+src/control/charge.i: src/control/charge.cpp.i
+.PHONY : src/control/charge.i
+
+# target to preprocess a source file
+src/control/charge.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/charge.cpp.i
+.PHONY : src/control/charge.cpp.i
+
+src/control/charge.s: src/control/charge.cpp.s
+.PHONY : src/control/charge.s
+
+# target to generate assembly for a file
+src/control/charge.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/charge.cpp.s
+.PHONY : src/control/charge.cpp.s
+
 src/control/menu.obj: src/control/menu.cpp.obj
 .PHONY : src/control/menu.obj
 
@@ -394,6 +418,9 @@ help:
 	@echo ... src/control/add.obj
 	@echo ... src/control/add.i
 	@echo ... src/control/add.s
+	@echo ... src/control/charge.obj
+	@echo ... src/control/charge.i
+	@echo ... src/control/charge.s
 	@echo ... src/control/menu.obj
 	@echo ... src/control/menu.i
 	@echo ... src/control/menu.s

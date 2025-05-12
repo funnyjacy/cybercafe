@@ -351,4 +351,6 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
  E:/A_codes/VS_code/cmake_test/include/control/off.h \
- E:/A_codes/VS_code/cmake_test/build/ui_off.h
+ E:/A_codes/VS_code/cmake_test/build/ui_off.h \
+ E:/A_codes/VS_code/cmake_test/include/control/charge.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_charge.h

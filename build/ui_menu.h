@@ -48,7 +48,7 @@ public:
     QWidget *widget_4;
     QHBoxLayout *horizontalLayout_3;
     QSpacerItem *horizontalSpacer_5;
-    QPushButton *pushButton_2;
+    QPushButton *Qcharge;
     QSpacerItem *horizontalSpacer_6;
     QWidget *widget_3;
     QHBoxLayout *horizontalLayout_2;
@@ -175,12 +175,12 @@ public:
 
         horizontalLayout_3->addItem(horizontalSpacer_5);
 
-        pushButton_2 = new QPushButton(widget_4);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setMinimumSize(QSize(0, 50));
-        pushButton_2->setFont(font1);
+        Qcharge = new QPushButton(widget_4);
+        Qcharge->setObjectName(QString::fromUtf8("Qcharge"));
+        Qcharge->setMinimumSize(QSize(0, 50));
+        Qcharge->setFont(font1);
 
-        horizontalLayout_3->addWidget(pushButton_2);
+        horizontalLayout_3->addWidget(Qcharge);
 
         horizontalSpacer_6 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -331,7 +331,7 @@ public:
         label->setText(QCoreApplication::translate("menu", "\347\275\221\345\220\247\350\256\241\350\264\271\347\256\241\347\220\206\347\263\273\347\273\237", nullptr));
         Qon->setText(QCoreApplication::translate("menu", "\344\270\212\346\234\272", nullptr));
         Qoff->setText(QCoreApplication::translate("menu", "\344\270\213\346\234\272", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("menu", "\345\205\205\345\200\274", nullptr));
+        Qcharge->setText(QCoreApplication::translate("menu", "\345\205\205\345\200\274", nullptr));
         Qadd->setText(QCoreApplication::translate("menu", "\346\267\273\345\212\240\345\215\241", nullptr));
         pushButton_6->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));
         Qquery->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\345\215\241", nullptr));

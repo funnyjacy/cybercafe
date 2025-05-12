@@ -86,6 +86,12 @@
 			null
 		],
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/charge.h",
+			"Mu",
+			"5SWGUAP3UC/moc_charge.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/control/menu.h",
 			"Mu",
 			"5SWGUAP3UC/moc_menu.cpp",
@@ -179,6 +185,7 @@
 	"MOC_SKIP" : 
 	[
 		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_charge.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_off.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_on.h",
@@ -195,6 +202,7 @@
 	"SOURCES" : 
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/off.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/on.cpp", "Mu", null ],

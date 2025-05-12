@@ -255,6 +255,48 @@ int LinkedList::query_off(string id, string pwd, vector<card> &res)
     return SUCCESS;
 }
 
+int LinkedList::query_charge(string id, vector<card> &res, string money)
+{
+    if (id.size() > 7)
+    {
+        return LONG;
+    }
+
+    if (id == "")
+    {
+        return EMPTY;
+    }
+    if (id != "")
+    {
+        card *first = Qlist->head;
+        while (first != NULL)
+        {
+            // int idx = first->id.find(id);
+            // if (idx != string::npos)
+            if (id == first->id)
+            {
+                first->balance += stod(money);
+
+                card res1;
+                res1.id = first->id;
+                res1.name = first->name;
+                res1.balance = first->balance;
+                res1.Status = first->Status;
+                res1.time_last = first->time_last;
+                res1.Del = first->Del;
+                res1.Pay = first->Pay;
+                res.push_back(res1);
+            }
+            first = first->next;
+        }
+    }
+    if (res.size() == 0)
+    {
+        return NOT_FOUND;
+    }
+    QMessageBox::information(NULL, "提示", "充值成功");
+    return SUCCESS;
+}
 int LinkedList::getSize()
 {
     return Qlist->size;
