@@ -43,6 +43,12 @@
 },
 {
   "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\logout.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\logout.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/logout.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
   "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\menu.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\menu.cpp",
   "file": "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp",
   "output": "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
@@ -64,5 +70,11 @@
   "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\query.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\query.cpp",
   "file": "E:/A_codes/VS_code/cmake_test/src/control/query.cpp",
   "output": "CMakeFiles/test1.dir/src/control/query.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\refund.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\refund.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/refund.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/refund.cpp.obj"
 }
 ]

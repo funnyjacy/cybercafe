@@ -219,7 +219,8 @@ public:
         money = new QLineEdit(widget_7);
         money->setObjectName(QString::fromUtf8("money"));
         money->setMinimumSize(QSize(300, 50));
-        money->setEchoMode(QLineEdit::Password);
+        money->setFont(font2);
+        money->setEchoMode(QLineEdit::Normal);
 
         horizontalLayout_5->addWidget(money);
 

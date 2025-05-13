@@ -92,6 +92,12 @@
 			null
 		],
 		[
+			"E:/A_codes/VS_code/cmake_test/include/control/logout.h",
+			"Mu",
+			"5SWGUAP3UC/moc_logout.cpp",
+			null
+		],
+		[
 			"E:/A_codes/VS_code/cmake_test/include/control/menu.h",
 			"Mu",
 			"5SWGUAP3UC/moc_menu.cpp",
@@ -113,6 +119,12 @@
 			"E:/A_codes/VS_code/cmake_test/include/control/query.h",
 			"Mu",
 			"5SWGUAP3UC/moc_query.cpp",
+			null
+		],
+		[
+			"E:/A_codes/VS_code/cmake_test/include/control/refund.h",
+			"Mu",
+			"5SWGUAP3UC/moc_refund.cpp",
 			null
 		],
 		[
@@ -186,10 +198,12 @@
 	[
 		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_charge.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_logout.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_off.h",
 		"E:/A_codes/VS_code/cmake_test/build/ui_on.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_query.h"
+		"E:/A_codes/VS_code/cmake_test/build/ui_query.h",
+		"E:/A_codes/VS_code/cmake_test/build/ui_refund.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
@@ -203,10 +217,12 @@
 	[
 		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/off.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/on.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/control/query.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cmake_test/src/control/refund.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/json.cpp", "Mu", null ],
 		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ],

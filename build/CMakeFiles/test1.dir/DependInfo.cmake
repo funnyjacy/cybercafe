@@ -10,10 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/A_codes/VS_code/cmake_test/src/control/add.cpp" "CMakeFiles/test1.dir/src/control/add.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp" "CMakeFiles/test1.dir/src/control/charge.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/charge.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp" "CMakeFiles/test1.dir/src/control/logout.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/logout.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp" "CMakeFiles/test1.dir/src/control/menu.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/off.cpp" "CMakeFiles/test1.dir/src/control/off.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/off.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/on.cpp" "CMakeFiles/test1.dir/src/control/on.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/on.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/query.cpp" "CMakeFiles/test1.dir/src/control/query.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/query.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/refund.cpp" "CMakeFiles/test1.dir/src/control/refund.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/refund.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/global.cpp" "CMakeFiles/test1.dir/src/global.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/global.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/json.cpp" "CMakeFiles/test1.dir/src/json.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/json.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/main.cpp" "CMakeFiles/test1.dir/src/main.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/main.cpp.obj.d"

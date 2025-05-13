@@ -47,3 +47,17 @@ void menu::on_Qcharge_clicked()
     charge *chargeWindow = new charge(this); // 以 menu 作为父窗口
     chargeWindow->show();                    // 显示 上机 窗口
 }
+
+void menu::on_Qrefund_clicked()
+{
+    // 创建 上机 窗口实例
+    refund *refundWindow = new refund(this); // 以 menu 作为父窗口
+    refundWindow->show();                    // 显示 上机 窗口
+}
+
+void menu::on_Qlogout_clicked()
+{
+    // 创建 上机 窗口实例
+    logout *logoutWindow = new logout(this); // 以 menu 作为父窗口
+    logoutWindow->show();                    // 显示 上机 窗口
+}

@@ -8,7 +8,7 @@ charge::charge(QWidget *parent)
     : QMainWindow(parent), ui(new Ui_charge)
 {
     ui->setupUi(this);
-    setFixedSize(1000, 500);
+    setFixedSize(900, 580);
 
     ui->table->setColumnCount(6);
     // ui->table->setRowCount(2);

@@ -2,17 +2,19 @@
 #include "ui_query.h"
 #include <QMainWindow>
 
-class query : public QMainWindow {
+class query : public QMainWindow
+{
     Q_OBJECT
-    
+
 public:
-    query(QWidget* parent = nullptr);
+    query(QWidget *parent = nullptr);
     ~query();
 
 public slots:
     void on_NO_clicked();
     void on_QUERY_clicked();
+    void on_QUERY_2_clicked();
 
 private:
-    Ui_query* ui;
+    Ui_query *ui;
 };

@@ -58,7 +58,7 @@ public:
     QWidget *widget_5;
     QHBoxLayout *horizontalLayout_4;
     QSpacerItem *horizontalSpacer_13;
-    QPushButton *pushButton_6;
+    QPushButton *Qrefund;
     QSpacerItem *horizontalSpacer_14;
     QWidget *widget_6;
     QHBoxLayout *horizontalLayout_6;
@@ -68,7 +68,7 @@ public:
     QWidget *widget_10;
     QHBoxLayout *horizontalLayout_10;
     QSpacerItem *horizontalSpacer_17;
-    QPushButton *pushButton_8;
+    QPushButton *Qlogout;
     QSpacerItem *horizontalSpacer_18;
     QWidget *widget_9;
     QHBoxLayout *horizontalLayout_9;
@@ -223,12 +223,12 @@ public:
 
         horizontalLayout_4->addItem(horizontalSpacer_13);
 
-        pushButton_6 = new QPushButton(widget_5);
-        pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setMinimumSize(QSize(0, 50));
-        pushButton_6->setFont(font1);
+        Qrefund = new QPushButton(widget_5);
+        Qrefund->setObjectName(QString::fromUtf8("Qrefund"));
+        Qrefund->setMinimumSize(QSize(0, 50));
+        Qrefund->setFont(font1);
 
-        horizontalLayout_4->addWidget(pushButton_6);
+        horizontalLayout_4->addWidget(Qrefund);
 
         horizontalSpacer_14 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -269,15 +269,15 @@ public:
 
         horizontalLayout_10->addItem(horizontalSpacer_17);
 
-        pushButton_8 = new QPushButton(widget_10);
-        pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-        pushButton_8->setMinimumSize(QSize(0, 50));
+        Qlogout = new QPushButton(widget_10);
+        Qlogout->setObjectName(QString::fromUtf8("Qlogout"));
+        Qlogout->setMinimumSize(QSize(0, 50));
         QFont font2;
         font2.setFamily(QString::fromUtf8("Segoe MDL2 Assets"));
         font2.setPointSize(15);
-        pushButton_8->setFont(font2);
+        Qlogout->setFont(font2);
 
-        horizontalLayout_10->addWidget(pushButton_8);
+        horizontalLayout_10->addWidget(Qlogout);
 
         horizontalSpacer_18 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -333,9 +333,9 @@ public:
         Qoff->setText(QCoreApplication::translate("menu", "\344\270\213\346\234\272", nullptr));
         Qcharge->setText(QCoreApplication::translate("menu", "\345\205\205\345\200\274", nullptr));
         Qadd->setText(QCoreApplication::translate("menu", "\346\267\273\345\212\240\345\215\241", nullptr));
-        pushButton_6->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));
+        Qrefund->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));
         Qquery->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\345\215\241", nullptr));
-        pushButton_8->setText(QCoreApplication::translate("menu", "\346\263\250\351\224\200\345\215\241", nullptr));
+        Qlogout->setText(QCoreApplication::translate("menu", "\346\263\250\351\224\200\345\215\241", nullptr));
         pushButton_7->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\347\273\237\350\256\241", nullptr));
     } // retranslateUi
 

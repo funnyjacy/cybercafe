@@ -22,6 +22,9 @@
 #define PAY_NO 12 // 未支付
 
 #define BUGOU 13 // 不够支付费用
+
+#define JINGQUE 14
+#define MOHU 15
 extern LinkedList *Qlist;
 
 // Define fixed sizes for string fields to ensure consistent binary record size

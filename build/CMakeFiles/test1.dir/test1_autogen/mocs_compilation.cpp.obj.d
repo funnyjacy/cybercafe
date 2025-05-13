@@ -340,6 +340,9 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTableWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtablewidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtableview.h \
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_logout.cpp \
+ E:/A_codes/VS_code/cmake_test/include/control/logout.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_logout.h \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_menu.cpp \
  E:/A_codes/VS_code/cmake_test/include/control/menu.h \
  E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
@@ -357,6 +360,9 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
  E:/A_codes/VS_code/cmake_test/include/control/off.h \
  E:/A_codes/VS_code/cmake_test/build/ui_off.h \
+ E:/A_codes/VS_code/cmake_test/include/control/refund.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_off.cpp \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_on.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_query.cpp
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_query.cpp \
+ E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_refund.cpp

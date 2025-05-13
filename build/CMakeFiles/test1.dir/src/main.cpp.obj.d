@@ -358,6 +358,10 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/build/ui_off.h \
  E:/A_codes/VS_code/cmake_test/include/control/charge.h \
  E:/A_codes/VS_code/cmake_test/build/ui_charge.h \
+ E:/A_codes/VS_code/cmake_test/include/control/refund.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
+ E:/A_codes/VS_code/cmake_test/include/control/logout.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_logout.h \
  E:/A_codes/VS_code/cmake_test/include/json.h \
  E:/A_codes/VS_code/cmake_test/include/model/Card.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication

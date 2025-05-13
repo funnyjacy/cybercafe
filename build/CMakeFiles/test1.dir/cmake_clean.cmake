@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/charge.cpp.obj"
   "CMakeFiles/test1.dir/src/control/charge.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/control/logout.cpp.obj"
+  "CMakeFiles/test1.dir/src/control/logout.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
   "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/off.cpp.obj"
@@ -11,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test1.dir/src/control/on.cpp.obj.d"
   "CMakeFiles/test1.dir/src/control/query.cpp.obj"
   "CMakeFiles/test1.dir/src/control/query.cpp.obj.d"
+  "CMakeFiles/test1.dir/src/control/refund.cpp.obj"
+  "CMakeFiles/test1.dir/src/control/refund.cpp.obj.d"
   "CMakeFiles/test1.dir/src/global.cpp.obj"
   "CMakeFiles/test1.dir/src/global.cpp.obj.d"
   "CMakeFiles/test1.dir/src/json.cpp.obj"
@@ -30,10 +34,12 @@ file(REMOVE_RECURSE
   "test1.pdb"
   "ui_add.h"
   "ui_charge.h"
+  "ui_logout.h"
   "ui_menu.h"
   "ui_off.h"
   "ui_on.h"
   "ui_query.h"
+  "ui_refund.h"
 )
 
 # Per-language clean rules from dependency scanning.

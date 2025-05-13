@@ -189,6 +189,30 @@ src/control/charge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/charge.cpp.s
 .PHONY : src/control/charge.cpp.s
 
+src/control/logout.obj: src/control/logout.cpp.obj
+.PHONY : src/control/logout.obj
+
+# target to build an object file
+src/control/logout.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/logout.cpp.obj
+.PHONY : src/control/logout.cpp.obj
+
+src/control/logout.i: src/control/logout.cpp.i
+.PHONY : src/control/logout.i
+
+# target to preprocess a source file
+src/control/logout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/logout.cpp.i
+.PHONY : src/control/logout.cpp.i
+
+src/control/logout.s: src/control/logout.cpp.s
+.PHONY : src/control/logout.s
+
+# target to generate assembly for a file
+src/control/logout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/logout.cpp.s
+.PHONY : src/control/logout.cpp.s
+
 src/control/menu.obj: src/control/menu.cpp.obj
 .PHONY : src/control/menu.obj
 
@@ -284,6 +308,30 @@ src/control/query.s: src/control/query.cpp.s
 src/control/query.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/query.cpp.s
 .PHONY : src/control/query.cpp.s
+
+src/control/refund.obj: src/control/refund.cpp.obj
+.PHONY : src/control/refund.obj
+
+# target to build an object file
+src/control/refund.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/refund.cpp.obj
+.PHONY : src/control/refund.cpp.obj
+
+src/control/refund.i: src/control/refund.cpp.i
+.PHONY : src/control/refund.i
+
+# target to preprocess a source file
+src/control/refund.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/refund.cpp.i
+.PHONY : src/control/refund.cpp.i
+
+src/control/refund.s: src/control/refund.cpp.s
+.PHONY : src/control/refund.s
+
+# target to generate assembly for a file
+src/control/refund.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/refund.cpp.s
+.PHONY : src/control/refund.cpp.s
 
 src/global.obj: src/global.cpp.obj
 .PHONY : src/global.obj
@@ -421,6 +469,9 @@ help:
 	@echo ... src/control/charge.obj
 	@echo ... src/control/charge.i
 	@echo ... src/control/charge.s
+	@echo ... src/control/logout.obj
+	@echo ... src/control/logout.i
+	@echo ... src/control/logout.s
 	@echo ... src/control/menu.obj
 	@echo ... src/control/menu.i
 	@echo ... src/control/menu.s
@@ -433,6 +484,9 @@ help:
 	@echo ... src/control/query.obj
 	@echo ... src/control/query.i
 	@echo ... src/control/query.s
+	@echo ... src/control/refund.obj
+	@echo ... src/control/refund.i
+	@echo ... src/control/refund.s
 	@echo ... src/global.obj
 	@echo ... src/global.i
 	@echo ... src/global.s

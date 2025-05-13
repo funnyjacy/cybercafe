@@ -353,4 +353,8 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/include/control/off.h \
  E:/A_codes/VS_code/cmake_test/build/ui_off.h \
  E:/A_codes/VS_code/cmake_test/include/control/charge.h \
- E:/A_codes/VS_code/cmake_test/build/ui_charge.h
+ E:/A_codes/VS_code/cmake_test/build/ui_charge.h \
+ E:/A_codes/VS_code/cmake_test/include/control/refund.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
+ E:/A_codes/VS_code/cmake_test/include/control/logout.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_logout.h

@@ -23,13 +23,15 @@ public:
     // 添加节点
     int add(string name, string id, string balance, string password);
     // 查询节点
-    int query(string id, vector<card> &res);
+    int query(string id, vector<card> &res, int flag);
     // 上机查询
     int query_on(string id, string pwd, vector<card> &res);
     // 下机查询
     int query_off(string id, string pwd, vector<card> &res);
     // 充值查询
     int query_charge(string id, vector<card> &res, string money);
+    // 退费查询
+    int query_refund(string id, vector<card> &res, string money);
 };
 
 #endif // !LINKEDLIST_H

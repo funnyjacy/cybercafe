@@ -119,7 +119,7 @@ int LinkedList::add(string name, string id, string balance, string password)
 }
 
 // 查询节点
-int LinkedList::query(string id, vector<card> &res)
+int LinkedList::query(string id, vector<card> &res, int flag)
 {
     if (id.size() > 7)
     {
@@ -135,20 +135,20 @@ int LinkedList::query(string id, vector<card> &res)
         card *first = Qlist->head;
         while (first != NULL)
         {
-            // int idx = first->id.find(id);
-            // if (idx != string::npos)
-            if (id == first->id)
-            {
-                card res1;
-                res1.id = first->id;
-                res1.name = first->name;
-                res1.balance = first->balance;
-                res1.Status = first->Status;
-                res1.time_last = first->time_last;
-                res1.Del = first->Del;
-                res1.Pay = first->Pay;
-                res.push_back(res1);
-            }
+            int idx = first->id.find(id);
+            if (idx != string::npos)
+                if (id == first->id && flag == JINGQUE || idx != string::npos && flag == MOHU)
+                {
+                    card res1;
+                    res1.id = first->id;
+                    res1.name = first->name;
+                    res1.balance = first->balance;
+                    res1.Status = first->Status;
+                    res1.time_last = first->time_last;
+                    res1.Del = first->Del;
+                    res1.Pay = first->Pay;
+                    res.push_back(res1);
+                }
             first = first->next;
         }
     }
@@ -295,6 +295,49 @@ int LinkedList::query_charge(string id, vector<card> &res, string money)
         return NOT_FOUND;
     }
     QMessageBox::information(NULL, "提示", "充值成功");
+    return SUCCESS;
+}
+
+int LinkedList::query_refund(string id, vector<card> &res, string money)
+{
+    if (id.size() > 7)
+    {
+        return LONG;
+    }
+
+    if (id == "")
+    {
+        return EMPTY;
+    }
+    if (id != "")
+    {
+        card *first = Qlist->head;
+        while (first != NULL)
+        {
+            // int idx = first->id.find(id);
+            // if (idx != string::npos)
+            if (id == first->id)
+            {
+                first->balance -= stod(money);
+
+                card res1;
+                res1.id = first->id;
+                res1.name = first->name;
+                res1.balance = first->balance;
+                res1.Status = first->Status;
+                res1.time_last = first->time_last;
+                res1.Del = first->Del;
+                res1.Pay = first->Pay;
+                res.push_back(res1);
+            }
+            first = first->next;
+        }
+    }
+    if (res.size() == 0)
+    {
+        return NOT_FOUND;
+    }
+    QMessageBox::information(NULL, "提示", "退费成功");
     return SUCCESS;
 }
 int LinkedList::getSize()

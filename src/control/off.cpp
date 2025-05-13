@@ -8,7 +8,7 @@ off::off(QWidget *parent)
     : QMainWindow(parent), ui(new Ui_off)
 {
     ui->setupUi(this);
-    setFixedSize(950, 500);
+    setFixedSize(900, 580);
 
     ui->table->setColumnCount(6);
     // ui->table->setRowCount(2);

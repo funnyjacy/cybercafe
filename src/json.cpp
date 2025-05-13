@@ -151,7 +151,7 @@ void read_json()
         string del = obj["卡状态"].toString().toStdString();
 
         // Add to the global linked list
-        if (name != "")
+        if (name != "" && del == "生效中")
         {
             Qlist->init(name, id, balance, password, time_last, status, del, pay);
         }

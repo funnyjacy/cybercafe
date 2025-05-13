@@ -325,7 +325,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_6">
+           <widget class="QPushButton" name="Qrefund">
             <property name="minimumSize">
              <size>
               <width>0</width>
@@ -431,7 +431,7 @@
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_8">
+           <widget class="QPushButton" name="Qlogout">
             <property name="minimumSize">
              <size>
               <width>0</width>
