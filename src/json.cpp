@@ -33,7 +33,6 @@
 
 void write_json(card *new_card)
 {
-    // Step 1: Read existing JSON file (if it exists)
     QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
     QJsonArray jsonArray;
 
@@ -49,7 +48,7 @@ void write_json(card *new_card)
     }
     else if (!file.exists())
     {
-        // File doesn't exist, initialize an empty array
+        // 文件不存在就初始化文件
         jsonArray = QJsonArray();
     }
     else
@@ -58,7 +57,6 @@ void write_json(card *new_card)
         return;
     }
 
-    // Step 2: Create new JSON object for the card
     QJsonObject obj;
     obj.insert("name", QString::fromStdString(new_card->name));
     obj.insert("ID", QString::fromStdString(new_card->id));
@@ -92,16 +90,16 @@ void write_json(card *new_card)
         obj.insert("卡状态", "已注销");
     }
 
-    // Step 3: Append new object to array
+    // 文件列表
     jsonArray.append(obj);
 
-    // Step 4: Write updated array back to file
+    // 写入文件
     QJsonDocument doc(jsonArray);
-    QByteArray json = doc.toJson(QJsonDocument::Indented); // Indented for readable output
+    QByteArray json = doc.toJson(QJsonDocument::Indented); // 保存文件
 
     if (!file.open(QIODevice::WriteOnly))
     {
-        qDebug() << "Error: Failed to open file for writing.";
+        qDebug() << "error：无法打开文件进行写入";
         return;
     }
     file.write(json);
@@ -126,10 +124,8 @@ void read_json()
         return;
     }
 
-    // Step 3: Get the JSON array
     QJsonArray jsonArray = doc.array();
 
-    // Step 4: Iterate through the array and add each card to the linked list
     for (const QJsonValue &value : jsonArray)
     {
         if (!value.isObject())
@@ -140,7 +136,6 @@ void read_json()
 
         QJsonObject obj = value.toObject();
 
-        // Extract card details
         string name = obj["name"].toString().toStdString();
         string id = obj["ID"].toString().toStdString();
         string password = obj["密码"].toString().toStdString();
@@ -150,19 +145,17 @@ void read_json()
         string pay = obj["结账状态"].toString().toStdString();
         string del = obj["卡状态"].toString().toStdString();
 
-        // Add to the global linked list
         if (name != "" && del == "生效中")
         {
             Qlist->init(name, id, balance, password, time_last, status, del, pay);
         }
     }
 
-    qDebug() << "Successfully loaded" << Qlist->getSize() << "cards from JSON.";
+    qDebug() << "成功加载" << Qlist->getSize() << "cards from JSON.";
 }
 
 void save_all_json(card *head, card *tail)
 {
-    // Step 1: Open the file in WriteOnly mode to clear existing content
     QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
     if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate | QIODevice::Text))
     {
@@ -170,16 +163,12 @@ void save_all_json(card *head, card *tail)
         return;
     }
 
-    // Step 2: Create a JSON array to store the linked list data
     QJsonArray jsonArray;
     card *current = head;
     int nodeCount = 0;
 
-    // Step 3: Iterate through the linked list and populate the JSON array
     while (current != nullptr)
     {
-        // if (current->name != "")
-        // {
         QJsonObject obj;
         obj.insert("name", QString::fromStdString(current->name));
         obj.insert("ID", QString::fromStdString(current->id));
@@ -220,7 +209,6 @@ void save_all_json(card *head, card *tail)
     }
     qDebug() << "Processed" << nodeCount << "nodes into JSON array.";
 
-    // Step 4: Write the JSON array to the file
     QJsonDocument doc(jsonArray);
     QByteArray json = doc.toJson(QJsonDocument::Indented);
     qint64 bytesWritten = file.write(json);
@@ -233,7 +221,7 @@ void save_all_json(card *head, card *tail)
         qDebug() << "Successfully wrote" << bytesWritten << "bytes to file.";
     }
 
-    // Step 5: Ensure data is written to disk and close the file
+    // Ensure data is written to disk and close the file
     file.flush();
     file.close();
 
