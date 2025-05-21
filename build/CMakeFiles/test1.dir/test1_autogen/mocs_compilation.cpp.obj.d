@@ -344,13 +344,6 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_A3.cpp \
  E:/A_codes/VS_code/cmake_test/include/control/A3.h \
  E:/A_codes/VS_code/cmake_test/build/ui_A3.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_add.cpp \
  E:/A_codes/VS_code/cmake_test/include/control/add.h \
  E:/A_codes/VS_code/cmake_test/build/ui_add.h \
@@ -359,6 +352,13 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_analyze.cpp \
  E:/A_codes/VS_code/cmake_test/include/control/analyze.h \
  E:/A_codes/VS_code/cmake_test/build/ui_analyze.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStatusBar \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstatusbar.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStackedWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstackedwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \

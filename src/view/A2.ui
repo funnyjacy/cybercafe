@@ -138,7 +138,7 @@
           </font>
          </property>
          <property name="text">
-          <string>查询</string>
+          <string>分析</string>
          </property>
         </widget>
        </item>

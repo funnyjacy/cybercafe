@@ -11,14 +11,13 @@ A2::A2(QWidget *parent)
 {
     ui->setupUi(this);
     setFixedSize(900, 580);
-    ui->table->setColumnCount(5);
+    ui->table->setColumnCount(4);
 
     QStringList headers;
     headers << "姓名"
             << "卡号"
-            << "使用金额"
-            << "起始时间"
-            << "结束时间";
+            << "个人金额"
+            << "总计使用金额";
     ui->table->setHorizontalHeaderLabels(headers);
     ui->table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
@@ -141,8 +140,6 @@ A2::~A2()
 
 void A2::on_QUERY_clicked()
 {
-    // string ID = ui->ID->toPlainText().toStdString();
-    //  Get start and end dates from ui->start and ui->end
     QString startDateStr = ui->start->text();
     QString endDateStr = ui->end->text();
     if (startDateStr.isEmpty() || endDateStr.isEmpty())
@@ -153,6 +150,11 @@ void A2::on_QUERY_clicked()
 
     QDate startDate = QDate::fromString(startDateStr, "yyyy-MM-dd");
     QDate endDate = QDate::fromString(endDateStr, "yyyy-MM-dd");
+    if (!startDate.isValid() || !endDate.isValid())
+    {
+        QMessageBox::warning(this, "错误", "请输入有效的起始和结束日期（格式：yyyy-MM-dd）");
+        return;
+    }
     if (startDate > endDate)
     {
         QMessageBox::warning(this, "错误", "起始日期不能晚于结束日期");
@@ -167,57 +169,106 @@ void A2::on_QUERY_clicked()
     }
 
     // Clear existing table content
-    // ui->table->setRowCount(0);
+    ui->table->setRowCount(0);
 
-    // Read file and populate table
+    // Read file and calculate statistics
     QTextStream in(&file);
     in.setCodec("UTF-8");
-    int row = 0;
+
+    // Map to store per-user statistics: <"name_id", pair<total_amount, list<individual_amounts>>>
+    std::map<QString, std::pair<double, QList<QString>>> userStats;
+    double grandTotal = 0.0; // Total amount for all users
+
     while (!in.atEnd())
     {
         QString line = in.readLine();
-        string lineStr = line.toStdString();
-        QStringList fields = line.split("##");
+        qDebug() << "Read line:" << line;
+
+        QStringList fields = line.split("##", Qt::SkipEmptyParts);
         if (fields.size() != 7)
         {
-            qWarning() << "Invalid record format in line:" << line;
+            qWarning() << "Invalid record format in line:" << line << "| Expected 7 fields, got:" << fields.size();
+            qDebug() << "Fields:" << fields;
             continue;
         }
 
-        // Parse record
-        QString name = fields[0];
-        QString id = fields[1];
-        QString balance = fields[2];
-        QString startTimeStr = fields[3]; // Format: yyyy-MM-dd HH:mm:ss
-        QString endTimeStr = fields[4];   // Format: yyyy-MM-dd HH:mm:ss
-        QString amount = fields[5];
-        QString status = fields[6];
+        QString name = fields[0].trimmed();
+        QString id = fields[1].trimmed();
+        QString startTimeStr = fields[3].trimmed();
+        QString endTimeStr = fields[4].trimmed();
+        QString amountStr = fields[5].trimmed();
 
-        // Extract date part (yyyy-MM-dd) from startTime and endTime
-        QDate recordStartDate = QDateTime::fromString(startTimeStr, "yyyy-MM-dd HH:mm:ss").date();
-        QDate recordEndDate = QDateTime::fromString(endTimeStr, "yyyy-MM-dd HH:mm:ss").date();
+        // Clean and validate amount
+        amountStr.replace(QRegExp("[^0-9.]"), "");
+        bool ok;
+        double amount = amountStr.toDouble(&ok);
+        if (!ok)
+        {
+            qWarning() << "Invalid amount in line:" << line;
+            continue;
+        }
+
+        // Validate and parse dates
+        QDateTime recordStartDateTime = QDateTime::fromString(startTimeStr, "yyyy-MM-dd HH:mm:ss");
+        QDateTime recordEndDateTime = QDateTime::fromString(endTimeStr, "yyyy-MM-dd HH:mm:ss");
+        if (!recordStartDateTime.isValid() || !recordEndDateTime.isValid())
+        {
+            qWarning() << "Invalid date format in line:" << line;
+            continue;
+        }
+
+        QDate recordStartDate = recordStartDateTime.date();
+        QDate recordEndDate = recordEndDateTime.date();
 
         // Check if record falls within the date range
         if (recordStartDate >= startDate && recordEndDate <= endDate)
         {
-            ui->table->insertRow(row);
-            // ui->table->setItem(row, 0, new QTableWidgetItem(QString::number(row + 1))); // 序号
-            ui->table->setItem(row, 0, new QTableWidgetItem(name));         // 姓名
-            ui->table->setItem(row, 1, new QTableWidgetItem(id));           // 卡号
-            ui->table->setItem(row, 2, new QTableWidgetItem(amount));       // 使用金额
-            ui->table->setItem(row, 3, new QTableWidgetItem(startTimeStr)); // 起始时间
-            ui->table->setItem(row, 4, new QTableWidgetItem(endTimeStr));   // 结束时间
-            row++;
+            // Unique key for each user: "name_id"
+            QString userKey = name + "_" + id;
+            if (userStats.find(userKey) == userStats.end())
+            {
+                userStats[userKey] = {0.0, QList<QString>()};
+            }
+            userStats[userKey].first += amount;                                // Add to total
+            userStats[userKey].second.append(QString::number(amount, 'f', 2)); // Store individual amount
+            grandTotal += amount;                                              // Add to grand total
         }
     }
 
     file.close();
-    if (row == 0)
+
+    // Populate table with user statistics
+    int row = 0;
+    for (const auto &entry : userStats)
     {
-        QMessageBox::information(this, "提示", "在选定日期范围内没有找到账单记录");
+        QString userKey = entry.first;
+        double totalAmount = entry.second.first;
+        QList<QString> amounts = entry.second.second;
+
+        QStringList userInfo = userKey.split("_");
+        QString name = userInfo[0];
+        QString id = userInfo[1];
+
+        ui->table->insertRow(row);
+        ui->table->setItem(row, 0, new QTableWidgetItem(name));                                 // 姓名
+        ui->table->setItem(row, 1, new QTableWidgetItem(id));                                   // 卡号
+        ui->table->setItem(row, 2, new QTableWidgetItem(amounts.join(", ")));                   // 个人金额 (comma-separated)
+        ui->table->setItem(row, 3, new QTableWidgetItem(QString::number(totalAmount, 'f', 2))); // 总计使用金额
+        row++;
+    }
+
+    // Add summary row for grand total
+    if (row > 0)
+    {
+        ui->table->insertRow(row);
+        ui->table->setItem(row, 0, new QTableWidgetItem("总计"));
+        ui->table->setItem(row, 1, new QTableWidgetItem(""));
+        ui->table->setItem(row, 2, new QTableWidgetItem(""));
+        ui->table->setItem(row, 3, new QTableWidgetItem(QString::number(grandTotal, 'f', 2))); // 全部人的使用金额
+        qDebug() << "Loaded" << row << "users into table, grand total:" << grandTotal;
     }
     else
     {
-        qDebug() << "Loaded" << row << "records into table";
+        QMessageBox::information(this, "提示", "在选定日期范围内没有找到账单记录");
     }
 }

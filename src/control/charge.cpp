@@ -89,9 +89,6 @@ void charge::on_OK_clicked()
                 ui->table->item(i, 5)->setTextAlignment(Qt::AlignCenter);
             }
         }
-
-        // ui->table->setItem(0, 3, new QTableWidgetItem(RES.time_in));
-        // ui->table->setItem(0, 4, new QTableWidgetItem(RES.time_out));
     }
 }
 

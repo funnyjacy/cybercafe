@@ -284,10 +284,19 @@ void read_txt()
         char *id = strtok(NULL, "##");
         char *balance_str = strtok(NULL, "##");
         char *status = strtok(NULL, "##");
+        string status_str;
         char *password = strtok(NULL, "##");
         char *time_last = strtok(NULL, "##");
         char *del = strtok(NULL, "##");
         char *pay = strtok(NULL, "##");
+        if (strcmp(status, "OFF") == 0)
+        {
+            status_str = "下机";
+        }
+        else
+        {
+            status_str = "上机";
+        }
 
         if (name == NULL || id == NULL || balance_str == NULL || status == NULL || time_last == NULL || password == NULL)
         {
@@ -295,11 +304,7 @@ void read_txt()
             continue;
         }
 
-        // Step 4: Prepare time_last (empty since text file doesn't store time)
-        // char time_last[1] = "";
-
-        // Step 5: Add to the global linked list
-        Qlist->init(name, id, balance_str, password, time_last, status, del, pay);
+        Qlist->init(name, id, balance_str, password, time_last, status_str, del, pay);
     }
 
     // Step 6: Close the file

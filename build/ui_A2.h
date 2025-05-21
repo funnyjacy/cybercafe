@@ -163,7 +163,7 @@ public:
         A2->setWindowTitle(QCoreApplication::translate("A2", "A2", nullptr));
         label->setText(QCoreApplication::translate("A2", "\347\273\237\350\256\241\345\210\206\346\236\220", nullptr));
         label_4->setText(QCoreApplication::translate("A2", "\351\200\211\346\213\251\346\227\266\351\227\264\346\256\265", nullptr));
-        QUERY->setText(QCoreApplication::translate("A2", "\346\237\245\350\257\242", nullptr));
+        QUERY->setText(QCoreApplication::translate("A2", "\345\210\206\346\236\220", nullptr));
         NO->setText(QCoreApplication::translate("A2", "\345\217\226\346\266\210", nullptr));
     } // retranslateUi
 
