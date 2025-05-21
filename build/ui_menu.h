@@ -73,7 +73,7 @@ public:
     QWidget *widget_9;
     QHBoxLayout *horizontalLayout_9;
     QSpacerItem *horizontalSpacer_15;
-    QPushButton *pushButton_7;
+    QPushButton *Qanalyze;
     QSpacerItem *horizontalSpacer_16;
     QStatusBar *statusbar;
 
@@ -295,12 +295,12 @@ public:
 
         horizontalLayout_9->addItem(horizontalSpacer_15);
 
-        pushButton_7 = new QPushButton(widget_9);
-        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
-        pushButton_7->setMinimumSize(QSize(0, 50));
-        pushButton_7->setFont(font1);
+        Qanalyze = new QPushButton(widget_9);
+        Qanalyze->setObjectName(QString::fromUtf8("Qanalyze"));
+        Qanalyze->setMinimumSize(QSize(0, 50));
+        Qanalyze->setFont(font1);
 
-        horizontalLayout_9->addWidget(pushButton_7);
+        horizontalLayout_9->addWidget(Qanalyze);
 
         horizontalSpacer_16 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
@@ -336,7 +336,7 @@ public:
         Qrefund->setText(QCoreApplication::translate("menu", "\351\200\200\350\264\271", nullptr));
         Qquery->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\345\215\241", nullptr));
         Qlogout->setText(QCoreApplication::translate("menu", "\346\263\250\351\224\200\345\215\241", nullptr));
-        pushButton_7->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\347\273\237\350\256\241", nullptr));
+        Qanalyze->setText(QCoreApplication::translate("menu", "\346\237\245\350\257\242\347\273\237\350\256\241", nullptr));
     } // retranslateUi
 
 };

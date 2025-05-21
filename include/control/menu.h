@@ -9,6 +9,7 @@
 #include "charge.h"
 #include "refund.h"
 #include "logout.h"
+#include "analyze.h"
 
 class menu : public QMainWindow
 {
@@ -29,6 +30,7 @@ private slots:
     void on_Qcharge_clicked();
     void on_Qrefund_clicked();
     void on_Qlogout_clicked();
+    void on_Qanalyze_clicked();
 private:
     Ui_menu *ui;
 };

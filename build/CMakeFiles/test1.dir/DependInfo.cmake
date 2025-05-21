@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/A_codes/VS_code/cmake_test/src/control/A1.cpp" "CMakeFiles/test1.dir/src/control/A1.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/A1.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/A2.cpp" "CMakeFiles/test1.dir/src/control/A2.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/A2.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/A3.cpp" "CMakeFiles/test1.dir/src/control/A3.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/A3.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/add.cpp" "CMakeFiles/test1.dir/src/control/add.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/add.cpp.obj.d"
+  "E:/A_codes/VS_code/cmake_test/src/control/analyze.cpp" "CMakeFiles/test1.dir/src/control/analyze.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/analyze.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp" "CMakeFiles/test1.dir/src/control/charge.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/charge.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp" "CMakeFiles/test1.dir/src/control/logout.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/logout.cpp.obj.d"
   "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp" "CMakeFiles/test1.dir/src/control/menu.cpp.obj" "gcc" "CMakeFiles/test1.dir/src/control/menu.cpp.obj.d"

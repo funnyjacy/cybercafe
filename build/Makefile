@@ -141,6 +141,78 @@ test1_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1_autogen.dir\build.make CMakeFiles/test1_autogen.dir/build
 .PHONY : test1_autogen/fast
 
+src/control/A1.obj: src/control/A1.cpp.obj
+.PHONY : src/control/A1.obj
+
+# target to build an object file
+src/control/A1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A1.cpp.obj
+.PHONY : src/control/A1.cpp.obj
+
+src/control/A1.i: src/control/A1.cpp.i
+.PHONY : src/control/A1.i
+
+# target to preprocess a source file
+src/control/A1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A1.cpp.i
+.PHONY : src/control/A1.cpp.i
+
+src/control/A1.s: src/control/A1.cpp.s
+.PHONY : src/control/A1.s
+
+# target to generate assembly for a file
+src/control/A1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A1.cpp.s
+.PHONY : src/control/A1.cpp.s
+
+src/control/A2.obj: src/control/A2.cpp.obj
+.PHONY : src/control/A2.obj
+
+# target to build an object file
+src/control/A2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A2.cpp.obj
+.PHONY : src/control/A2.cpp.obj
+
+src/control/A2.i: src/control/A2.cpp.i
+.PHONY : src/control/A2.i
+
+# target to preprocess a source file
+src/control/A2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A2.cpp.i
+.PHONY : src/control/A2.cpp.i
+
+src/control/A2.s: src/control/A2.cpp.s
+.PHONY : src/control/A2.s
+
+# target to generate assembly for a file
+src/control/A2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A2.cpp.s
+.PHONY : src/control/A2.cpp.s
+
+src/control/A3.obj: src/control/A3.cpp.obj
+.PHONY : src/control/A3.obj
+
+# target to build an object file
+src/control/A3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A3.cpp.obj
+.PHONY : src/control/A3.cpp.obj
+
+src/control/A3.i: src/control/A3.cpp.i
+.PHONY : src/control/A3.i
+
+# target to preprocess a source file
+src/control/A3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A3.cpp.i
+.PHONY : src/control/A3.cpp.i
+
+src/control/A3.s: src/control/A3.cpp.s
+.PHONY : src/control/A3.s
+
+# target to generate assembly for a file
+src/control/A3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/A3.cpp.s
+.PHONY : src/control/A3.cpp.s
+
 src/control/add.obj: src/control/add.cpp.obj
 .PHONY : src/control/add.obj
 
@@ -164,6 +236,30 @@ src/control/add.s: src/control/add.cpp.s
 src/control/add.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/add.cpp.s
 .PHONY : src/control/add.cpp.s
+
+src/control/analyze.obj: src/control/analyze.cpp.obj
+.PHONY : src/control/analyze.obj
+
+# target to build an object file
+src/control/analyze.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/analyze.cpp.obj
+.PHONY : src/control/analyze.cpp.obj
+
+src/control/analyze.i: src/control/analyze.cpp.i
+.PHONY : src/control/analyze.i
+
+# target to preprocess a source file
+src/control/analyze.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/analyze.cpp.i
+.PHONY : src/control/analyze.cpp.i
+
+src/control/analyze.s: src/control/analyze.cpp.s
+.PHONY : src/control/analyze.s
+
+# target to generate assembly for a file
+src/control/analyze.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/src/control/analyze.cpp.s
+.PHONY : src/control/analyze.cpp.s
 
 src/control/charge.obj: src/control/charge.cpp.obj
 .PHONY : src/control/charge.obj
@@ -463,9 +559,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test1_autogen
 	@echo ... test1
+	@echo ... src/control/A1.obj
+	@echo ... src/control/A1.i
+	@echo ... src/control/A1.s
+	@echo ... src/control/A2.obj
+	@echo ... src/control/A2.i
+	@echo ... src/control/A2.s
+	@echo ... src/control/A3.obj
+	@echo ... src/control/A3.i
+	@echo ... src/control/A3.s
 	@echo ... src/control/add.obj
 	@echo ... src/control/add.i
 	@echo ... src/control/add.s
+	@echo ... src/control/analyze.obj
+	@echo ... src/control/analyze.i
+	@echo ... src/control/analyze.s
 	@echo ... src/control/charge.obj
 	@echo ... src/control/charge.i
 	@echo ... src/control/charge.s

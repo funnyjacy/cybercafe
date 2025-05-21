@@ -155,10 +155,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				13,
-				14,
-				15,
-				16,
 				17,
 				18,
 				19,
@@ -166,7 +162,15 @@
 				21,
 				22,
 				23,
-				24
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
 			]
 		}
 	],
@@ -226,10 +230,6 @@
 			"sourceIndexes" : 
 			[
 				0,
-				13,
-				14,
-				15,
-				16,
 				17,
 				18,
 				19,
@@ -237,7 +237,15 @@
 				21,
 				22,
 				23,
-				24
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32
 			]
 		},
 		{
@@ -256,20 +264,10 @@
 				10,
 				11,
 				12,
-				25,
-				26,
-				27,
-				28,
-				29,
-				30,
-				31,
-				32
-			]
-		},
-		{
-			"name" : "",
-			"sourceIndexes" : 
-			[
+				13,
+				14,
+				15,
+				16,
 				33,
 				34,
 				35,
@@ -277,7 +275,29 @@
 				37,
 				38,
 				39,
-				40
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56
 			]
 		}
 	],
@@ -302,7 +322,27 @@
 		},
 		{
 			"backtrace" : 1,
+			"path" : "include/control/A1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/control/A2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/control/A3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"path" : "include/control/add.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/control/analyze.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -377,7 +417,31 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/control/A1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/control/A2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/control/A3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/control/add.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/control/analyze.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -425,7 +489,31 @@
 		{
 			"backtrace" : 1,
 			"isGenerated" : true,
+			"path" : "build/ui_A1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_A2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_A3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
 			"path" : "build/ui_add.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/ui_analyze.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -472,7 +560,27 @@
 		},
 		{
 			"backtrace" : 0,
+			"path" : "src/view/A1.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/view/A2.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/view/A3.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
 			"path" : "src/view/add.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"path" : "src/view/analyze.ui",
 			"sourceGroupIndex" : 2
 		},
 		{

@@ -6,30 +6,30 @@
 #include <QFile>
 #include <QDebug>
 
-// void write_billings(card *new_card)
-// {
-//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
+void write_billings(card *new_card)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
 
-//     if (file == NULL)
-//     {
-//         printf("Error: Failed to open file for writing.\n");
-//         return;
-//     }
+    if (file == NULL)
+    {
+        printf("Error: Failed to open file for writing.\n");
+        return;
+    }
 
-//     // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
-//     const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
+    const char *status = (new_card->Status == 1) ? "ON" : "OFF";
 
-//     // Format: name##id##balance##status##password
-//     fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
-//             new_card->name.c_str(),
-//             new_card->id.c_str(),
-//             new_card->balance,
-//             status,
-//             new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
-//             new_card->password.c_str());
+    // Format: name##id##balance##status##password
+    fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
+            new_card->name.c_str(),
+            new_card->id.c_str(),
+            new_card->balance,
+            status,
+            new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+            new_card->password.c_str());
 
-//     fclose(file);
-// }
+    fclose(file);
+}
 
 void write_json(card *new_card)
 {
@@ -240,169 +240,169 @@ void save_all_json(card *head, card *tail)
     tail = nullptr;
 }
 
-// void write_txt(card *new_card)
-// {
-//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "a");
+void write_txt(card *new_card)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "a");
 
-//     if (file == NULL)
-//     {
-//         printf("Error: Failed to open file for writing.\n");
-//         return;
-//     }
+    if (file == NULL)
+    {
+        printf("Error: Failed to open file for writing.\n");
+        return;
+    }
 
-//     // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
-//     const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
+    const char *status = (new_card->Status == 1) ? "ON" : "OFF";
 
-//     // Format: name##id##balance##status##password
-//     fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
-//             new_card->name.c_str(),
-//             new_card->id.c_str(),
-//             new_card->balance,
-//             status,
-//             new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
-//             new_card->password.c_str());
+    // Format: name##id##balance##status##password
+    fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
+            new_card->name.c_str(),
+            new_card->id.c_str(),
+            new_card->balance,
+            status,
+            new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+            new_card->password.c_str());
 
-//     fclose(file);
-// }
+    fclose(file);
+}
 
-// void read_txt()
-// {
-//     // Step 1: Open the text file
-//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "r");
-//     if (file == NULL)
-//     {
-//         qDebug() << "Error: Failed to open file for reading.";
-//         return;
-//     }
+void read_txt()
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "r");
+    if (file == NULL)
+    {
+        qDebug() << "Error: 无法打开文件进行写入";
+        return;
+    }
 
-//     // Step 2: Read the file line by line
-//     char line[256]; // Assuming lines are reasonably short
-//     while (fgets(line, sizeof(line), file) != NULL)
-//     {
-//         // Remove trailing newline if present
-//         line[strcspn(line, "\n")] = '\0';
+    char line[256];
+    while (fgets(line, sizeof(line), file) != NULL)
+    {
+        // 挪去无关字符
+        line[strcspn(line, "\n")] = '\0';
+        // 格式: name##id##balance##status##password##last_time##del##pay
+        char *name = strtok(line, "##");
+        char *id = strtok(NULL, "##");
+        char *balance_str = strtok(NULL, "##");
+        char *status = strtok(NULL, "##");
+        char *password = strtok(NULL, "##");
+        char *time_last = strtok(NULL, "##");
+        char *del = strtok(NULL, "##");
+        char *pay = strtok(NULL, "##");
 
-//         // Step 3: Parse the line using ## as delimiter
-//         char *name = strtok(line, "##");
-//         char *id = strtok(NULL, "##");
-//         char *balance_str = strtok(NULL, "##");
-//         char *status = strtok(NULL, "##");
-//         char *time_last = strtok(NULL, "##");
-//         char *password = strtok(NULL, "##");
+        if (name == NULL || id == NULL || balance_str == NULL || status == NULL || time_last == NULL || password == NULL)
+        {
+            // qDebug() << "Error:不合法数据格式";
+            continue;
+        }
 
-//         // Ensure all fields are read correctly
-//         if (name == NULL || id == NULL || balance_str == NULL || status == NULL || time_last == NULL || password == NULL)
-//         {
-//             qDebug() << "Error: Invalid line format in text file.";
-//             continue;
-//         }
+        // Step 4: Prepare time_last (empty since text file doesn't store time)
+        // char time_last[1] = "";
 
-//         // Step 4: Prepare time_last (empty since text file doesn't store time)
-//         // char time_last[1] = "";
+        // Step 5: Add to the global linked list
+        Qlist->init(name, id, balance_str, password, time_last, status, del, pay);
+    }
 
-//         // Step 5: Add to the global linked list
-//         Qlist->init(name, id, balance_str, password, time_last, status);
-//     }
+    // Step 6: Close the file
+    fclose(file);
 
-//     // Step 6: Close the file
-//     fclose(file);
+    qDebug() << "成功加载" << Qlist->getSize() << "cards from data.txt.";
+}
+//         "ID": "20",
+//         "name": "刘亦菲",
+//         "上次使用时间": "2025-05-13 15:51:01",
+//         "余额": 100,
+//         "卡状态": "生效中",
+//         "密码": "20",
+//         "状态": "下机",
+//         "结账状态": "已结账"
+void save_all_txt(card *head, card *tail)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "w");
+    if (file == NULL)
+    {
+        qDebug() << "无法打开文件！";
+    }
+    else
+    {
+        // 遍历列表进行写入
+        card *current = head;
+        while (current != NULL)
+        {
+            card *new_card = current;
 
-//     qDebug() << "Successfully loaded" << Qlist->getSize() << "cards from data.txt.";
-// }
+            const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+            const char *del = (new_card->Del == USE) ? "生效中" : "已注销";
+            const char *pay = (new_card->Pay == PAY_ED) ? "已结账" : "未结账";
 
-// void save_all_txt(card *head, card *tail)
-// {
-//     // Step 1: Open the data.txt file in write mode to clear it
-//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "w");
-//     if (file == NULL)
-//     {
-//         qDebug() << "Error: Failed to open file for writing.";
-//     }
-//     else
-//     {
-//         // Step 2: Traverse the linked list and write each card to the file
-//         card *current = head;
-//         while (current != NULL)
-//         {
-//             card *new_card = current;
-//             // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
-//             const char *status = (new_card->Status == 1) ? "ON" : "OFF";
+            // 格式: name##id##balance##status##password##last_time##del##pay
+            fprintf(file, "%s##%s##%.2f##%s##%s##%s##%s##%s\n",
+                    new_card->name.c_str(),
+                    new_card->id.c_str(),
+                    new_card->balance,
+                    status,
+                    new_card->password.c_str(),
+                    new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
+                    del,
+                    pay);
 
-//             // Write in format: name##id##balance##status##password
-//             fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
-//                     new_card->name.c_str(),
-//                     new_card->id.c_str(),
-//                     new_card->balance,
-//                     status,
-//                     new_card->time_last.toString("yyyy-MM-dd hh:mm:ss").toStdString().c_str(),
-//                     new_card->password.c_str());
+            current = current->next;
+        }
+        fclose(file);
+    }
 
-//             current = current->next;
-//         }
-//         fclose(file);
-//     }
+    // Step 3: Free the linked list nodes
+    // Node *current = head;
+    // while (current != NULL)
+    // {
+    //     Node *temp = current;
+    //     current = current->next;
+    //     delete temp->data; // Free the card struct
+    //     delete temp;       // Free the node
+    // }
+    // head = NULL;
+    // size = 0;
 
-//     // Step 3: Free the linked list nodes
-//     // Node *current = head;
-//     // while (current != NULL)
-//     // {
-//     //     Node *temp = current;
-//     //     current = current->next;
-//     //     delete temp->data; // Free the card struct
-//     //     delete temp;       // Free the node
-//     // }
-//     // head = NULL;
-//     // size = 0;
+    qDebug() << "LinkedList destructor: data.txt updated and memory freed.";
+}
 
-//     qDebug() << "LinkedList destructor: data.txt updated and memory freed.";
-// }
+void write_dat(card *new_card)
+{
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.dat", "ab");
+    if (file == NULL)
+    {
+        qDebug() << "Error: Failed to open data.dat for writing.";
+        return;
+    }
 
-// void write_dat(card *new_card)
-// {
-//     // Step 1: Open the binary file in append mode
-//     FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.dat", "ab");
-//     if (file == NULL)
-//     {
-//         qDebug() << "Error: Failed to open data.dat for writing.";
-//         return;
-//     }
+    char name_buf[MAX_NAME_LEN] = {0};
+    char id_buf[MAX_ID_LEN] = {0};
+    char password_buf[MAX_PASSWORD_LEN] = {0};
+    char time_buf[MAX_TIME_LEN] = {0};
 
-//     // Step 2: Prepare fixed-size buffers for string fields
-//     char name_buf[MAX_NAME_LEN] = {0};
-//     char id_buf[MAX_ID_LEN] = {0};
-//     char password_buf[MAX_PASSWORD_LEN] = {0};
-//     char time_buf[MAX_TIME_LEN] = {0};
+    strncpy(name_buf, new_card->name.c_str(), MAX_NAME_LEN - 1);
+    strncpy(id_buf, new_card->id.c_str(), MAX_ID_LEN - 1);
+    strncpy(password_buf, new_card->password.c_str(), MAX_PASSWORD_LEN - 1);
 
-//     // Copy strings, ensuring they fit within the buffer (truncate if necessary)
-//     strncpy(name_buf, new_card->name.c_str(), MAX_NAME_LEN - 1);
-//     strncpy(id_buf, new_card->id.c_str(), MAX_ID_LEN - 1);
-//     strncpy(password_buf, new_card->password.c_str(), MAX_PASSWORD_LEN - 1);
+    QString time_str = new_card->time_last.toString("yyyy-MM-dd hh:mm:ss");
+    strncpy(time_buf, time_str.toStdString().c_str(), MAX_TIME_LEN - 1);
 
-//     // Convert QDateTime to string
-//     QString time_str = new_card->time_last.toString("yyyy-MM-dd hh:mm:ss");
-//     strncpy(time_buf, time_str.toStdString().c_str(), MAX_TIME_LEN - 1);
+    fwrite(name_buf, sizeof(char), MAX_NAME_LEN, file);
+    fwrite(id_buf, sizeof(char), MAX_ID_LEN, file);
+    fwrite(&new_card->balance, sizeof(double), 1, file);
+    fwrite(&new_card->Status, sizeof(int), 1, file);
+    fwrite(time_buf, sizeof(char), MAX_TIME_LEN, file);
+    fwrite(password_buf, sizeof(char), MAX_PASSWORD_LEN, file);
 
-//     // Step 3: Write the card data as a binary record
-//     // Write fixed-size fields: name, id, balance, Status, time_last, password
-//     fwrite(name_buf, sizeof(char), MAX_NAME_LEN, file);
-//     fwrite(id_buf, sizeof(char), MAX_ID_LEN, file);
-//     fwrite(&new_card->balance, sizeof(double), 1, file);
-//     fwrite(&new_card->Status, sizeof(int), 1, file);
-//     fwrite(time_buf, sizeof(char), MAX_TIME_LEN, file);
-//     fwrite(password_buf, sizeof(char), MAX_PASSWORD_LEN, file);
+    if (ferror(file))
+    {
+        qDebug() << "Error: Failed to write to data.dat.";
+        fclose(file);
+        return;
+    }
 
-//     // Step 4: Check for write errors
-//     if (ferror(file))
-//     {
-//         qDebug() << "Error: Failed to write to data.dat.";
-//         fclose(file);
-//         return;
-//     }
-
-//     // Step 5: Close the file
-//     fclose(file);
-//     qDebug() << "Successfully wrote card to data.dat.";
-// }
+    fclose(file);
+    qDebug() << "Successfully wrote card to data.dat.";
+}
 
 // void read_dat()
 // {

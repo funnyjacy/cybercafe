@@ -357,4 +357,27 @@ CMakeFiles/test1.dir/src/control/menu.cpp.obj: \
  E:/A_codes/VS_code/cmake_test/include/control/refund.h \
  E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
  E:/A_codes/VS_code/cmake_test/include/control/logout.h \
- E:/A_codes/VS_code/cmake_test/build/ui_logout.h
+ E:/A_codes/VS_code/cmake_test/build/ui_logout.h \
+ E:/A_codes/VS_code/cmake_test/include/control/analyze.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_analyze.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qaction.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qactiongroup.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QStackedWidget \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qstackedwidget.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDebug \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
+ E:/A_codes/VS_code/cmake_test/include/control/A1.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_A1.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QCalendarWidget \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qcalendarwidget.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
+ E:/A_codes/VS_code/cmake_test/include/control/A2.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_A2.h \
+ E:/A_codes/VS_code/cmake_test/include/control/A3.h \
+ E:/A_codes/VS_code/cmake_test/build/ui_A3.h

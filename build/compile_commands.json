@@ -31,9 +31,33 @@
 },
 {
   "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A1.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A1.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/A1.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/A1.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A2.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A2.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/A2.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/A2.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A3.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A3.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/A3.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/A3.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
   "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\add.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\add.cpp",
   "file": "E:/A_codes/VS_code/cmake_test/src/control/add.cpp",
   "output": "CMakeFiles/test1.dir/src/control/add.cpp.obj"
+},
+{
+  "directory": "E:/A_codes/VS_code/cmake_test/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\analyze.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\analyze.cpp",
+  "file": "E:/A_codes/VS_code/cmake_test/src/control/analyze.cpp",
+  "output": "CMakeFiles/test1.dir/src/control/analyze.cpp.obj"
 },
 {
   "directory": "E:/A_codes/VS_code/cmake_test/build",

@@ -61,3 +61,10 @@ void menu::on_Qlogout_clicked()
     logout *logoutWindow = new logout(this); // 以 menu 作为父窗口
     logoutWindow->show();                    // 显示 上机 窗口
 }
+
+void menu::on_Qanalyze_clicked()
+{
+    // 创建 上机 窗口实例
+    analyze *analyzeWindow = new analyze(this); // 以 menu 作为父窗口
+    analyzeWindow->show();                    // 显示 上机 窗口
+}

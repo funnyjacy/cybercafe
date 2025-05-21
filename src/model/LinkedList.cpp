@@ -22,8 +22,8 @@ LinkedList::LinkedList()
 
 LinkedList::~LinkedList()
 {
-    save_all_json(head, tail);
-    // save_all_txt(head, tail);
+    // save_all_json(head, tail);
+    save_all_txt(head, tail);
 }
 void LinkedList::init(string name, string id, string balance, string password, string time_last, string status, string del, string pay)
 {
@@ -106,9 +106,9 @@ int LinkedList::add(string name, string id, string balance, string password)
         // 新增初始化的卡使用状态
         newCard->Del = USE;
         newCard->Pay = PAY_ED;
-        write_json(newCard);
-        // write_txt(newCard);
-        // write_dat(newCard);
+        //write_json(newCard);
+        write_txt(newCard);
+        write_dat(newCard);
 
         tail->next = newCard;
         tail = newCard;
