@@ -16,7 +16,6 @@ void write_billings(card *new_card)
         return;
     }
 
-    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
     const char *status = (new_card->Status == 1) ? "ON" : "OFF";
 
     // Format: name##id##balance##status##password
@@ -221,7 +220,6 @@ void save_all_json(card *head, card *tail)
         qDebug() << "Successfully wrote" << bytesWritten << "bytes to file.";
     }
 
-    // Ensure data is written to disk and close the file
     file.flush();
     file.close();
 
@@ -354,18 +352,6 @@ void save_all_txt(card *head, card *tail)
         }
         fclose(file);
     }
-
-    // Step 3: Free the linked list nodes
-    // Node *current = head;
-    // while (current != NULL)
-    // {
-    //     Node *temp = current;
-    //     current = current->next;
-    //     delete temp->data; // Free the card struct
-    //     delete temp;       // Free the node
-    // }
-    // head = NULL;
-    // size = 0;
 
     qDebug() << "LinkedList destructor: data.txt updated and memory freed.";
 }
