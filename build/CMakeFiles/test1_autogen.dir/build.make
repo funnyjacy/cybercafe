@@ -52,10 +52,10 @@ RM = E:\cmake-3.31.7-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\A_codes\VS_code\cmake_test
+CMAKE_SOURCE_DIR = E:\A_codes\VS_code\cybercafe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\A_codes\VS_code\cmake_test\build
+CMAKE_BINARY_DIR = E:\A_codes\VS_code\cybercafe\build
 
 # Utility rule file for test1_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/test1_autogen.dir/compiler_depend.make
 include CMakeFiles/test1_autogen.dir/progress.make
 
 CMakeFiles/test1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test1"
-	E:\cmake-3.31.7-windows-x86_64\bin\cmake.exe -E cmake_autogen E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target test1"
+	E:\cmake-3.31.7-windows-x86_64\bin\cmake.exe -E cmake_autogen E:/A_codes/VS_code/cybercafe/build/CMakeFiles/test1_autogen.dir/AutogenInfo.json Debug
 
 CMakeFiles/test1_autogen.dir/codegen:
 .PHONY : CMakeFiles/test1_autogen.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/test1_autogen.dir/clean:
 .PHONY : CMakeFiles/test1_autogen.dir/clean
 
 CMakeFiles/test1_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build\CMakeFiles\test1_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\A_codes\VS_code\cybercafe E:\A_codes\VS_code\cybercafe E:\A_codes\VS_code\cybercafe\build E:\A_codes\VS_code\cybercafe\build E:\A_codes\VS_code\cybercafe\build\CMakeFiles\test1_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test1_autogen.dir/depend
 

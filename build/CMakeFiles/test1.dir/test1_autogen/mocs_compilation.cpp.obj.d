@@ -1,6 +1,6 @@
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_A1.cpp \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\mocs_compilation.cpp \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_A1.cpp \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algobase.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -127,8 +127,8 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
- E:/A_codes/VS_code/cmake_test/include/control/A1.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A1.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A1.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A1.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -338,20 +338,20 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QCalendarWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qcalendarwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_A2.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/A2.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A2.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_A3.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/A3.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A3.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_add.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/add.h \
- E:/A_codes/VS_code/cmake_test/build/ui_add.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_A2.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/A2.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A2.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_A3.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/A3.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A3.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_add.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/add.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QGridLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qgridlayout.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_analyze.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/analyze.h \
- E:/A_codes/VS_code/cmake_test/build/ui_analyze.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_analyze.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/analyze.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_analyze.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
@@ -366,30 +366,30 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_charge.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/charge.h \
- E:/A_codes/VS_code/cmake_test/build/ui_charge.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_logout.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/logout.h \
- E:/A_codes/VS_code/cmake_test/build/ui_logout.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_menu.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/menu.h \
- E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
- E:/A_codes/VS_code/cmake_test/include/control/query.h \
- E:/A_codes/VS_code/cmake_test/build/ui_query.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_charge.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/charge.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_charge.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_logout.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/logout.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_logout.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_menu.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/menu.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_menu.h \
+ E:/A_codes/VS_code/cybercafe/include/control/query.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_query.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QScrollArea \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qscrollarea.h \
- E:/A_codes/VS_code/cmake_test/include/control/on.h \
- E:/A_codes/VS_code/cmake_test/build/ui_on.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/control/on.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_on.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
- E:/A_codes/VS_code/cmake_test/include/control/off.h \
- E:/A_codes/VS_code/cmake_test/build/ui_off.h \
- E:/A_codes/VS_code/cmake_test/include/control/refund.h \
- E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_off.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_on.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_query.cpp \
- E:\A_codes\VS_code\cmake_test\build\test1_autogen\5SWGUAP3UC/moc_refund.cpp
+ E:/A_codes/VS_code/cybercafe/include/control/off.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_off.h \
+ E:/A_codes/VS_code/cybercafe/include/control/refund.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_refund.h \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_off.cpp \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_on.cpp \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_query.cpp \
+ E:\A_codes\VS_code\cybercafe\build\test1_autogen\5SWGUAP3UC/moc_refund.cpp

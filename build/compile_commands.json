@@ -1,104 +1,104 @@
 [
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\test1_autogen\\mocs_compilation.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\build\\test1_autogen\\mocs_compilation.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/build/test1_autogen/mocs_compilation.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\test1_autogen\\mocs_compilation.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\build\\test1_autogen\\mocs_compilation.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/build/test1_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\global.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\global.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/global.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\global.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\global.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/global.cpp",
   "output": "CMakeFiles/test1.dir/src/global.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\json.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\json.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/json.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\json.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\json.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/json.cpp",
   "output": "CMakeFiles/test1.dir/src/json.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\main.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\main.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/main.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\main.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\main.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/main.cpp",
   "output": "CMakeFiles/test1.dir/src/main.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\model\\LinkedList.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\model\\LinkedList.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\model\\LinkedList.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\model\\LinkedList.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/model/LinkedList.cpp",
   "output": "CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A1.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A1.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/A1.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A1.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\A1.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/A1.cpp",
   "output": "CMakeFiles/test1.dir/src/control/A1.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A2.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A2.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/A2.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A2.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\A2.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/A2.cpp",
   "output": "CMakeFiles/test1.dir/src/control/A2.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A3.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\A3.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/A3.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\A3.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\A3.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/A3.cpp",
   "output": "CMakeFiles/test1.dir/src/control/A3.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\add.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\add.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/add.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\add.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\add.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/add.cpp",
   "output": "CMakeFiles/test1.dir/src/control/add.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\analyze.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\analyze.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/analyze.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\analyze.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\analyze.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/analyze.cpp",
   "output": "CMakeFiles/test1.dir/src/control/analyze.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\charge.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\charge.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\charge.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\charge.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/charge.cpp",
   "output": "CMakeFiles/test1.dir/src/control/charge.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\logout.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\logout.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\logout.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\logout.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/logout.cpp",
   "output": "CMakeFiles/test1.dir/src/control/logout.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\menu.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\menu.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\menu.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\menu.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/menu.cpp",
   "output": "CMakeFiles/test1.dir/src/control/menu.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\off.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\off.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/off.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\off.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\off.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/off.cpp",
   "output": "CMakeFiles/test1.dir/src/control/off.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\on.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\on.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/on.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\on.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\on.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/on.cpp",
   "output": "CMakeFiles/test1.dir/src/control/on.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\query.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\query.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/query.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\query.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\query.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/query.cpp",
   "output": "CMakeFiles/test1.dir/src/control/query.cpp.obj"
 },
 {
-  "directory": "E:/A_codes/VS_code/cmake_test/build",
-  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\refund.cpp.obj -c E:\\A_codes\\VS_code\\cmake_test\\src\\control\\refund.cpp",
-  "file": "E:/A_codes/VS_code/cmake_test/src/control/refund.cpp",
+  "directory": "E:/A_codes/VS_code/cybercafe/build",
+  "command": "E:\\Qt\\Qt5.14.2\\Tools\\mingw730_64\\bin\\g++.exe -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB @CMakeFiles/test1.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\test1.dir\\src\\control\\refund.cpp.obj -c E:\\A_codes\\VS_code\\cybercafe\\src\\control\\refund.cpp",
+  "file": "E:/A_codes/VS_code/cybercafe/src/control/refund.cpp",
   "output": "CMakeFiles/test1.dir/src/control/refund.cpp.obj"
 }
 ]

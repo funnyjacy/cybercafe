@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/control/A2.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\control\A2.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/A2.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A2.h \
+ E:\A_codes\VS_code\cybercafe\src\control\A2.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/A2.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A2.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \

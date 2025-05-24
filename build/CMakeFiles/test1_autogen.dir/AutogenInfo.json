@@ -1,17 +1,17 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "E:/A_codes/VS_code/cmake_test/build/test1_autogen",
-	"CMAKE_BINARY_DIR" : "E:/A_codes/VS_code/cmake_test/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "E:/A_codes/VS_code/cmake_test/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "E:/A_codes/VS_code/cmake_test",
+	"BUILD_DIR" : "E:/A_codes/VS_code/cybercafe/build/test1_autogen",
+	"CMAKE_BINARY_DIR" : "E:/A_codes/VS_code/cybercafe/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/A_codes/VS_code/cybercafe/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/A_codes/VS_code/cybercafe",
 	"CMAKE_EXECUTABLE" : "E:/cmake-3.31.7-windows-x86_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"E:/A_codes/VS_code/cmake_test/CMakeLists.txt",
-		"E:/A_codes/VS_code/cmake_test/build/CMakeFiles/3.31.7/CMakeSystem.cmake",
+		"E:/A_codes/VS_code/cybercafe/CMakeLists.txt",
+		"E:/A_codes/VS_code/cybercafe/build/CMakeFiles/3.31.7/CMakeSystem.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake",
-		"E:/A_codes/VS_code/cmake_test/build/CMakeFiles/3.31.7/CMakeCXXCompiler.cmake",
+		"E:/A_codes/VS_code/cybercafe/build/CMakeFiles/3.31.7/CMakeCXXCompiler.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeGenericSystem.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-GNU.cmake",
-		"E:/A_codes/VS_code/cmake_test/build/CMakeFiles/3.31.7/CMakeRCCompiler.cmake",
+		"E:/A_codes/VS_code/cybercafe/build/CMakeFiles/3.31.7/CMakeRCCompiler.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeRCInformation.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-windres.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -73,112 +73,112 @@
 		"E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeParseArguments.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "E:/A_codes/VS_code/cmake_test",
+	"CMAKE_SOURCE_DIR" : "E:/A_codes/VS_code/cybercafe",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/A1.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/A1.h",
 			"Mu",
 			"5SWGUAP3UC/moc_A1.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/A2.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/A2.h",
 			"Mu",
 			"5SWGUAP3UC/moc_A2.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/A3.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/A3.h",
 			"Mu",
 			"5SWGUAP3UC/moc_A3.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/add.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/add.h",
 			"Mu",
 			"5SWGUAP3UC/moc_add.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/analyze.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/analyze.h",
 			"Mu",
 			"5SWGUAP3UC/moc_analyze.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/charge.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/charge.h",
 			"Mu",
 			"5SWGUAP3UC/moc_charge.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/logout.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/logout.h",
 			"Mu",
 			"5SWGUAP3UC/moc_logout.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/menu.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/menu.h",
 			"Mu",
 			"5SWGUAP3UC/moc_menu.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/off.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/off.h",
 			"Mu",
 			"5SWGUAP3UC/moc_off.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/on.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/on.h",
 			"Mu",
 			"5SWGUAP3UC/moc_on.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/query.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/query.h",
 			"Mu",
 			"5SWGUAP3UC/moc_query.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/control/refund.h",
+			"E:/A_codes/VS_code/cybercafe/include/control/refund.h",
 			"Mu",
 			"5SWGUAP3UC/moc_refund.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/global.h",
+			"E:/A_codes/VS_code/cybercafe/include/global.h",
 			"Mu",
 			"6YEA5652QU/moc_global.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/json.h",
+			"E:/A_codes/VS_code/cybercafe/include/json.h",
 			"Mu",
 			"6YEA5652QU/moc_json.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/model/Card.h",
+			"E:/A_codes/VS_code/cybercafe/include/model/Card.h",
 			"Mu",
 			"Q6AU6LSD6J/moc_Card.cpp",
 			null
 		],
 		[
-			"E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h",
+			"E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h",
 			"Mu",
 			"Q6AU6LSD6J/moc_LinkedList.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "E:/A_codes/VS_code/cmake_test/build/test1_autogen/include",
-	"MOC_COMPILATION_FILE" : "E:/A_codes/VS_code/cmake_test/build/test1_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "E:/A_codes/VS_code/cybercafe/build/test1_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/A_codes/VS_code/cybercafe/build/test1_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -189,8 +189,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"E:/A_codes/VS_code/cmake_test/build",
-		"E:/A_codes/VS_code/cmake_test",
+		"E:/A_codes/VS_code/cybercafe/build",
+		"E:/A_codes/VS_code/cybercafe",
 		"E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include",
 		"E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets",
 		"E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui",
@@ -216,49 +216,49 @@
 		"-c",
 		"E:/cmake-3.31.7-windows-x86_64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "E:/A_codes/VS_code/cmake_test/build/test1_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "E:/A_codes/VS_code/cybercafe/build/test1_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"E:/A_codes/VS_code/cmake_test/build/ui_A1.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_A2.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_A3.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_add.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_analyze.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_charge.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_logout.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_menu.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_off.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_on.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_query.h",
-		"E:/A_codes/VS_code/cmake_test/build/ui_refund.h"
+		"E:/A_codes/VS_code/cybercafe/build/ui_A1.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_A2.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_A3.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_add.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_analyze.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_charge.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_logout.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_menu.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_off.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_on.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_query.h",
+		"E:/A_codes/VS_code/cybercafe/build/ui_refund.h"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "E:/A_codes/VS_code/cybercafe/build/CMakeFiles/test1_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "E:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 14,
-	"SETTINGS_FILE" : "E:/A_codes/VS_code/cmake_test/build/CMakeFiles/test1_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "E:/A_codes/VS_code/cybercafe/build/CMakeFiles/test1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "E:/A_codes/VS_code/cmake_test/src/control/A1.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/A2.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/A3.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/add.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/analyze.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/charge.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/logout.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/menu.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/off.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/on.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/query.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/control/refund.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/global.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/json.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/main.cpp", "Mu", null ],
-		[ "E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp", "Mu", null ]
+		[ "E:/A_codes/VS_code/cybercafe/src/control/A1.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/A2.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/A3.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/add.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/analyze.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/charge.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/logout.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/menu.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/off.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/on.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/query.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/control/refund.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/global.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/json.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/main.cpp", "Mu", null ],
+		[ "E:/A_codes/VS_code/cybercafe/src/model/LinkedList.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

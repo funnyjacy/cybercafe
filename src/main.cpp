@@ -5,7 +5,7 @@
 #include "include/json.h"
 #include <QApplication>
 #pragma comment(lib, "user32.lib")
-
+#include "config.h"
 int main(int argc, char *argv[])
 {
     read_txt();

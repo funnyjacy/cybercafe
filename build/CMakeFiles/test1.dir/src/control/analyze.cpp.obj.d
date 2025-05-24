@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/control/analyze.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\control\analyze.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/analyze.h \
- E:/A_codes/VS_code/cmake_test/build/ui_analyze.h \
+ E:\A_codes\VS_code\cybercafe\src\control\analyze.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/analyze.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_analyze.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -305,8 +305,8 @@ CMakeFiles/test1.dir/src/control/analyze.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qset.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
- E:/A_codes/VS_code/cmake_test/include/control/A1.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A1.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A1.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A1.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHBoxLayout \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qboxlayout.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlayout.h \
@@ -353,18 +353,18 @@ CMakeFiles/test1.dir/src/control/analyze.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QCalendarWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qcalendarwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
- E:/A_codes/VS_code/cmake_test/include/control/A2.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A2.h \
- E:/A_codes/VS_code/cmake_test/include/control/A3.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A3.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A2.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A2.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A3.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A3.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMessageBox \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
- E:/A_codes/VS_code/cmake_test/include/global.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/global.h \
+ E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTableWidget

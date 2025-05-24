@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/control/add.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\control\add.cpp \
- E:/A_codes/VS_code/cmake_test/include/control/add.h \
- E:/A_codes/VS_code/cmake_test/build/ui_add.h \
+ E:\A_codes\VS_code\cybercafe\src\control\add.cpp \
+ E:/A_codes/VS_code/cybercafe/include/control/add.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qatomic.h \
@@ -319,8 +319,8 @@ CMakeFiles/test1.dir/src/control/add.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmessagebox.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qdialog.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
- E:/A_codes/VS_code/cmake_test/include/global.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/global.h \
+ E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QDateTime \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h

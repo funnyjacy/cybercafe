@@ -1,8 +1,8 @@
 CMakeFiles/test1.dir/src/main.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\main.cpp \
- E:/A_codes/VS_code/cmake_test/include/global.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:\A_codes\VS_code\cybercafe\src\main.cpp \
+ E:/A_codes/VS_code/cybercafe/include/global.h \
+ E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/string \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -211,9 +211,9 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringlist.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregexp.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringmatcher.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
- E:/A_codes/VS_code/cmake_test/include/control/menu.h \
- E:/A_codes/VS_code/cmake_test/build/ui_menu.h \
+ E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cybercafe/include/control/menu.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_menu.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QVariant \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qvariant.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qmetatype.h \
@@ -315,8 +315,8 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMainWindow \
- E:/A_codes/VS_code/cmake_test/include/control/add.h \
- E:/A_codes/VS_code/cmake_test/build/ui_add.h \
+ E:/A_codes/VS_code/cybercafe/include/control/add.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_add.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTextEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtextedit.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
@@ -326,8 +326,8 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextcursor.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qtextformat.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtGui/qpen.h \
- E:/A_codes/VS_code/cmake_test/include/control/query.h \
- E:/A_codes/VS_code/cmake_test/build/ui_query.h \
+ E:/A_codes/VS_code/cybercafe/include/control/query.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_query.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QHeaderView \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qheaderview.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qabstractitemview.h \
@@ -349,21 +349,21 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QTableWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtablewidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qtableview.h \
- E:/A_codes/VS_code/cmake_test/include/control/on.h \
- E:/A_codes/VS_code/cmake_test/build/ui_on.h \
+ E:/A_codes/VS_code/cybercafe/include/control/on.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_on.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QLineEdit \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qlineedit.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
- E:/A_codes/VS_code/cmake_test/include/control/off.h \
- E:/A_codes/VS_code/cmake_test/build/ui_off.h \
- E:/A_codes/VS_code/cmake_test/include/control/charge.h \
- E:/A_codes/VS_code/cmake_test/build/ui_charge.h \
- E:/A_codes/VS_code/cmake_test/include/control/refund.h \
- E:/A_codes/VS_code/cmake_test/build/ui_refund.h \
- E:/A_codes/VS_code/cmake_test/include/control/logout.h \
- E:/A_codes/VS_code/cmake_test/build/ui_logout.h \
- E:/A_codes/VS_code/cmake_test/include/control/analyze.h \
- E:/A_codes/VS_code/cmake_test/build/ui_analyze.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/control/off.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_off.h \
+ E:/A_codes/VS_code/cybercafe/include/control/charge.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_charge.h \
+ E:/A_codes/VS_code/cybercafe/include/control/refund.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_refund.h \
+ E:/A_codes/VS_code/cybercafe/include/control/logout.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_logout.h \
+ E:/A_codes/VS_code/cybercafe/include/control/analyze.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_analyze.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QMenuBar \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenubar.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qmenu.h \
@@ -376,15 +376,16 @@ CMakeFiles/test1.dir/src/main.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdebug.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qtextstream.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qcontiguouscache.h \
- E:/A_codes/VS_code/cmake_test/include/control/A1.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A1.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A1.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A1.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QCalendarWidget \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/qcalendarwidget.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qdatetime.h \
- E:/A_codes/VS_code/cmake_test/include/control/A2.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A2.h \
- E:/A_codes/VS_code/cmake_test/include/control/A3.h \
- E:/A_codes/VS_code/cmake_test/build/ui_A3.h \
- E:/A_codes/VS_code/cmake_test/include/json.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
- E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication
+ E:/A_codes/VS_code/cybercafe/include/control/A2.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A2.h \
+ E:/A_codes/VS_code/cybercafe/include/control/A3.h \
+ E:/A_codes/VS_code/cybercafe/build/ui_A3.h \
+ E:/A_codes/VS_code/cybercafe/include/json.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
+ E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtWidgets/QApplication \
+ E:/A_codes/VS_code/cybercafe/config.h

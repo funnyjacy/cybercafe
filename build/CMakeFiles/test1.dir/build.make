@@ -52,10 +52,10 @@ RM = E:\cmake-3.31.7-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\A_codes\VS_code\cmake_test
+CMAKE_SOURCE_DIR = E:\A_codes\VS_code\cybercafe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\A_codes\VS_code\cmake_test\build
+CMAKE_BINARY_DIR = E:\A_codes\VS_code\cybercafe\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test1.dir/depend.make
@@ -68,53 +68,53 @@ include CMakeFiles/test1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test1.dir/flags.make
 
-ui_A1.h: E:/A_codes/VS_code/cmake_test/src/view/A1.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_A1.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_A1.h E:/A_codes/VS_code/cmake_test/src/view/A1.ui
+ui_A1.h: E:/A_codes/VS_code/cybercafe/src/view/A1.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ui_A1.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_A1.h E:/A_codes/VS_code/cybercafe/src/view/A1.ui
 
-ui_A2.h: E:/A_codes/VS_code/cmake_test/src/view/A2.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_A2.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_A2.h E:/A_codes/VS_code/cmake_test/src/view/A2.ui
+ui_A2.h: E:/A_codes/VS_code/cybercafe/src/view/A2.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_A2.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_A2.h E:/A_codes/VS_code/cybercafe/src/view/A2.ui
 
-ui_A3.h: E:/A_codes/VS_code/cmake_test/src/view/A3.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_A3.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_A3.h E:/A_codes/VS_code/cmake_test/src/view/A3.ui
+ui_A3.h: E:/A_codes/VS_code/cybercafe/src/view/A3.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_A3.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_A3.h E:/A_codes/VS_code/cybercafe/src/view/A3.ui
 
-ui_add.h: E:/A_codes/VS_code/cmake_test/src/view/add.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_add.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_add.h E:/A_codes/VS_code/cmake_test/src/view/add.ui
+ui_add.h: E:/A_codes/VS_code/cybercafe/src/view/add.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ui_add.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_add.h E:/A_codes/VS_code/cybercafe/src/view/add.ui
 
-ui_analyze.h: E:/A_codes/VS_code/cmake_test/src/view/analyze.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_analyze.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_analyze.h E:/A_codes/VS_code/cmake_test/src/view/analyze.ui
+ui_analyze.h: E:/A_codes/VS_code/cybercafe/src/view/analyze.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ui_analyze.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_analyze.h E:/A_codes/VS_code/cybercafe/src/view/analyze.ui
 
-ui_charge.h: E:/A_codes/VS_code/cmake_test/src/view/charge.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_charge.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_charge.h E:/A_codes/VS_code/cmake_test/src/view/charge.ui
+ui_charge.h: E:/A_codes/VS_code/cybercafe/src/view/charge.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ui_charge.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_charge.h E:/A_codes/VS_code/cybercafe/src/view/charge.ui
 
-ui_logout.h: E:/A_codes/VS_code/cmake_test/src/view/logout.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_logout.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_logout.h E:/A_codes/VS_code/cmake_test/src/view/logout.ui
+ui_logout.h: E:/A_codes/VS_code/cybercafe/src/view/logout.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ui_logout.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_logout.h E:/A_codes/VS_code/cybercafe/src/view/logout.ui
 
-ui_menu.h: E:/A_codes/VS_code/cmake_test/src/view/menu.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_menu.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_menu.h E:/A_codes/VS_code/cmake_test/src/view/menu.ui
+ui_menu.h: E:/A_codes/VS_code/cybercafe/src/view/menu.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ui_menu.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_menu.h E:/A_codes/VS_code/cybercafe/src/view/menu.ui
 
-ui_off.h: E:/A_codes/VS_code/cmake_test/src/view/off.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_off.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_off.h E:/A_codes/VS_code/cmake_test/src/view/off.ui
+ui_off.h: E:/A_codes/VS_code/cybercafe/src/view/off.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ui_off.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_off.h E:/A_codes/VS_code/cybercafe/src/view/off.ui
 
-ui_on.h: E:/A_codes/VS_code/cmake_test/src/view/on.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_on.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_on.h E:/A_codes/VS_code/cmake_test/src/view/on.ui
+ui_on.h: E:/A_codes/VS_code/cybercafe/src/view/on.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ui_on.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_on.h E:/A_codes/VS_code/cybercafe/src/view/on.ui
 
-ui_query.h: E:/A_codes/VS_code/cmake_test/src/view/query.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_query.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_query.h E:/A_codes/VS_code/cmake_test/src/view/query.ui
+ui_query.h: E:/A_codes/VS_code/cybercafe/src/view/query.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ui_query.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_query.h E:/A_codes/VS_code/cybercafe/src/view/query.ui
 
-ui_refund.h: E:/A_codes/VS_code/cmake_test/src/view/refund.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_refund.h"
-	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cmake_test/build/ui_refund.h E:/A_codes/VS_code/cmake_test/src/view/refund.ui
+ui_refund.h: E:/A_codes/VS_code/cybercafe/src/view/refund.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ui_refund.h"
+	E:\Qt\Qt5.14.2\5.14.2\mingw73_64\bin\uic.exe -o E:/A_codes/VS_code/cybercafe/build/ui_refund.h E:/A_codes/VS_code/cybercafe/src/view/refund.ui
 
 CMakeFiles/test1.dir/codegen:
 .PHONY : CMakeFiles/test1.dir/codegen
@@ -123,256 +123,256 @@ CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.di
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: test1_autogen/mocs_compilation.cpp
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj -c E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.obj -c E:\A_codes\VS_code\cybercafe\build\test1_autogen\mocs_compilation.cpp
 
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp > CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\build\test1_autogen\mocs_compilation.cpp > CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/test1_autogen/mocs_compilation.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\build\test1_autogen\mocs_compilation.cpp -o CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\build\test1_autogen\mocs_compilation.cpp -o CMakeFiles\test1.dir\test1_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/global.cpp.obj: E:/A_codes/VS_code/cmake_test/src/global.cpp
+CMakeFiles/test1.dir/src/global.cpp.obj: E:/A_codes/VS_code/cybercafe/src/global.cpp
 CMakeFiles/test1.dir/src/global.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/test1.dir/src/global.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/global.cpp.obj -MF CMakeFiles\test1.dir\src\global.cpp.obj.d -o CMakeFiles\test1.dir\src\global.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\global.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/test1.dir/src/global.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/global.cpp.obj -MF CMakeFiles\test1.dir\src\global.cpp.obj.d -o CMakeFiles\test1.dir\src\global.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\global.cpp
 
 CMakeFiles/test1.dir/src/global.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/global.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\global.cpp > CMakeFiles\test1.dir\src\global.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\global.cpp > CMakeFiles\test1.dir\src\global.cpp.i
 
 CMakeFiles/test1.dir/src/global.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/global.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\global.cpp -o CMakeFiles\test1.dir\src\global.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\global.cpp -o CMakeFiles\test1.dir\src\global.cpp.s
 
 CMakeFiles/test1.dir/src/json.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/json.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/json.cpp.obj: E:/A_codes/VS_code/cmake_test/src/json.cpp
+CMakeFiles/test1.dir/src/json.cpp.obj: E:/A_codes/VS_code/cybercafe/src/json.cpp
 CMakeFiles/test1.dir/src/json.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/test1.dir/src/json.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/json.cpp.obj -MF CMakeFiles\test1.dir\src\json.cpp.obj.d -o CMakeFiles\test1.dir\src\json.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/test1.dir/src/json.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/json.cpp.obj -MF CMakeFiles\test1.dir\src\json.cpp.obj.d -o CMakeFiles\test1.dir\src\json.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\json.cpp
 
 CMakeFiles/test1.dir/src/json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/json.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\json.cpp > CMakeFiles\test1.dir\src\json.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\json.cpp > CMakeFiles\test1.dir\src\json.cpp.i
 
 CMakeFiles/test1.dir/src/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/json.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\json.cpp -o CMakeFiles\test1.dir\src\json.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\json.cpp -o CMakeFiles\test1.dir\src\json.cpp.s
 
 CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cmake_test/src/main.cpp
+CMakeFiles/test1.dir/src/main.cpp.obj: E:/A_codes/VS_code/cybercafe/src/main.cpp
 CMakeFiles/test1.dir/src/main.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/test1.dir/src/main.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/main.cpp.obj -MF CMakeFiles\test1.dir\src\main.cpp.obj.d -o CMakeFiles\test1.dir\src\main.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/test1.dir/src/main.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/main.cpp.obj -MF CMakeFiles\test1.dir\src\main.cpp.obj.d -o CMakeFiles\test1.dir\src\main.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\main.cpp
 
 CMakeFiles/test1.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/main.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\main.cpp > CMakeFiles\test1.dir\src\main.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\main.cpp > CMakeFiles\test1.dir\src\main.cpp.i
 
 CMakeFiles/test1.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/main.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\main.cpp -o CMakeFiles\test1.dir\src\main.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\main.cpp -o CMakeFiles\test1.dir\src\main.cpp.s
 
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: E:/A_codes/VS_code/cmake_test/src/model/LinkedList.cpp
+CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: E:/A_codes/VS_code/cybercafe/src/model/LinkedList.cpp
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj -MF CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj.d -o CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\model\LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/model/LinkedList.cpp.obj -MF CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj.d -o CMakeFiles\test1.dir\src\model\LinkedList.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\model\LinkedList.cpp
 
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/model/LinkedList.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\model\LinkedList.cpp > CMakeFiles\test1.dir\src\model\LinkedList.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\model\LinkedList.cpp > CMakeFiles\test1.dir\src\model\LinkedList.cpp.i
 
 CMakeFiles/test1.dir/src/model/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/model/LinkedList.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\model\LinkedList.cpp -o CMakeFiles\test1.dir\src\model\LinkedList.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\model\LinkedList.cpp -o CMakeFiles\test1.dir\src\model\LinkedList.cpp.s
 
 CMakeFiles/test1.dir/src/control/A1.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/A1.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/A1.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/A1.cpp
+CMakeFiles/test1.dir/src/control/A1.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/A1.cpp
 CMakeFiles/test1.dir/src/control/A1.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/test1.dir/src/control/A1.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A1.cpp.obj -MF CMakeFiles\test1.dir\src\control\A1.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A1.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\A1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/test1.dir/src/control/A1.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A1.cpp.obj -MF CMakeFiles\test1.dir\src\control\A1.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A1.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\A1.cpp
 
 CMakeFiles/test1.dir/src/control/A1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/A1.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\A1.cpp > CMakeFiles\test1.dir\src\control\A1.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\A1.cpp > CMakeFiles\test1.dir\src\control\A1.cpp.i
 
 CMakeFiles/test1.dir/src/control/A1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/A1.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\A1.cpp -o CMakeFiles\test1.dir\src\control\A1.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\A1.cpp -o CMakeFiles\test1.dir\src\control\A1.cpp.s
 
 CMakeFiles/test1.dir/src/control/A2.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/A2.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/A2.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/A2.cpp
+CMakeFiles/test1.dir/src/control/A2.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/A2.cpp
 CMakeFiles/test1.dir/src/control/A2.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/test1.dir/src/control/A2.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A2.cpp.obj -MF CMakeFiles\test1.dir\src\control\A2.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A2.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\A2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/test1.dir/src/control/A2.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A2.cpp.obj -MF CMakeFiles\test1.dir\src\control\A2.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A2.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\A2.cpp
 
 CMakeFiles/test1.dir/src/control/A2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/A2.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\A2.cpp > CMakeFiles\test1.dir\src\control\A2.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\A2.cpp > CMakeFiles\test1.dir\src\control\A2.cpp.i
 
 CMakeFiles/test1.dir/src/control/A2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/A2.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\A2.cpp -o CMakeFiles\test1.dir\src\control\A2.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\A2.cpp -o CMakeFiles\test1.dir\src\control\A2.cpp.s
 
 CMakeFiles/test1.dir/src/control/A3.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/A3.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/A3.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/A3.cpp
+CMakeFiles/test1.dir/src/control/A3.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/A3.cpp
 CMakeFiles/test1.dir/src/control/A3.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/test1.dir/src/control/A3.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A3.cpp.obj -MF CMakeFiles\test1.dir\src\control\A3.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A3.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\A3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/test1.dir/src/control/A3.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/A3.cpp.obj -MF CMakeFiles\test1.dir\src\control\A3.cpp.obj.d -o CMakeFiles\test1.dir\src\control\A3.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\A3.cpp
 
 CMakeFiles/test1.dir/src/control/A3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/A3.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\A3.cpp > CMakeFiles\test1.dir\src\control\A3.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\A3.cpp > CMakeFiles\test1.dir\src\control\A3.cpp.i
 
 CMakeFiles/test1.dir/src/control/A3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/A3.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\A3.cpp -o CMakeFiles\test1.dir\src\control\A3.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\A3.cpp -o CMakeFiles\test1.dir\src\control\A3.cpp.s
 
 CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/add.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/add.cpp
+CMakeFiles/test1.dir/src/control/add.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/add.cpp
 CMakeFiles/test1.dir/src/control/add.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/test1.dir/src/control/add.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/add.cpp.obj -MF CMakeFiles\test1.dir\src\control\add.cpp.obj.d -o CMakeFiles\test1.dir\src\control\add.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/test1.dir/src/control/add.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/add.cpp.obj -MF CMakeFiles\test1.dir\src\control\add.cpp.obj.d -o CMakeFiles\test1.dir\src\control\add.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\add.cpp
 
 CMakeFiles/test1.dir/src/control/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/add.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\add.cpp > CMakeFiles\test1.dir\src\control\add.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\add.cpp > CMakeFiles\test1.dir\src\control\add.cpp.i
 
 CMakeFiles/test1.dir/src/control/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/add.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\add.cpp -o CMakeFiles\test1.dir\src\control\add.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\add.cpp -o CMakeFiles\test1.dir\src\control\add.cpp.s
 
 CMakeFiles/test1.dir/src/control/analyze.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/analyze.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/analyze.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/analyze.cpp
+CMakeFiles/test1.dir/src/control/analyze.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/analyze.cpp
 CMakeFiles/test1.dir/src/control/analyze.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/test1.dir/src/control/analyze.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/analyze.cpp.obj -MF CMakeFiles\test1.dir\src\control\analyze.cpp.obj.d -o CMakeFiles\test1.dir\src\control\analyze.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\analyze.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/test1.dir/src/control/analyze.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/analyze.cpp.obj -MF CMakeFiles\test1.dir\src\control\analyze.cpp.obj.d -o CMakeFiles\test1.dir\src\control\analyze.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\analyze.cpp
 
 CMakeFiles/test1.dir/src/control/analyze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/analyze.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\analyze.cpp > CMakeFiles\test1.dir\src\control\analyze.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\analyze.cpp > CMakeFiles\test1.dir\src\control\analyze.cpp.i
 
 CMakeFiles/test1.dir/src/control/analyze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/analyze.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\analyze.cpp -o CMakeFiles\test1.dir\src\control\analyze.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\analyze.cpp -o CMakeFiles\test1.dir\src\control\analyze.cpp.s
 
 CMakeFiles/test1.dir/src/control/charge.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/charge.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/charge.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/charge.cpp
+CMakeFiles/test1.dir/src/control/charge.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/charge.cpp
 CMakeFiles/test1.dir/src/control/charge.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/test1.dir/src/control/charge.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/charge.cpp.obj -MF CMakeFiles\test1.dir\src\control\charge.cpp.obj.d -o CMakeFiles\test1.dir\src\control\charge.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\charge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/test1.dir/src/control/charge.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/charge.cpp.obj -MF CMakeFiles\test1.dir\src\control\charge.cpp.obj.d -o CMakeFiles\test1.dir\src\control\charge.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\charge.cpp
 
 CMakeFiles/test1.dir/src/control/charge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/charge.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\charge.cpp > CMakeFiles\test1.dir\src\control\charge.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\charge.cpp > CMakeFiles\test1.dir\src\control\charge.cpp.i
 
 CMakeFiles/test1.dir/src/control/charge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/charge.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\charge.cpp -o CMakeFiles\test1.dir\src\control\charge.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\charge.cpp -o CMakeFiles\test1.dir\src\control\charge.cpp.s
 
 CMakeFiles/test1.dir/src/control/logout.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/logout.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/logout.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/logout.cpp
+CMakeFiles/test1.dir/src/control/logout.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/logout.cpp
 CMakeFiles/test1.dir/src/control/logout.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/test1.dir/src/control/logout.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/logout.cpp.obj -MF CMakeFiles\test1.dir\src\control\logout.cpp.obj.d -o CMakeFiles\test1.dir\src\control\logout.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\logout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/test1.dir/src/control/logout.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/logout.cpp.obj -MF CMakeFiles\test1.dir\src\control\logout.cpp.obj.d -o CMakeFiles\test1.dir\src\control\logout.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\logout.cpp
 
 CMakeFiles/test1.dir/src/control/logout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/logout.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\logout.cpp > CMakeFiles\test1.dir\src\control\logout.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\logout.cpp > CMakeFiles\test1.dir\src\control\logout.cpp.i
 
 CMakeFiles/test1.dir/src/control/logout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/logout.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\logout.cpp -o CMakeFiles\test1.dir\src\control\logout.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\logout.cpp -o CMakeFiles\test1.dir\src\control\logout.cpp.s
 
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/menu.cpp
+CMakeFiles/test1.dir/src/control/menu.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/menu.cpp
 CMakeFiles/test1.dir/src/control/menu.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/test1.dir/src/control/menu.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/menu.cpp.obj -MF CMakeFiles\test1.dir\src\control\menu.cpp.obj.d -o CMakeFiles\test1.dir\src\control\menu.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/test1.dir/src/control/menu.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/menu.cpp.obj -MF CMakeFiles\test1.dir\src\control\menu.cpp.obj.d -o CMakeFiles\test1.dir\src\control\menu.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\menu.cpp
 
 CMakeFiles/test1.dir/src/control/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/menu.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\menu.cpp > CMakeFiles\test1.dir\src\control\menu.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\menu.cpp > CMakeFiles\test1.dir\src\control\menu.cpp.i
 
 CMakeFiles/test1.dir/src/control/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/menu.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\menu.cpp -o CMakeFiles\test1.dir\src\control\menu.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\menu.cpp -o CMakeFiles\test1.dir\src\control\menu.cpp.s
 
 CMakeFiles/test1.dir/src/control/off.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/off.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/off.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/off.cpp
+CMakeFiles/test1.dir/src/control/off.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/off.cpp
 CMakeFiles/test1.dir/src/control/off.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/test1.dir/src/control/off.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/off.cpp.obj -MF CMakeFiles\test1.dir\src\control\off.cpp.obj.d -o CMakeFiles\test1.dir\src\control\off.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\off.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/test1.dir/src/control/off.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/off.cpp.obj -MF CMakeFiles\test1.dir\src\control\off.cpp.obj.d -o CMakeFiles\test1.dir\src\control\off.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\off.cpp
 
 CMakeFiles/test1.dir/src/control/off.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/off.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\off.cpp > CMakeFiles\test1.dir\src\control\off.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\off.cpp > CMakeFiles\test1.dir\src\control\off.cpp.i
 
 CMakeFiles/test1.dir/src/control/off.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/off.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\off.cpp -o CMakeFiles\test1.dir\src\control\off.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\off.cpp -o CMakeFiles\test1.dir\src\control\off.cpp.s
 
 CMakeFiles/test1.dir/src/control/on.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/on.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/on.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/on.cpp
+CMakeFiles/test1.dir/src/control/on.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/on.cpp
 CMakeFiles/test1.dir/src/control/on.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/test1.dir/src/control/on.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/on.cpp.obj -MF CMakeFiles\test1.dir\src\control\on.cpp.obj.d -o CMakeFiles\test1.dir\src\control\on.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\on.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/test1.dir/src/control/on.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/on.cpp.obj -MF CMakeFiles\test1.dir\src\control\on.cpp.obj.d -o CMakeFiles\test1.dir\src\control\on.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\on.cpp
 
 CMakeFiles/test1.dir/src/control/on.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/on.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\on.cpp > CMakeFiles\test1.dir\src\control\on.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\on.cpp > CMakeFiles\test1.dir\src\control\on.cpp.i
 
 CMakeFiles/test1.dir/src/control/on.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/on.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\on.cpp -o CMakeFiles\test1.dir\src\control\on.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\on.cpp -o CMakeFiles\test1.dir\src\control\on.cpp.s
 
 CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/query.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/query.cpp
+CMakeFiles/test1.dir/src/control/query.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/query.cpp
 CMakeFiles/test1.dir/src/control/query.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/test1.dir/src/control/query.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/query.cpp.obj -MF CMakeFiles\test1.dir\src\control\query.cpp.obj.d -o CMakeFiles\test1.dir\src\control\query.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\query.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/test1.dir/src/control/query.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/query.cpp.obj -MF CMakeFiles\test1.dir\src\control\query.cpp.obj.d -o CMakeFiles\test1.dir\src\control\query.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\query.cpp
 
 CMakeFiles/test1.dir/src/control/query.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/query.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\query.cpp > CMakeFiles\test1.dir\src\control\query.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\query.cpp > CMakeFiles\test1.dir\src\control\query.cpp.i
 
 CMakeFiles/test1.dir/src/control/query.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/query.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\query.cpp -o CMakeFiles\test1.dir\src\control\query.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\query.cpp -o CMakeFiles\test1.dir\src\control\query.cpp.s
 
 CMakeFiles/test1.dir/src/control/refund.cpp.obj: CMakeFiles/test1.dir/flags.make
 CMakeFiles/test1.dir/src/control/refund.cpp.obj: CMakeFiles/test1.dir/includes_CXX.rsp
-CMakeFiles/test1.dir/src/control/refund.cpp.obj: E:/A_codes/VS_code/cmake_test/src/control/refund.cpp
+CMakeFiles/test1.dir/src/control/refund.cpp.obj: E:/A_codes/VS_code/cybercafe/src/control/refund.cpp
 CMakeFiles/test1.dir/src/control/refund.cpp.obj: CMakeFiles/test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/test1.dir/src/control/refund.cpp.obj"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/refund.cpp.obj -MF CMakeFiles\test1.dir\src\control\refund.cpp.obj.d -o CMakeFiles\test1.dir\src\control\refund.cpp.obj -c E:\A_codes\VS_code\cmake_test\src\control\refund.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/test1.dir/src/control/refund.cpp.obj"
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test1.dir/src/control/refund.cpp.obj -MF CMakeFiles\test1.dir\src\control\refund.cpp.obj.d -o CMakeFiles\test1.dir\src\control\refund.cpp.obj -c E:\A_codes\VS_code\cybercafe\src\control\refund.cpp
 
 CMakeFiles/test1.dir/src/control/refund.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test1.dir/src/control/refund.cpp.i"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cmake_test\src\control\refund.cpp > CMakeFiles\test1.dir\src\control\refund.cpp.i
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\A_codes\VS_code\cybercafe\src\control\refund.cpp > CMakeFiles\test1.dir\src\control\refund.cpp.i
 
 CMakeFiles/test1.dir/src/control/refund.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test1.dir/src/control/refund.cpp.s"
-	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cmake_test\src\control\refund.cpp -o CMakeFiles\test1.dir\src\control\refund.cpp.s
+	E:\Qt\Qt5.14.2\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\A_codes\VS_code\cybercafe\src\control\refund.cpp -o CMakeFiles\test1.dir\src\control\refund.cpp.s
 
 # Object files for target test1
 test1_OBJECTS = \
@@ -421,7 +421,7 @@ test1.exe: E:/Qt/Qt5.14.2/5.14.2/mingw73_64/lib/libQt5Core.a
 test1.exe: CMakeFiles/test1.dir/linkLibs.rsp
 test1.exe: CMakeFiles/test1.dir/objects1.rsp
 test1.exe: CMakeFiles/test1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\A_codes\VS_code\cmake_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable test1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\A_codes\VS_code\cybercafe\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable test1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -444,6 +444,6 @@ CMakeFiles/test1.dir/depend: ui_off.h
 CMakeFiles/test1.dir/depend: ui_on.h
 CMakeFiles/test1.dir/depend: ui_query.h
 CMakeFiles/test1.dir/depend: ui_refund.h
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build E:\A_codes\VS_code\cmake_test\build\CMakeFiles\test1.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\A_codes\VS_code\cybercafe E:\A_codes\VS_code\cybercafe E:\A_codes\VS_code\cybercafe\build E:\A_codes\VS_code\cybercafe\build E:\A_codes\VS_code\cybercafe\build\CMakeFiles\test1.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/test1.dir/depend
 

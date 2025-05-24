@@ -1,7 +1,7 @@
 CMakeFiles/test1.dir/src/json.cpp.obj: \
- E:\A_codes\VS_code\cmake_test\src\json.cpp \
- E:/A_codes/VS_code/cmake_test/include/json.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:\A_codes\VS_code\cybercafe\src\json.cpp \
+ E:/A_codes/VS_code/cybercafe/include/json.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/string \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -210,9 +210,9 @@ CMakeFiles/test1.dir/src/json.cpp.obj: \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringlist.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qregexp.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qstringmatcher.h \
- E:/A_codes/VS_code/cmake_test/include/global.h \
- E:/A_codes/VS_code/cmake_test/include/model/LinkedList.h \
- E:/A_codes/VS_code/cmake_test/include/model/Card.h \
+ E:/A_codes/VS_code/cybercafe/include/global.h \
+ E:/A_codes/VS_code/cybercafe/include/model/LinkedList.h \
+ E:/A_codes/VS_code/cybercafe/include/model/Card.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/QJsonDocument \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsondocument.h \
  E:/Qt/Qt5.14.2/5.14.2/mingw73_64/include/QtCore/qjsonvalue.h \
@@ -260,4 +260,5 @@ CMakeFiles/test1.dir/src/json.cpp.obj: \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h \
  E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
- E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h
+ E:/Qt/Qt5.14.2/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
+ E:/A_codes/VS_code/cybercafe/config.h.in

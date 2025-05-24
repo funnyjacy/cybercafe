@@ -5,10 +5,12 @@
 #include <QJsonArray>
 #include <QFile>
 #include <QDebug>
-
+#include "config.h.in"
+QString file_path = QString(PROJECT_ROOT_DIR) + "/src/datas/data.json";
+QFile file(file_path);
 void write_billings(card *new_card)
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "a");
 
     if (file == NULL)
     {
@@ -32,7 +34,7 @@ void write_billings(card *new_card)
 
 void write_json(card *new_card)
 {
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
+    QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
     QJsonArray jsonArray;
 
     if (file.exists() && file.open(QIODevice::ReadOnly))
@@ -107,7 +109,8 @@ void write_json(card *new_card)
 
 void read_json()
 {
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
+    //QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
+    QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
     if (!file.open(QIODevice::ReadOnly))
     {
         qDebug() << "Error: Failed to open file for writing.";
@@ -155,7 +158,7 @@ void read_json()
 
 void save_all_json(card *head, card *tail)
 {
-    QFile file("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.json");
+    QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
     if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate | QIODevice::Text))
     {
         qDebug() << "Error: Failed to open file for writing:" << file.errorString();
@@ -240,7 +243,7 @@ void save_all_json(card *head, card *tail)
 
 void write_txt(card *new_card)
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "a");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.txt", "a");
 
     if (file == NULL)
     {
@@ -265,7 +268,10 @@ void write_txt(card *new_card)
 
 void read_txt()
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "r");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.txt", "r");
+    // 使用项目根目录构造路径
+    // std::string file_path = PROJECT_ROOT_DIR + "/src/datas/data.json";
+    // QFile file(QString::fromStdString(file_path));
     if (file == NULL)
     {
         qDebug() << "Error: 无法打开文件进行写入";
@@ -320,7 +326,7 @@ void read_txt()
 //         "结账状态": "已结账"
 void save_all_txt(card *head, card *tail)
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.txt", "w");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.txt", "w");
     if (file == NULL)
     {
         qDebug() << "无法打开文件！";
@@ -358,7 +364,7 @@ void save_all_txt(card *head, card *tail)
 
 void write_dat(card *new_card)
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\data.dat", "ab");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.dat", "ab");
     if (file == NULL)
     {
         qDebug() << "Error: Failed to open data.dat for writing.";

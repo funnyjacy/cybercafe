@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.5) # CMake install : https://cmake.org/download/
+# Include build directory for config.h
+include_directories(${PROJECT_BINARY_DIR})
 project(test1 LANGUAGES CXX)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_PREFIX_PATH "E:/Qt/Qt5.14.2/5.14.2/mingw73_64") # Qt Kit Dir
