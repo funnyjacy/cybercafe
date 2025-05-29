@@ -89,7 +89,7 @@ void on::on_OK_clicked()
 
 void on::write_billings(card newCard)
 {
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "a");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "a");
     if (file == NULL)
     {
         printf("Error: Failed to open file for writing.\n");

@@ -90,7 +90,7 @@ void off::on_OK_clicked()
 int off::process_billing(card &currentCard)
 {
     // Open the billings file for reading
-    FILE *file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "r");
+    FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "r");
     if (file == NULL)
     {
         QMessageBox::warning(this, "错误", "无法打开账单文件！");
@@ -227,7 +227,7 @@ int off::process_billing(card &currentCard)
     }
 
     // Rewrite the billings file, excluding the processed record
-    file = fopen("E:\\A_codes\\VS_code\\cmake_test\\src\\datas\\billings.asm", "w");
+    file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "w");
     if (file == NULL)
     {
         QMessageBox::warning(this, "错误", "无法写入账单文件！");
