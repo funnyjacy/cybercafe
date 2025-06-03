@@ -44,21 +44,21 @@ bool A2::eventFilter(QObject *obj, QEvent *event)
         QMouseEvent *mouseEvent = dynamic_cast<QMouseEvent *>(event);
         if (!mouseEvent)
         {
-            qWarning() << "Failed to cast event to QMouseEvent, type:" << event->type();
+            //qWarning() << "Failed to cast event to QMouseEvent, type:" << event->type();
             return QMainWindow::eventFilter(obj, event);
         }
 
         if (obj == ui->start && mouseEvent->button() == Qt::LeftButton)
         {
             showStartCalendar();
-            qDebug() << "ui->start clicked, showing start calendar";
+            //qDebug() << "ui->start clicked, showing start calendar";
             return true;
         }
 
         if (obj == ui->end && mouseEvent->button() == Qt::LeftButton)
         {
             showEndCalendar();
-            qDebug() << "ui->end clicked, showing end calendar";
+            //qDebug() << "ui->end clicked, showing end calendar";
             return true;
         }
 
@@ -72,7 +72,7 @@ bool A2::eventFilter(QObject *obj, QEvent *event)
                 obj != ui->start)
             {
                 calendarWidgetStart->hide();
-                qDebug() << "Clicked outside start calendar and ui->start, hiding start calendar";
+                //qDebug() << "Clicked outside start calendar and ui->start, hiding start calendar";
             }
 
             if (calendarWidgetEnd->isVisible() &&
@@ -80,7 +80,7 @@ bool A2::eventFilter(QObject *obj, QEvent *event)
                 obj != ui->end)
             {
                 calendarWidgetEnd->hide();
-                qDebug() << "Clicked outside end calendar and ui->end, hiding end calendar";
+                //qDebug() << "Clicked outside end calendar and ui->end, hiding end calendar";
             }
 
             return true;
@@ -114,7 +114,7 @@ void A2::setStartDate()
     QString dateStr = date.toString("yyyy-MM-dd");
     ui->start->setText(dateStr);
     calendarWidgetStart->hide();
-    qDebug() << "setStartDate() called, date set to:" << dateStr;
+    qDebug() << "setStartDate() called, 开始日期:" << dateStr;
 }
 
 void A2::setEndDate()
@@ -123,7 +123,7 @@ void A2::setEndDate()
     QString dateStr = date.toString("yyyy-MM-dd");
     ui->end->setText(dateStr);
     calendarWidgetEnd->hide();
-    qDebug() << "setEndDate() called, date set to:" << dateStr;
+    qDebug() << "setEndDate() called, 结束日期" << dateStr;
 }
 
 void A2::on_NO_clicked()
@@ -161,23 +161,20 @@ void A2::on_QUERY_clicked()
         return;
     }
 
-    QFile file("E:/A_codes/VS_code/cmake_test/src/datas/billings.asm");
+    QFile file("E:/A_codes/VS_code/cybercafe/src/datas/billings.asm");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
         QMessageBox::warning(this, "错误", "无法打开账单文件：" + file.errorString());
         return;
     }
 
-    // Clear existing table content
     ui->table->setRowCount(0);
 
-    // Read file and calculate statistics
     QTextStream in(&file);
     in.setCodec("UTF-8");
 
-    // Map to store per-user statistics: <"name_id", pair<total_amount, list<individual_amounts>>>
     std::map<QString, std::pair<double, QList<QString>>> userStats;
-    double grandTotal = 0.0; // Total amount for all users
+    double grandTotal = 0.0; 
 
     while (!in.atEnd())
     {
@@ -198,7 +195,6 @@ void A2::on_QUERY_clicked()
         QString endTimeStr = fields[4].trimmed();
         QString amountStr = fields[5].trimmed();
 
-        // Clean and validate amount
         amountStr.replace(QRegExp("[^0-9.]"), "");
         bool ok;
         double amount = amountStr.toDouble(&ok);
@@ -208,7 +204,6 @@ void A2::on_QUERY_clicked()
             continue;
         }
 
-        // Validate and parse dates
         QDateTime recordStartDateTime = QDateTime::fromString(startTimeStr, "yyyy-MM-dd HH:mm:ss");
         QDateTime recordEndDateTime = QDateTime::fromString(endTimeStr, "yyyy-MM-dd HH:mm:ss");
         if (!recordStartDateTime.isValid() || !recordEndDateTime.isValid())
@@ -220,24 +215,21 @@ void A2::on_QUERY_clicked()
         QDate recordStartDate = recordStartDateTime.date();
         QDate recordEndDate = recordEndDateTime.date();
 
-        // Check if record falls within the date range
         if (recordStartDate >= startDate && recordEndDate <= endDate)
         {
-            // Unique key for each user: "name_id"
             QString userKey = name + "_" + id;
             if (userStats.find(userKey) == userStats.end())
             {
                 userStats[userKey] = {0.0, QList<QString>()};
             }
-            userStats[userKey].first += amount;                                // Add to total
-            userStats[userKey].second.append(QString::number(amount, 'f', 2)); // Store individual amount
-            grandTotal += amount;                                              // Add to grand total
+            userStats[userKey].first += amount;                                
+            userStats[userKey].second.append(QString::number(amount, 'f', 2)); 
+            grandTotal += amount;                                            
         }
     }
 
     file.close();
 
-    // Populate table with user statistics
     int row = 0;
     for (const auto &entry : userStats)
     {
@@ -257,7 +249,6 @@ void A2::on_QUERY_clicked()
         row++;
     }
 
-    // Add summary row for grand total
     if (row > 0)
     {
         ui->table->insertRow(row);

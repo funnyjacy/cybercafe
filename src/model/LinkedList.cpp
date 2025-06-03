@@ -63,7 +63,6 @@ void LinkedList::init(string name, string id, string balance, string password, s
     {
         newCard->Pay = PAY_NO;
     }
-    // write_json(newCard);
 
     tail->next = newCard;
     tail = newCard;

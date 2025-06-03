@@ -89,7 +89,6 @@ void off::on_OK_clicked()
 }
 int off::process_billing(card &currentCard)
 {
-    // Open the billings file for reading
     FILE *file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "r");
     if (file == NULL)
     {
@@ -97,17 +96,14 @@ int off::process_billing(card &currentCard)
         return NOT_FOUND;
     }
 
-    // Temporary storage for all billing records
     vector<string> otherRecords;
     char line[256];
     bool found = false;
     QDateTime currentTime = QDateTime::currentDateTime();
 
-    // Read the file line by line
     while (fgets(line, sizeof(line), file))
     {
         string record(line);
-        // Remove trailing newline
         if (!record.empty() && record.back() == '\n')
             record.pop_back();
 
@@ -123,42 +119,37 @@ int off::process_billing(card &currentCard)
             fields.push_back(token);
             record.erase(0, pos + 2);
         }
-        fields.push_back(record); // Last field
+        fields.push_back(record); 
 
         if (fields.size() != 7)
         {
-            otherRecords.push_back(string(line)); // Keep malformed records
+            otherRecords.push_back(string(line)); 
             continue;
         }
 
-        // Check if this is the card we're looking for
         if (fields[1] == currentCard.id && fields[6] == "0")
         {
             found = true;
-            // Parse the time_last
             QDateTime time_last = QDateTime::fromString(QString::fromStdString(fields[3]), "yyyy-MM-dd hh:mm:ss");
             if (!time_last.isValid())
             {
                 QMessageBox::warning(this, "错误", "账单时间格式错误！");
-                otherRecords.push_back(string(line)); // Keep invalid record
+                otherRecords.push_back(string(line)); 
                 continue;
             }
 
-            // Calculate time difference in seconds
             qint64 seconds = time_last.secsTo(currentTime);
             if (seconds < 0)
             {
                 QMessageBox::warning(this, "错误", "时间异常！");
-                otherRecords.push_back(string(line)); // Keep invalid record
+                otherRecords.push_back(string(line)); 
                 continue;
             }
 
-            // Calculate cost: 0.01 yuan per second
             double cost = seconds * 0.01;
             // 更新消费金额
             fields[5] = to_string(cost);
 
-            // Check if balance is sufficient
             double balance = stod(fields[2]);
             if (balance < cost)
             {
@@ -196,7 +187,6 @@ int off::process_billing(card &currentCard)
                 current = current->next;
             }
 
-            // Show billing info
             QString message = QString("上机时长: %1秒\n费用: %2元\n剩余余额: %3元")
                                   .arg(seconds)
                                   .arg(cost, 0, 'f', 2)
@@ -213,7 +203,6 @@ int off::process_billing(card &currentCard)
         }
         else
         {
-            // Keep other records
             otherRecords.push_back(string(line));
         }
     }
@@ -226,7 +215,6 @@ int off::process_billing(card &currentCard)
         return NOT_FOUND;
     }
 
-    // Rewrite the billings file, excluding the processed record
     file = fopen("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\billings.asm", "w");
     if (file == NULL)
     {

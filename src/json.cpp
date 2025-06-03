@@ -113,7 +113,7 @@ void read_json()
     QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
     if (!file.open(QIODevice::ReadOnly))
     {
-        qDebug() << "Error: Failed to open file for writing.";
+        //qDebug() << "Error: Failed to open file for writing.";
         return;
     }
     QByteArray all = file.readAll();
@@ -122,7 +122,7 @@ void read_json()
     QJsonDocument doc = QJsonDocument::fromJson(all);
     if (doc.isNull() || !doc.isArray())
     {
-        qDebug() << "Error: Invalid JSON format or file is not an array.";
+        //qDebug() << "Error: Invalid JSON format or file is not an array.";
         return;
     }
 
@@ -132,7 +132,7 @@ void read_json()
     {
         if (!value.isObject())
         {
-            qDebug() << "Error: JSON element is not an object.";
+            //qDebug() << "Error: JSON element is not an object.";
             continue;
         }
 
@@ -161,7 +161,7 @@ void save_all_json(card *head, card *tail)
     QFile file("E:\\A_codes\\VS_code\\cybercafe\\src\\datas\\data.json");
     if (!file.open(QIODevice::WriteOnly | QIODevice::Truncate | QIODevice::Text))
     {
-        qDebug() << "Error: Failed to open file for writing:" << file.errorString();
+        //qDebug() << "Error: Failed to open file for writing:" << file.errorString();
         return;
     }
 
@@ -209,7 +209,7 @@ void save_all_json(card *head, card *tail)
         //}
         current = current->next;
     }
-    qDebug() << "Processed" << nodeCount << "nodes into JSON array.";
+    //qDebug() << "Processed" << nodeCount << "nodes into JSON array.";
 
     QJsonDocument doc(jsonArray);
     QByteArray json = doc.toJson(QJsonDocument::Indented);
@@ -226,7 +226,6 @@ void save_all_json(card *head, card *tail)
     file.flush();
     file.close();
 
-    // Step 6: Clean up the linked list
     current = head;
     while (current != nullptr)
     {
@@ -236,7 +235,6 @@ void save_all_json(card *head, card *tail)
     }
     qDebug() << "Linked list cleaned up.";
 
-    // Step 7: Reset head and tail (uncomment if needed)
     head = nullptr;
     tail = nullptr;
 }
@@ -251,10 +249,8 @@ void write_txt(card *new_card)
         return;
     }
 
-    // Convert status to string (assuming Status is an enum with ON=1, OFF=0)
     const char *status = (new_card->Status == 1) ? "ON" : "OFF";
 
-    // Format: name##id##balance##status##password
     fprintf(file, "%s##%s##%.2f##%s##%s##%s\n",
             new_card->name.c_str(),
             new_card->id.c_str(),
@@ -311,7 +307,6 @@ void read_txt()
         Qlist->init(name, id, balance_str, password, time_last, status_str, del, pay);
     }
 
-    // Step 6: Close the file
     fclose(file);
 
     qDebug() << "成功加载" << Qlist->getSize() << "cards from data.txt.";
@@ -359,7 +354,7 @@ void save_all_txt(card *head, card *tail)
         fclose(file);
     }
 
-    qDebug() << "LinkedList destructor: data.txt updated and memory freed.";
+    qDebug() << "链表信息已写入文件";
 }
 
 void write_dat(card *new_card)
@@ -392,7 +387,7 @@ void write_dat(card *new_card)
 
     if (ferror(file))
     {
-        qDebug() << "Error: Failed to write to data.dat.";
+        //qDebug() << "Error: Failed to write to data.dat.";
         fclose(file);
         return;
     }

@@ -45,21 +45,21 @@ bool A1::eventFilter(QObject *obj, QEvent *event)
         QMouseEvent *mouseEvent = dynamic_cast<QMouseEvent *>(event);
         if (!mouseEvent)
         {
-            qWarning() << "Failed to cast event to QMouseEvent, type:" << event->type();
+            //qWarning() << "Failed to cast event to QMouseEvent, type:" << event->type();
             return QMainWindow::eventFilter(obj, event);
         }
 
         if (obj == ui->start && mouseEvent->button() == Qt::LeftButton)
         {
             showStartCalendar();
-            qDebug() << "ui->start clicked, showing start calendar";
+            //qDebug() << "ui->start clicked, showing start calendar";
             return true;
         }
 
         if (obj == ui->end && mouseEvent->button() == Qt::LeftButton)
         {
             showEndCalendar();
-            qDebug() << "ui->end clicked, showing end calendar";
+            //qDebug() << "ui->end clicked, showing end calendar";
             return true;
         }
 
@@ -73,7 +73,7 @@ bool A1::eventFilter(QObject *obj, QEvent *event)
                 obj != ui->start)
             {
                 calendarWidgetStart->hide();
-                qDebug() << "Clicked outside start calendar and ui->start, hiding start calendar";
+                //qDebug() << "Clicked outside start calendar and ui->start, hiding start calendar";
             }
 
             if (calendarWidgetEnd->isVisible() &&
@@ -81,7 +81,7 @@ bool A1::eventFilter(QObject *obj, QEvent *event)
                 obj != ui->end)
             {
                 calendarWidgetEnd->hide();
-                qDebug() << "Clicked outside end calendar and ui->end, hiding end calendar";
+                //qDebug() << "Clicked outside end calendar and ui->end, hiding end calendar";
             }
 
             return true;
@@ -97,7 +97,7 @@ void A1::showStartCalendar()
     QPoint pos = ui->start->mapTo(this, QPoint(0, ui->start->height()));
     calendarWidgetStart->move(pos);
     calendarWidgetStart->show();
-    qDebug() << "showStartCalendar() called";
+    //qDebug() << "showStartCalendar() called";
 }
 
 void A1::showEndCalendar()
@@ -106,7 +106,7 @@ void A1::showEndCalendar()
     QPoint pos = ui->end->mapTo(this, QPoint(0, ui->end->height()));
     calendarWidgetEnd->move(pos);
     calendarWidgetEnd->show();
-    qDebug() << "showEndCalendar() called";
+    //qDebug() << "showEndCalendar() called";
 }
 
 void A1::setStartDate()
@@ -115,7 +115,7 @@ void A1::setStartDate()
     QString dateStr = date.toString("yyyy-MM-dd");
     ui->start->setText(dateStr);
     calendarWidgetStart->hide();
-    qDebug() << "setStartDate() called, date set to:" << dateStr;
+    //qDebug() << "setStartDate() called, date set to:" << dateStr;
 }
 
 void A1::setEndDate()
@@ -124,7 +124,7 @@ void A1::setEndDate()
     QString dateStr = date.toString("yyyy-MM-dd");
     ui->end->setText(dateStr);
     calendarWidgetEnd->hide();
-    qDebug() << "setEndDate() called, date set to:" << dateStr;
+    //qDebug() << "setEndDate() called, date set to:" << dateStr;
 }
 
 void A1::on_NO_clicked()
@@ -142,7 +142,6 @@ A1::~A1()
 void A1::on_QUERY_clicked()
 { 
     string ID = ui->ID->toPlainText().toStdString();
-    // Get start and end dates from ui->start and ui->end
     QString startDateStr = ui->start->text();
     QString endDateStr = ui->end->text();
     if (startDateStr.isEmpty() || endDateStr.isEmpty())
@@ -158,16 +157,12 @@ void A1::on_QUERY_clicked()
         return;
     }
 
-    QFile file("E:/A_codes/VS_code/cmake_test/src/datas/billings.asm");
+    QFile file("E:/A_codes/VS_code/cybercafe/src/datas/billings.asm");
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
         QMessageBox::warning(this, "错误", "无法打开账单文件：" + file.errorString());
         return;
     }
 
-    // Clear existing table content
-    // ui->table->setRowCount(0);
-
-    // Read file and populate table
     QTextStream in(&file);
     in.setCodec("UTF-8");
     int row = 0;
@@ -176,11 +171,10 @@ void A1::on_QUERY_clicked()
         string lineStr = line.toStdString();
         QStringList fields = line.split("##");
         if (fields.size() != 7) {
-            qWarning() << "Invalid record format in line:" << line;
+            //qWarning() << "Invalid record format in line:" << line;
             continue;
         }
 
-        // Parse record
         QString name = fields[0];
         QString id = fields[1];
         QString balance = fields[2];
@@ -189,11 +183,9 @@ void A1::on_QUERY_clicked()
         QString amount = fields[5];
         QString status = fields[6];
 
-        // Extract date part (yyyy-MM-dd) from startTime and endTime
         QDate recordStartDate = QDateTime::fromString(startTimeStr, "yyyy-MM-dd HH:mm:ss").date();
         QDate recordEndDate = QDateTime::fromString(endTimeStr, "yyyy-MM-dd HH:mm:ss").date();
 
-        // Check if record falls within the date range
         if (recordStartDate >= startDate && recordEndDate <= endDate && id.toStdString() == ID) {
             ui->table->insertRow(row);
             //ui->table->setItem(row, 0, new QTableWidgetItem(QString::number(row + 1))); // 序号
@@ -210,6 +202,6 @@ void A1::on_QUERY_clicked()
     if (row == 0) {
         QMessageBox::information(this, "提示", "在选定日期范围内没有找到账单记录");
     } else {
-        qDebug() << "Loaded" << row << "records into table";
+        qDebug() << "加载" << row << "records into table";
     }
 }
